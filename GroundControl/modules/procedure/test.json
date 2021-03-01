@@ -1,0 +1,44 @@
+{
+    "name": "preflight",
+    "prev_state": null,
+    "cause_condition": null,
+    "proceed_state": null,
+    "abort_state": null,
+    "proceed_conditions": [],
+    "abort_conditions": [],
+    "substates": [
+        {
+            "name": "fuel",
+            "prev_state": null,
+            "cause_condition": null,
+            "proceed_state": {
+                "name": "ox",
+                "prev_state": null,
+                "cause_condition": null,
+                "proceed_state": null,
+                "abort_state": null,
+                "proceed_conditions": [],
+                "abort_conditions": [],
+                "substates": [],
+                "parent_state": null
+            },
+            "abort_state": null,
+            "proceed_conditions": [],
+            "abort_conditions": [],
+            "substates": [],
+            "parent_state": null
+        },
+        {
+            "name": "ox",
+            "prev_state": null,
+            "cause_condition": null,
+            "proceed_state": null,
+            "abort_state": null,
+            "proceed_conditions": [],
+            "abort_conditions": [],
+            "substates": [],
+            "parent_state": null
+        }
+    ],
+    "parent_state": null
+}

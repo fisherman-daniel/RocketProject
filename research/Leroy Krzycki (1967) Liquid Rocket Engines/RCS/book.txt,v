@@ -1,0 +1,216 @@
+head	1.11;
+access;
+symbols;
+locks
+	rooster:1.11; strict;
+comment	@# @;
+
+
+1.11
+date	96.06.05.20.07.22;	author rooster;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	96.06.05.20.04.02;	author rooster;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	96.06.05.20.03.39;	author rooster;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	96.06.05.19.37.15;	author rooster;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	96.06.05.19.36.41;	author rooster;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	96.06.05.19.33.50;	author rooster;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	96.06.05.19.31.23;	author rooster;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	96.06.05.19.29.57;	author rooster;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	96.06.05.19.28.31;	author rooster;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	96.06.05.19.23.27;	author rooster;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	96.06.05.19.22.26;	author rooster;	state Exp;
+branches;
+next	;
+
+
+desc
+@webedit
+@
+
+
+1.11
+log
+@webedit
+@
+text
+@HOW to DESIGN, BUILD and TEST SMALL LIQUID-FUEL ROCKET ENGINES
+ROCKETLAB / CHINA LAKE, CALIF.
+
+NOTICE
+
+ROCKETLAB cannot assume responsibility, in any manner whatsoever, for
+the use readers make of the information presented herein or the
+devices resulting therefrom.
+
+
+Foreword
+
+The rocket engine is a relatively simple device in which propellants
+are burned and the resulting high pressure gases are expanded through
+a specially shaped nozzle to produce thrust.  Gas pressurized
+propellant tanks and simple propellant flow controls make operation
+of a small liquid-fuel rocket engine about as simple as operating an
+automobile engine.  Why then do so many amateur rocket engines fail or
+cause injury?  The reason, usually and simply, is that the amateur is
+not accustomed to high pressure devices operating near material
+temperature limits.  His normal everyday life is, instead, filled with
+devices and gadgets operating at low pressures and at low thermal
+energy levels.  With proper design, careful workmanship, and good test
+equipment, operated in a safe manner, the amateur can build small,
+liquid-fuel rocket engines which will have hours of safe operating
+life.
+
+The puropse of this publication is to provide the serious amateur
+builder with design information, fabrication procedures, test
+equipement requirements, and safe oeprating procedures for small
+liquid-fuel rocket engines.
+@
+
+
+1.10
+log
+@webedit
+@
+text
+@d3 1
+a3 1
+I stole the baby
+@
+
+
+1.9
+log
+@webedit
+@
+text
+@d3 1
+a3 1
+My baby was stolen
+@
+
+
+1.8
+log
+@webedit
+@
+text
+@d3 1
+a3 1
+
+@
+
+
+1.7
+log
+@webedit
+@
+text
+@a3 2
+the final frontier
+
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d3 3
+a5 1
+foop
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+foo
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+a
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+a3 1
+a
+@

@@ -1,0 +1,82 @@
+
+
+
+Editing is largely closed, for the nonce.  I may make the HTML
+editable after it settles a bit.  Handling of the equations is still
+in flux and a modernizing appendix is warranted.
+
+The HTML edition is at:
+
+http://www.im.lcs.mit.edu/rocket/
+
+
+
+
+Please leave any comments here.
+-Dan Risacher
+
+Paragraphs start with a single tab. 
+Leave blank lines around equations and figure headings.
+I'll set the equations with LaTeX and put them in as gifs.
+
+Copy text into emacs (or your favorite editor) and then copy it back
+before submitting changes if you are going to make a bunch.
+---
+Comment on "propellant choice":
+
+(1) The Atlas is no longer a "missile" but has been converted into
+a "space launch vehicle".
+
+(2) The calculation assumes that there are no losses; i.e. ,that
+the "maximum theoretical" Isp will be that which is achieved.
+There are numerous loss terms not accounted for; hence the flowrate
+given is incorrect.
+
+(3) Modern launch vehicles operate fuel rich as stated; however it
+is not due to a desire to reduce the combustion temperature.  Rather,
+the kinetic losses (losses due to departure from full shifting
+equilibrium) are a maximum at stoichiometric; the prudent designer
+therefore selects a mixture ratio "off stoichiometric" in order to
+minimize the kinetic losses.
+
+Under "Parameters" there is one scrambled phrase which I can not discover
+from context. (I think I fixed it -DR)
+Jim Glass/Rocketdyne
+
+(noted, but I think it's better to have the book remain true to the original.
+I'll collect comments and corrections such as these into an addendum -DR)
+---
+
+I graduated from College and was commisioned in the USAF today (6/7).
+Yay.
+=====================
+Comment 6/12
+
+Congratulations.
+
+I've been thru the entire document; I can do nothing at all with the "conversions"
+section because it is so badly scrambled.  I've done what I could with the
+Suppliers but it needs lots of work.
+
+There is a spot under 'check out' where I couldn't figure out the
+author's intent; I improvised.  My version says that a new source of
+water "will" be required...I'm not sure what the author had in mind.
+Let me know if you have difficulty finding the spot I'm talking about.
+
+Who else has been working on this besides me & you?
+
+Jim Glass/Rocketdyne
+M.I.T., Course XVI, 1975...
+-----
+6/17
+(I'm back from the beach.) 
+It looks like you and I have done the brunt of it.  One or two other 
+people have helped some.  Wayne Gramlich offered to help (he also has
+a copy of the book) but I know he's been traveling.
+
+I found the spot you mentioned.  The original said "may" not "will" but 
+otherwise you had it right.  I'm going to start on the conversion to HTML.
+
+The conversions section isn't particularly important anyway.
+
+-Dan

@@ -1,0 +1,77 @@
+HOW to DESIGN, BUILD and TEST SMALL LIQUID-FUEL ROCKET ENGINES
+ROCKETLAB / CHINA LAKE, CALIF.
+
+NOTICE
+
+ROCKETLAB cannot assume responsibility, in any manner whatsoever, for
+the use readers make of the information presented herein or the
+devices resulting therefrom.
+
+
+Foreword
+
+The rocket engine is a relatively simple device in which propellants
+are burned and the resulting high pressure gases are expanded through
+a specially shaped nozzle to produce thrust.  Gas pressurized
+propellant tanks and simple propellant flow controls make operation
+of a small liquid-fuel rocket engine about as simple as operating an
+automobile engine.  Why then do so many amateur rocket engines fail or
+cause injury?  The reason, usually and simply, is that the amateur is
+not accustomed to high pressure devices operating near material
+temperature limits.  His normal everyday life is, instead, filled with
+devices and gadgets operating at low pressures and at low thermal
+energy levels.  With proper design, careful workmanship, and good test
+equipment, operated in a safe manner, the amateur can build small,
+liquid-fuel rocket engines which will have hours of safe operating
+life.
+
+The puropse of this publication is to provide the serious amateur
+builder with design information, fabrication procedures, test
+equipement requirements, and safe oeprating procedures for small
+liquid-fuel rocket engines.
+
+INTRODUCTION
+
+	A liquid rocket engine employs liquid propellants which are
+fed under pressure from tanks in to a combustion chamber. The
+propellants usually consist of a liquid oxidizer and a liquid fuel. In
+the combustion chamber the propellants chemically react (burn) to
+form hot gases which are then accelerated and ejected at high velocity
+through a nozzle, thereby imparting momentum to the engine. Momentum
+is the product of mass and velocity. The thrust force of a rocket
+motor is the reaction experienced by the motor structure due to the
+ejection of the high velocity matter. This is the same phenomenon
+which pushes a garden hose backward as water squirts from the nozzle
+or makes a gun recoil when fired.
+	A typical rocket motor consists of the combustion chamber, the
+nozzle, and the injector, as shown in Figure 1. The combustion chamber
+is where the burning of propellants takes place at high pressure. The
+chamber must be strong enough to contain the high pressure generated
+by, and the high temperature resulting from, the combustion process.
+Because of the high temperature and heat transfer, the chamber and
+nozzle are usually cooled. The chamber must also be of sufficient
+length to ensure complete combustion before the gases enter the
+nozzle.
+	The function of the nozzle is to convert the chemical-thermal
+energy generated in the combustion chamber into kinetic energy, The
+nozzle converts the slow moving, high pressure, high temperature gas
+in the combustion chamber into high velocity gas of lower pressure and
+temperature. Since thrust is the product of mass (the amount of gas
+flowing through the nozzle) and velocity, a very high gas velocity is
+desirable. Gas velocities from one to two miles per second (5000 to
+12000 feet per second) can be obtained in rocket nozzles.  Nozzles
+which perform this seemingly amazing feat are called DeLaval nozzles
+(after their inventor) and consist of a convergent and divergent
+section, as shown in Figure 2. The minimum flow area between the
+convergent and divergent section is called the nozzle throat. The flow
+area at the end of the divergent section is called the nozzle exit
+area. The nozzle is usually made long enough (or the exit area is
+great enough) such that the pressure in the combustion chamber is
+reduced at the nozzle exit to the pressure existing outside the
+nozzle. If the rocket engine is being fired at sea level this pressure
+is about 14.7 pounds per square inch (psi). If the engine is designed
+for operation at high altitude, the exit pressure is less than 14.7
+psi. The drop in temperature of the combustion gases flowing through
+the nozzle is high and can be as much as 2000-3000 F.  Since the gases
+in the combustion chamber nay be at 5000-6000 F, the gas temperature
+at the nozzle exit is still about 3000 F.

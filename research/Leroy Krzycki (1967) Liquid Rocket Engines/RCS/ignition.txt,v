@@ -1,0 +1,279 @@
+head	1.2;
+access;
+symbols;
+locks
+	rooster:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	96.06.12.22.01.58;	author rooster;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	96.06.06.20.27.33;	author rooster;	state Exp;
+branches;
+next	;
+
+
+desc
+@webedit
+@
+
+
+1.2
+log
+@webedit
+@
+text
+@IGNITION and OPERATION
+
+	Discussion of propellant ignition has been reserved until this point since 
+it is really a test stand function and is required only for actual operation 
+of the engine. The propellants used in amateur rocket engines require a 
+separate source for ignition. Because the engines are small, the use of an 
+engine-mounted spark plug is not generally feasible. Even if it were, the 
+ignition of incoming propellants in the combustion chamber by a small spark 
+plug is dangerous and unreliable. Propellant timing is extremely important 
+in a bi-propellant liquid rocket engine. An excess of either propellant 
+(if both are liquid) in the combustion chamber can lead to severe 
+over-pressure upon ignition (known as "hard" start) and possible fracture 
+of the combustion chamber. The amateur engine using gaseous oxygen is not 
+nearly as sensitive to hard starts as if the oxidizer were a liquid.
+
+	Hundreds of tests with small liquid-fuel rocket engines employing gaseous 
+oxygen as the oxidizer have indicated that hot-source ignition provides 
+excellent propellant ignition characteristics, and drastically reduces 
+hard starts. Hot-source ignition works as follows: two lengths of insulated 
+#16 or #18 solid wire are taped together and their exposed ends are bent to 
+form a spark gap of about 3/32-inch. A small amount of cotton is wrapped 
+around, or attached to, thc wires very near the spark gap but not obstructing 
+it. This ignition assembly is pushed through the nozzle into the combustion 
+chamber of the rocket engine so that the spark gap is in the lower end of 
+the combustion chamber but not blocking the nozzle throat. The wires outside 
+the engine are bent or taped to hold the ignition assembly in position 
+during the ignition phase. The free ends of the two wires are attached to 
+the spark source (a Ford Model-T spark coil is ideal for this purpose). 
+Figure 13 details this hot-source igniter. The ignition procedure, after 
+the test stand is prepared for firing is:
+
+Figure 13 Hot-source igniter for small liquid fuel rocket engines using 
+gaseous oxygen oxidizer. Ignitor is consumed during each use and must be 
+replaced.
+
+l. The operator ascertains that the area is clear and ready for firing.
+
+2. The operator checks operation of the spark coil and then disconnects the 
+coil from the battery for safety. The battery should be at the operator's 
+remote station.
+
+3. The ignitor cotton is soaked in gasoline or kerosene .
+
+4. The ignitor is pushed through the nozzle into the combustion chamber and 
+secured.
+
+5. Gas cylinder valves are opened, the fuel tank is pressurized, and all 
+gas pressures adjusted to operating values.
+
+6. Cooling water is allowed to flow through the engine at the proper rate.
+
+7. The firing bell or horn is sounded. The spark coil is reconnected to 
+its battery.
+
+8. The oxygen flow needle valve is opened very slightly to allow a very 
+small flow of gaseous oxygen to pass over the ignitor and out the combustion 
+chamber .
+
+9. The spark coil is energized. Inside the combustion chamber the cotton 
+igitor should immediately burst into flame in the oxygen atmosphere. The 
+operator may have difficulty ascertaining that the cotton is actually 
+burning although small flaming bits of material may be ejected from the nozzle.
+
+l0. The fuel control needle valve is now opened very slightly to allow fuel 
+to flow into the combustion chamber. A flame should immediately appear at the 
+nozzle exit and a low whistling sound should be heard.
+
+11. The oxygen and fuel flow rates should now be rapidly and 
+simultaneously increased by opening the control needle valves until tie 
+combustion chamber pressure gauge indicates that desired conditions 
+Exist inside the chamber.
+
+12. The operator will need to judge whether more or less oxygen is required 
+for desired O/F ratio operation. More oxygen is required if the exhaust is 
+bright yellow or smoky. (this is an indication of unburned carbon in the 
+exhaust); if the exhaust is transparent or bluish the oxygen flow should he 
+decreased slightly. The correct mixture ratio is achieved when the exhaust 
+gases are transparent (or nearly so) but the supersonic standing shocks 
+(Mach diamonds) in the exhaust are clearly seen. Remember that as you 
+vary the fuel and oxidizer flows you are changing not only the amount 
+of material passing through the engine but are also affecting the 
+temperature of the burning gases. Both of these effects will affect the 
+combustion chamber pressure.
+
+13. The noise from the engine will he quite high, but it is a good indicator
+of engine operation.  It may be necessary to wear ear protection because of 
+this high noise level.
+
+14. The operator should have a timer or have someone time the engine run. 
+It is quite safe to simply let the engine run out of liquid fuel. The 
+gaseous nitrogen pressurizing the fuel tank then purges the fuel supply 
+system automatically. The engine will abruptly stop operation and the 
+operator can then turn off the flow of gaseous oxygen. If the engine is to 
+be stopped prior to fuel depletion the fuel flow control valve should 
+be quickly turned off, followed by opening of the nitrogen purge valve. 
+After the engine has stopped operation (thus assuring that the nitrogen 
+purge has forced all fuel from the engine) the gaseous oxygen valve may 
+be turned off. The
+nitrogen purge valve is closed, the cylinder valves are closcd, and the 
+fuel tank vent valve opened. The oxygen line is vented by briefly  
+opening the oxygen flow need1e valve. Water should be allowed to 
+flow through the engine cooling jacket for several minutes after run 
+termination.
+
+l5. In the event of engine failure, the shutdown sequence detailed in 
+(14), above, should be followed. Always shut-off the liquid fuel first. 
+If engine metal parts are burning, also immediately shut-off the flow of 
+gaseous oxygen (metal will burn vigorously in an oxygen environment).
+
+16. A new ignitor will be required for each ignition attempt or firing. 
+The ignitor assembly is partially consumed during the ignition process 
+and residue is quickly blown from the combustion chamber upon ignition of 
+the liquid fuel.
+
+17. Always inspect the engine and other components for damage, apparent 
+overheating or hot spots prior to another firing.
+
+18. Some engine designs may exhibit combustion instability (chugging, 
+chuffing, erratic combustion, etc.) at low chamber pressures or low fuel 
+injection velocities. To avoid this problem, the operator should rapidly 
+increase the chamber pressure after initial introduction of the 
+liquid fuel.
+
+	Ignition and operation of small liquid-fuel rocket engines in the manner 
+described offers the amateur a relatively safe and interesting activity. 
+The operator will quickly discover and use many procedures to improve 
+engine and test stand operation.
+
+	After achieving initial operation of the engine and test stand, 
+the amateur can begin to consider methods of measuring engine thrust,
+determining the heat transfer to the cooling water, and noting 
+the characteristics of the rocket engine exhaust. Photography 
+of this exhaust is a definite challenge.  As these additional 
+features are added to the experimertal set-up, the amateur 
+should always keep safety and safe operating procedures foremost in mind.
+@
+
+
+1.1
+log
+@webedit
+@
+text
+@d13 1
+a13 1
+of the combustion chamher. The amateur engine using gaseous oxygen is not 
+d15 1
+d24 2
+a25 2
+chamber of the rocket engine so that the sparlk gap is in the lower end of 
+the combustion chamher bul not blocking the nozzle throat. The wires outside 
+d28 3
+a30 3
+the spark source (a Ford Model-T spark coil is ideals for tbis purpose). 
+Figure 13 details this hot-source igniter. The ignition procedvll-e, after 
+the tc;t st;lnd is prepared for firing is:
+d32 1
+a32 1
+Figure 13 lXot-source igniter for small liquid fuel rocket engines using 
+d36 1
+a36 1
+l. The operator ascertains that the area is c tear and ready for f Bring.
+d39 1
+a39 1
+coi l from the hattery for safety. The battery should be at the operator's 
+d61 1
+a61 1
+operator may have difficulty ascertaining that the cotton i s actually 
+d66 1
+a66 1
+nozzle exit and a low whistling sound shou ld be heard .
+d68 4
+a71 4
+11. The oxygen and fuel flow rates should noV i)e rapidly anal 
+simultancotlsly increased by or)eninr the control needle valves until tie 
+comF)ustiOIl chamber pressure gauge indicates that desired con(lit ions 
+Exist in•;i le the elbarher.
+d73 1
+a73 1
+12. The operator wi11 need t0 judge whether more or less oxygen is required 
+d75 4
+a78 4
+bright yellow or smoky. (this is an indication of unburnc(l carbon in the 
+exl1aust); i f the exhaust is transparent or bluish  the oxygen flow should he 
+decreased slightly. The correct mixture ratio is achieved when tb# e xhavlst 
+gases are transparent (or nearly so)hut the supersonic stan(l-ing shocks 
+d80 3
+a82 3
+vary the fuel and oxidizer flows you are chatlvilzg not only the amount 
+of material passing through the engine but are also affect iTll' the 
+temperature of the burning gases. Both Of these effects will affect the 
+d86 1
+a86 1
+of engine operation.  It mayu be necessary to wear ear protection because of 
+d89 2
+a90 2
+14. The operator shot1l(l have a timer or have someone time the engine run. 
+It i s quite safe to simply let the engine run out of liquid fuel. The 
+d94 2
+a95 2
+be stopped prior to fuel depletion the fuel flour control valve should 
+be quickly turned off, followed t}y opening of the nitrogen purge valve. 
+d97 1
+a97 1
+purge has forced all fuel from the engine ) the gaseous oxygen valve may 
+d99 5
+a103 5
+nitrogen purge valve is closed, tlXe cylinder valves are c loscd, an(l the 
+fuel tank vent valve opene(l. Tlle oxygen line is vented by briefly  
+opening tl1c oxygen flow need1e valv(-. WatX r should be alloweel to 
+flow throug11 the engine cooling jacket for several minlltes after run 
+termination .
+d105 2
+a106 2
+l5. In the event of engine failure, tlXe sllt!tdown sequence detai led in 
+(14), above, should be folloWed. Always sht1t-off the liqui(l fuel first. 
+d108 1
+a108 1
+gaseous oxygen (metal will burn vigorously in an oxygen envizo1lmel1t ) .
+d110 2
+a111 2
+16. A new ignitor will be required f or encl ignition attempt or firing. 
+The igni tnr asseni)ly is partially consumed during the igllit ion process 
+d113 1
+a113 1
+tl1e liquid fuel.
+d115 2
+a116 2
+17. Always inspect the engine and other coml)onents for damage, appareat 
+overheating or l]ot spots prior to anotller firing.
+d118 4
+a121 4
+18. Some engine designs may exllibit combustion instabπ lity(ch1lgging, 
+chuffing, erratic coml)ustion, etc.) at low chamber pressures or low fuel 
+injection velocities. To avoid t1}is problem, the oy)erator sllould rapidly 
+increase the chamber l)ressllrc after initial introduction of tlle 
+d124 12
+a135 11
+	Igni tion and operation of small liquid-fuel rocket engines in the manner 
+described offers tlle amateur a relatively safe and interesting activity. 
+Tlle operator will quickly discover and use many procedures to improve 
+engine and tes t s tand opera t i on .
+	After acllieving initial operation of the engine and tes t s tand, 
+the amateur can hegin to cnnsider methods of mcasurinf enç ine tlXrust,
+detztmi1lin^t tlXe heat lransfer to t}l( covlin5 water, and noting 
+tlle clXaract( ristics of the rocl/et e1lgine exl1atlst. Photography 
+of tl]is e:<lZaust is a definite clla11enge. - As these adrlitional 
+features are added to tlle experimertal Set-tJp, the amateur 
+should always keep safety and safe operating procedures forernost in mind.
+@

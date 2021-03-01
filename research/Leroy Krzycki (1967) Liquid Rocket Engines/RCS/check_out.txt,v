@@ -1,0 +1,291 @@
+head	1.5;
+access;
+symbols;
+locks
+	rooster:1.5; strict;
+comment	@# @;
+
+
+1.5
+date	96.06.18.01.45.02;	author rooster;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	96.06.18.01.32.31;	author rooster;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	96.06.12.21.45.37;	author rooster;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	96.06.06.06.17.01;	author rooster;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	96.06.06.04.21.58;	author rooster;	state Exp;
+branches;
+next	;
+
+
+desc
+@webedit
+@
+
+
+1.5
+log
+@webedit
+@
+text
+@ENGINE CHECK-OUT and CALIBRATION
+
+	After the rocket engine has been fabricated, several
+check-out tests and flow calibrations should be made prior to
+testing with live propellants.
+
+Leak Testing
+
+	Connect the engine cooling jacket to a readily available
+source of pressurized water (such as lawn or house supply; pressure
+should be 50-100 psi with no flow). Attach a pressure gauge to the
+outlet port of the jacket and open the water valve, allowing water to
+fill the jacket. Observe the jacket and engine for leaks. There should
+be no leaks.
+
+	A similar pressure check should be performed on the fuel
+manifold of the injector. Since the injector face is not easily
+blanked off, perform this test by flowing water through the
+injector. Use a filter in the vater line to avoid plugging the small
+fuel injection holes. Use a pressure gauge attached to the water line
+as near to the injector fuel entry port as possible. There should be
+no leaks.
+
+Flow Calibration
+
+	The water flow rate through the engine cooling jacket should
+be determined for various inlet pressures. Use a bathroom or other
+available scale to weigh, in a container, water flowing through the
+engine over a timed period.  Water pressure can be measured either at
+the entrance or exit of the cooling jacket. Attach a flexible hose
+(garden variety will do) to the outlet of the cooling jacket and start
+water flowing through the jacket at the desired pressure.  Once steady
+flow has been achieved quickly move the hose outlet into the catch
+container for a period of 30 seconds, then quickly remove the hose
+from the container.  Use a stop or sweep second watch for the timing
+and be accurate! Obtain the net weight of collected water by
+subtracting from the weight of the filled container its empty weight.
+Divide the net weight by the time during which water was collected and
+the result will be water flow rate in lb/sec. This operation should be
+repeated several times at different pressures to obtain the flow
+characteristics of the coolant jacket. If insufficient water pressure
+is available to achieve the design water flow rate, check the size of
+tubing or hose used between the water source and the engine; it may be
+restricting the water flow rate. Check also the size of the flexible
+duct hose used. If these tests show that greater pressure is required
+to achieve the desired flow rate, a different source of cooling water
+may be required.  Under extreme conditions, an air-presurized water
+tank or a motor-driven pump may be required. Another solution is
+to disassemble the engine and re-bore the outer shell to open
+up the water flow passage.  Material should NOT be removed from
+the combustion chamber/nozzle.
+
+	Flow rate tests of the injector, using water, can be
+performed in a manner similar to the cooling system calibration,
+although their worth is questionable. The flow
+characteristics of water and the hydrocarbon fuels are
+different, so that a water calibration is not directly comparable to
+what will occur when fuel is used. However, the pressure drop
+required to flow a given quantity of water will provide some
+indication of how closely design objectives were achieved. This test
+should be conducted in the same manner as the cooling water
+calibration test except that the flow time should he long enough to
+accumulate at least ten pounds of water.
+
+Test Stand Checkout
+
+	After the test stand and operator's area are completed and
+components installed, tests should the conducted to determine that no
+gas or liquid leaks will occur when actual propellants are used.  Fill
+the tank with clean water.  Cap off the fuel and oxygen lines where
+they would normally attach to the engine. Pressurize the system to 100
+psi and check for leaks.  A soap solution can be used to check around
+all fittings and seals. Soap bubbles indicate the presence of a gas
+leak.  If no leaks are present, increase the pressure to 200 psi and
+repeat the detection procedure. Continue this procedure until the test
+stand operating pressure is reached and no leaks are present.
+Depressurize the system and refill the fuel tank with clean
+water.  Attach the rocket engine to its test mount and connect all
+tubing. Pressurize the stand in the normal manner and practice the
+ignition and operating sequence using water as fuel (gaseous oxygen
+can safely he used in these tests, if desired).  If no leaks develop,
+empty the fuel tank of water and dry by flushing with nitrogen gas
+for several seconds.  The engine and test stand are now ready for their
+first hot firing.
+@
+
+
+1.4
+log
+@webedit
+@
+text
+@d18 1
+a18 1
+blanked off, preform this test by flowing water through the
+d47 1
+a47 1
+will be required.  Under extreme conditions, an air-presurized cater
+@
+
+
+1.3
+log
+@webedit
+@
+text
+@d3 1
+a3 1
+	After the rocket engine has been fabricated. several
+@
+
+
+1.2
+log
+@webedit
+@
+text
+@d3 1
+a3 1
+	After the rocket engine has beerl fabricated. several
+d5 1
+a5 1
+testing with live propellants
+d14 2
+a15 1
+be no leaks .
+d39 1
+a39 1
+the result will he water flow rate in lb/sec. This operation should be
+d46 2
+a47 2
+to achieve the desired flow rate, a diffcrent source of cooling water
+eras be repaired.  Under extreme conditions, an air-presurized cater
+d49 1
+a49 1
+to disassemble the engine and re-hore the outer shell to open
+d51 2
+a52 1
+the combustion chamber-nozzle.
+d54 1
+a54 1
+performed in a manner similar to the cooling system calilbration,
+d57 1
+a57 1
+different so that a water calibration is not directly comparable to
+d60 1
+a60 1
+indication of how closely design objectives were achieved. This twst
+d71 1
+a71 1
+thev would normally attach to the engine. Pressurize the system to 100
+d81 1
+a81 1
+can safely he uscd in these tests, if desired).  If no leaks develop,
+@
+
+
+1.1
+log
+@webedit
+@
+text
+@d1 82
+a82 82
+ENGINE CHECK-OUT and CALIBRATION
+
+	After the rocket engine has beerl fabricated. several
+check-out tests and flow calibrations should be made prior to
+testing with live propellants
+
+Leak Testing
+
+	Connect the engine cooling jacket to a readily available
+source of pressurized water (such as lawn or house supply; pressure
+should be 50-100 psi with no flow). Attach a pressure gauge to the
+outlet port of the jacket and open the water valve, allowing water to
+fill the jacket. Observe the jacket and engine for leaks; there should
+be no leaks .
+	A similar pressure check should be performed on the fuel
+manifold of the injector. Since the injector face is not easily
+blanked off, preform this test by flowing water through the
+injector. Use a filter in the vater line to avoid plugging the small
+fuel injection holes. Use a pressure gauge attached to the water line
+as near to the injector fuel entry port as possible; there should be
+no leaks .
+
+Flow Calibration
+
+	The water flow rate through the engine cooling jacket should
+be determined for various inlet pressures. Use a bathroom or other
+available scale to weigh, in a container, water flowing through the
+engine over a timed period.  Water pressure can be measured either at
+the entrance or exit of the cooling jacket. Attach a flexible hose
+(garden variety will do) to the outlet of the cooling jacket and start
+water flowing through the jacket at the desired pressure.  Once steady
+flow has been achieved quickly move the hose outlet into the catch
+container for a period of 30 seconds, then quickly remove the hose
+from the container.  Use a stop or sweep second watch for the timing
+and be accurate! Obtain the net weight of collected water by
+subtracting from the weight of the filled container its empty weight.
+Divide the net weight by the time during which water was collected and
+the result will he water flow rate in lb/sec. This operation should be
+repeated several times at different pressures to obtain the flow
+characteristics of the coolant jacket. If insufficient water pressure
+is available to achieve the design water flow rate, check the size of
+tubing or hose used between the water source and the engine; it may be
+restricting the water flow rate. Check also the size of the flexible
+duct hose used. If these tests show that greater pressure is required
+to achieve the desired flow rate, a diffcrent source of cooling water
+eras be repaired.  Under extreme conditions, an air-presurized cater
+tank or a motordriven pump may be efplirsXl- Another solution is
+to disassemble the engine and re-hore the outer shell to open
+up the water flow passage.  Material should not be removed from
+the combustion chamber-nozzle.
+	IDIOT! rate tests of the injector, using water, can be
+performed in a manner similar to the cooling system calilbration,
+znltl|C}}lpwl, their çwortl] is fplt'!'t iOUnl)le. Floe Çlnw
+clXar;R( tcrist ics •.f Mater alla the hydrocarbon fuels are
+different so that a water calibration is not directly comparable to
+what will occur when fuel is used. However, the pressure clr>„r
+required to f Ic)çl a given quantity of water will provide some
+indication of how closely design objectives were achieved. This twst
+should be conducted in the same manner as the cooling water
+calibration test except that the flow time should he long enough to
+accumulate at least ten pounds of water.
+
+Test Stand Checkout
+
+	After the test stand and operator's area are completed and
+components installed, tests should the conducted to determine that no
+gas or liquid leaks will occur when actual propellants are used.  Fill
+the tank with clean water.  Cap off the fuel and oxygen lines where
+thev would normally attach to the engine. Pressurize the system to 100
+psi and check for leaks.  A soap solution can be used to check around
+all fittings and seals. Soap bubbles indicate the presence of a gas
+leak.  If no leaks are present, increase the pressure to 200 psi and
+repeat the detection procedure. Continue this procedure until the test
+stand operating pressure is reached and no leaks are present.
+Depressurize the system and refill the fuel tank with clean
+water.  Attach the rocket engine to its test mount and connect all
+tubing. Pressurize the stand in the normal manner and practice the
+ignition and operating sequence using water as fuel (gaseous oxygen
+can safely he uscd in these tests, if desired).  If no leaks develop,
+empty the fuel tank of water and dry by flushing with nitrogen gas
+for several seconds.  The engine and test stand are now ready for their
+first hot firing.
+@

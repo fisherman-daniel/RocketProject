@@ -1,0 +1,276 @@
+EXAMPLE DESIGN CALCULATION
+
+	Thee following example illustrates the use of the equations,
+tables and concepts presented in the previous sections.
+
+	A small water-cooled liquid-fuel rocket engine is to be
+designed for a chamber pressure of 300 psi and a thrust of 20
+lbs. The engine is to operate at sea level using gaseous oxygen and
+gasoline propellants.
+
+Step 1
+
+	From Table I and Figures 3,4 and 5 we determine that the
+optimum O/F ratio is about 2.5 and that the ideal specific
+impulse will be about 260 sec. The total propellant flow rate is
+given by Equation (3)
+
+	Wt = F/Isp = 20/260 = 0.077 lb/sec
+
+Since the mixture ratio, r, is 2.5, we find from Equation (5)
+
+	Wf = Wt/(r + 1) = 0.077/3.5 = 0.022 lb/sec
+
+From Equation (6) the oxygen flow rate is
+
+	Wo = 0.077 - 0.022 = 0.055 lb/sec
+
+As a check, we divide the oxygen flow rate by the fuel flow rate and
+the result is 2.5, as it should be. 
+
+Step 2
+
+	From Table I we note that the chamber gas temperature is 5742
+degF or about 6202 degR.
+
+From Equation (9) the gas temperature at the nozzle throat is
+
+	Tt = .909 (Tc) = .909 (6202) = 5650 R
+
+Step 3
+
+	From Equation (12) the pressure at the nozzle throat is
+
+Pt = .564 (Pc) = .564 (300) = 169 psi
+
+Step 4
+
+	The nozzle throat area is given by Equation (7)
+
+	At = (w/Pt)(RTt/(gamma)g_c)^(1/2)
+
+	At = (.077/169)(9500)^(1/2) = 0.0444 in^2
+
+Step 5
+
+	The nozzle throat diameter is given by Equation (17)
+
+	Dt = (4At/(pi))^(1/2) = (0.0566)^(1/2) = 0.238 in.
+
+Step 6
+
+	From Table III we find that for a chamber pressure of 300 psi
+and a nozzle exit pressure of 14.7 psi (sea level)
+
+	Ae/At = 3.65
+
+so that the nozzle exit area is, from Eq. (15)
+
+	Ae = 3.65 At = (3.655)(0.0444) = 0.162 in^2
+
+Step 7
+
+	The nozzle exit diameter is from Eq. (17)
+
+	De = (4Ae/(pi))^(1/2) = (.2065)^(1/2) = 0.4555 in.
+
+Step 8
+
+	For this propellant combination we will assume a combustion
+chamber L* of 60 inches. The combustion chamber volume is given by
+Eq. (19)
+
+	Vc = L* At = (60)(.0444) = 2.67 in^3
+
+Step 9
+
+	The chamber length is found from Eq. (21)
+
+	Vc = (1.1) (Ac Lc)
+
+	However, we must first determine the chamber area or Ac. We do
+this by assuming that the chamber diameter is five times the nozzle
+throat diameter or Dc = 5Dt, therefore 
+
+	Dc = 1.2 in. and Ac = 1.13 in^2
+
+Therefore,
+
+	Lc = Vc/(1.1)(1.13) = 2.67/1.245 = 2.15 in
+
+Step 10
+
+	Copper will be used for the combustion chamber and nozzle
+wall. The chamber wall thickness, is given by Eq. (23)
+
+	t_w = PD)/16000 = (300)(1.2)/16000
+
+	t_w = 0.0225 inch
+
+To allow for additional stress and welding factors we shall set the
+wall thickness equal to 3/32 or 0.09375 inch and will assume that the
+nozzle wall has this thickness also.
+
+Step 11
+
+	Previous experience with small watercooled rocket engines
+has shown that we ean expect the copper combustion chamber and
+nozzle to experience an average heat transfer rate, q, of ahout 3
+Btu/in^2-sec. The heat transfer area of the combustion chamber is the
+outer surfaee area of the chamber and nozzle. This surface area is
+given by
+
+	A = (pi)(Dc + 2t_w)(Lc) + area of nozzle cone
+
+	A = 9.4 in^2 + area of nozzle cone
+
+The area of the nozzle cone up to the throat can be assumed to he
+ahout 10% of the chamber surface area so that
+
+	A = (1.1)(9.4) = 10.35 in^2
+
+The total heat transferred into the coolant is given by Eq. (24)
+
+	Q = q A = 3(10.35) = 31 Btu/sec
+
+Step 12
+
+	The cooling water flow rate can be calculated by asssuming
+a desired temperature rise of the water. If this is 40 deg F then,
+from Eq. (24)
+
+	w_v = Q/(deltaT), where c_p for water = 1.0
+
+	w = 31/40 = 0.775 lb of water per sec.
+
+Step 13
+
+	The annular flow passage between the combustion chamber wall
+and the outer jacket must be sized so that the flow velocity of the
+cooling water is at least 30 ft/sec. This veloeity is obtained when
+the flow passage has dimensions as determined below:
+
+	v_w = w_w/(rho)A
+
+where v_w = 30 ft/sec, w_w = 0.775 lb/sec, (rho) = 
+62.4 lb/ft3, and A is the area of the annular
+flow passage, given by
+
+A = ((pi)/4) (D2^2 - D1^2)
+
+where D2 is the inner diameter of the outer jacket and D1 is the
+outer diameter of the combustion chamber, given by
+
+D1 = Dc + 2t_w
+
+Substituting in the above equations
+
+	D2 = SQRT((4w_w)/(v_w(rho)(pi)) + D1^2)
+	
+	D2 = (.0151)^(1/2) = .123 ft = 1.475 inch
+
+	D2 - D1 = 0.085 inch
+
+The water flow gap is 0.0425 inch.
+
+Step 14
+
+	The fuel injector for this small rocket engine will he a
+commercial spray nozzle with a 75 degree spray angle. The required capacitv
+of the nozzle is determined by the fuel flow rate
+
+Wf = 0.022 Ib/sec = 1.32 lb/ minute,
+
+Since there are six pounds of gasoline per gallon, the spray nozzle
+flow requirement is 0.22 gallon per minute (gpm). The spray nozzle
+can now be ordered from any of several suppliers (see List of
+Suppliers); nozzle material should be brass to ensure adequate
+injector heat transfer to the incoming propellant.
+	If an impinging jet injector had been chosen, the
+determination of the required injector hole number and size would
+have been as follows:
+
+	The flow area for fuel injection is given by Equation (25)
+
+	A = w_f/(Cd) (2g(rho)(deltaP))^(1/2)
+
+We will assume that Cd = 0.7 with a fuel injcction pressure drop
+of 100 psi. The density of gasoline is about 44.5 lb/ft3, so that
+
+	A = .022/(.7)(6430) = 0.0000049 ft^2
+
+	A = 0.000706 in^2
+
+	If only one injection hole is used (a poor practice which can
+lead to combustion instability) its diameter would be
+
+	D = (4A(pi))^(1/2) = (.0009)^(1/2) = 0.30 inch
+
+A number 69 drill could be used for this hole.
+
+	If two injection holes are used, their diameter would be
+
+	D = (.00045)^(1/2) = 0.021 inch
+
+A number 75 drill could be used for these holes.
+
+Step 15
+
+	The injection holes for the gaseous oxygen will be simple
+drilled orifices.  The size of these orifices should be such that a
+gas stream velocity or about 200 ft/sec is obtained at design
+oxygen flow rate. The holes must not be so small that sonic velocity
+is achieved in the orifice passages since this would result in a high
+upstream pressure requirement to drive the required amount of oxygen
+through the orifices.
+	If a spray nozzle fuel injector is used we will assume the use
+of four equally spaced oxygen injection ports parallel to the
+combustion chamber centerline around this nozzle. If we assume an
+injection pressure drop of 100 psi then the oxygen gas pressure at the
+entrance to the injection ports will be 400 psi (the chamber pressure
+plus the injection pressure drop). The density of gaseous oxygen at
+400 psi and a temperature of 68 deg F is given by the perfect gas law
+(see Table II).
+
+	(rho2) = (rho1)(P2/P1) = 2.26 Ib/ft^3
+
+Assuming, incompressibility, the injection flow area is given by
+
+	A = w_o/(rho)v_o
+
+	Since we know the oxygen flow rate and the desired injection
+velocity, we can easily find the total injection area
+
+	A = .055/(2.26)(200) = 0.0001217 ft^2
+
+	A = 0.0175 in^2
+
+Since there are to he four holes, each hole has an area of 0.004375
+in^2 and the diameter of each hole is
+
+	D = (.00558)^(1/2) = 0.0747 inch
+
+A number 48 drill could be used for these holes. 
+
+	These same size oxygen jets could also be used with two fuel
+jets in the impinging stream injector. The holes, oxygen and fuel,
+should be drilled at an angle of 45 (deg) with respect to the injector
+face with the intersection point of the streams about 1/4 inch inside
+the combustion chamber.
+
+Design
+
+	The foregoing design calculations provide the dimensions,
+thicknesses, and orifice sizes for the major components of our rocket
+engine. The actual design of the engine, however, requires engineering
+judgment and knowledge of machining, welding, and operational factors
+since these interact to determine the final configuration of the
+engine and its components. Perhaps the best way to accomplish the
+final design is to sit down with appropriate drafting materials and
+begin to draft a cross-section view of the engine. A scale of 2/1 (or
+twice actual size) is about right for these small engines and will
+enable the designer to better visualize the entire assembly.
+	Using the dimensions obtained in the example calculation, and
+the design technique described shove, the rocket engine assembly
+design shown in Figure 8 is obtained. The engine design features easy
+fabrication and assembly.

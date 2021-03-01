@@ -1,0 +1,586 @@
+head	1.6;
+access;
+symbols;
+locks
+	rooster:1.6; strict;
+comment	@# @;
+
+
+1.6
+date	96.06.12.21.27.48;	author rooster;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	96.06.07.00.20.19;	author rooster;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	96.06.06.23.56.37;	author rooster;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	96.06.06.23.28.51;	author rooster;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	96.06.06.20.44.35;	author rooster;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	96.06.06.12.52.23;	author rooster;	state Exp;
+branches;
+next	;
+
+
+desc
+@webedit
+@
+
+
+1.6
+log
+@webedit
+@
+text
+@TESTING EQUIPMENT
+
+	In this section we shall discuss the auxilliary equipment
+needed to operate the rocket engine, the installation of this
+equipment, and its safe use in engine operation.
+
+Feed System
+
+	The feed system for amateur rocket engine testing consists of
+a tank to store the liquid fuel, a regulated supply of high pressure
+nitrogen gas to force the fuel from the tank into the engine, a
+regulated supply of high pressure gaseous oxygen, and a control device
+for regulating the propellant flow rates. A typical pressurizing feed
+system is shown schematically in Figure 10.
+
+Feed System Components
+
+	The components of a rocket engine feed system are precision
+instruments designed to handle gas and/or liquids at high pressure.
+While many of the components suitable for use in amateur rocket 
+feed systems are readily available from welding or automohile parts
+suppliers, they are usually relatively expensive. The amateur
+builder should expect the assembly of the feed system to be an 
+expensive project which, however, need be done only once. The use of
+quality products, made to do the job or very carefully modified and
+pre-tested, is mandatory for safe operation of amateur rocket engines.
+
+	High Pressure Gas Cylinders
+
+	Gases stored in cylinders at high pressure (usually about 1800
+psi) are readily obtained from any bottled gas supplier or from many
+welding suppliers.  Special fittings with nonstandard threads are used
+to prevent use of incorrect equipment with the cylinders.  Although
+cylinders can be purchased, they are usually rented and then returned
+to the supplier for recharge at a nominal fee. High pressure gas
+cylinders should never he dropped or mishandled. Cylinders should be
+stored so they cannot fall over or inadvertently roll; the best way of
+securing is to chain or strap the cylinders to an appropriate stand or
+worktable. When cylinders are not in use the cap should be kept on to
+protect the cylinder valve. Several suppliers of high pressure gases
+publish instruction books on the care and use of high pressure
+cylinders (see Bibliography); the amateur is encouraged to read and
+follow these professional instructions.
+
+Figure 10 Schematic diagram of gas pressure feed system. Propellants
+are a liquid fuel and gaseous oxygen. (1) high pressure gaseous
+nitrogen supply, (2) pressure regulator, (3) check valve, (4) fuel
+tank, (5) gaseous oxygen cylinders, (6) relief valve, (7) vent
+valve, (8) fill port, (9) drain valve, (10) remotely operated
+propellant control valve, (11) fuel filter, (12) purge valve, (13)
+rocket engine. P is pressure gauge.
+
+Gaseous Nitrogen
+
+	Nitrogen is an inert gas compatible with all normally
+available materials. The amateur builder will have little
+dificulty with materials of construction for nitrogen but must be
+careful that all components are suitable for high
+pressure service. Cleanliness of components is important for
+proper and reliable operation,
+
+Gaseous Oxygen
+
+	Oxygen will not itself burn but does vigorously support the
+rapid combustion of almost all other materials. The amateur must be
+concerned not only with suitablility of components for high pressure
+service but also must use only components that are made from oxygen
+compatible materials and that are cleaned for oxygen service.  All
+items, including lines, fittings, valves, regulators, etc., MUST be
+absolutely free from oil, grease, and similar contaminants. Thorough
+cleaning of all items in solvent, followed by a complete rinse in
+acetone, is an absolute must.  Orders for commercial items should he
+marked to indicate their intended use with high pressure gaseous
+oxygen.  Many commercial suppliers of valves and regulators offer a
+special service for cleaning their products for oxygen service.  The
+amateur should avail himself of these services whenever possible, even
+though they will add slightly to the initial cost of the component.
+	When cleaning components with solvent or acetone, the amateur
+builder should observe all rules of safety applying to these
+chemicals.  They are toxic and easily ignited.  Cleaning should be done
+outside and away from huildings, fires, or other possible ignition
+sources. These fluids should not be stored indoors but in vented
+lockers away from main buildings.
+
+Fuel Tank
+
+	The fuel tank is a closed vessel which contains the liquid
+fuel at moderate pressure (300-500 psi).  Tanks of various sizes and
+shapes, made from carbon- or stainless steel, are offered to the public
+from war surplus outlets.  The amateur builder should be very careful
+if he decides to use such a tank.  They should not be modified since
+in nearly all cases they are thin wall pressure vessels made for
+aircraft service, and additional outlets or welding to the tank wall
+could seriously weaken the tank.  In all cases the tank should be
+hydrostatically tested to at least 1 1/2 times desired operating
+presure before use in the rocket engine feed system.
+
+	The amateur may build (or have built) a tank especially for
+his requirements.  Seamless tubing or pipe (mild steel or stainless
+steel) with welded flat end plates makes an excellent tank.  Outlet
+ports are easily tapped in the flat end plates, The tank wall
+thickness is given by Equation (22)
+
+	t_w = PD/2S
+
+where P is the pressure in the tank (1 1/2 times the desired operating
+pressure), D is the outside diameter of the tank, t_w is the wall
+thickness, and S is the allowable stress. The size of the tank is
+determined by the size of the rocket engine and the desired operating
+time. The engine discussed in Example Design Calculation had a fuel
+flow rate of 0.022 lb/sec. A tank with a 4-inch inside diameter and 12
+inches long would hold enough gasoline to run this engine for 175
+seconds. If the tank outside diameter is 4.5 inches, the allowable
+stress in the steel is 20,000 psi, and the operating pressure is 500
+psi so that the design pressure is 750 psi, a tank minimum wall
+thickness of 0.085 inch is calculated. A wall thickness of 0.250 inch
+is chosen to allow for welding factors, stress concentrations, and the
+size of available seamless tubing. The tank inside diameter is 4.0
+inches. The flat end plates for this tank should be at least twice
+the thickness of the tank wall (i.e. for this case, at least 1/2
+inch thick). Drilling and tapping should be done prior to welding, to
+prevent oil and metal chips from falling into the tank.  Welding
+should be done by an expert with several passes for each end plate
+(see Figure 11).  End plate ports should then be re-tapped. The tank
+should be thoroughly cleaned and hydrostatically tested prior to use
+in the rocket engine feed system.
+
+	The fuel tank should contain enough ports, or the tank
+plumbing should be so arranged, that a safety relief valve (either
+spring loaded or a burst disc), gas inlet port, load and vent port,
+and fuel outlet and drain are available.  Many of these functions can
+be incorporated as part of the gas inlet and fuel outlet plumbing so
+that only two ports, one on each end of the tank are required.
+
+Figure 11 Fuel tank end detail. Several weld passes should be used to
+attach the end plates to the seamless tubing.
+
+	Tanks made from seamless tubing should not be greater than six inches in 
+diameter; wall stress is a function of diameter, and at high stress, 
+specialized design information, not usually available to the amateur builder, 
+is required.  Also, the force on the tank end plates increases rapidly with 
+tank diameter.
+
+Gaseous Nitrogen Regulator
+
+	The purpose of a regulator is to maintain a constant pressure
+on the downstream side of the regulator as the pressure in the gas
+cylinder on the upstream side decreases.  A good quality regulator
+will maintain the downstream pressure quite accurately over a range
+of gas flow rates as long as the upstream cylinder pressure does not
+decrease so as to become too close to the downstream pressure. Thus, 
+all the gas in the cylinder is not usable since some excess pressure 
+(hence, gas) is required to drive the gas through, and maintain control 
+of, the regulator. The flow rate of nitrogen gas required for the
+fuel from the tank is relatively small and could be handled by a
+regular gaseous oxygen welding regulator equipped with nitrogen
+cylinder fittings. However, most welding regulators do not permit
+adjustment to the high downstream pressure required for rocket engine
+operation. A number of commercial firms (see List of Suppliers) market
+regulators for non-welding purposes that are admirably suited for
+fuel tank pressurization. Especially attractive is the Grove Mity-Mite
+regulator with internal regulation. Inexpensive, special fittings are
+required to attach these regulators to the gas cylinder. These
+fittings are available from several sources (see List of Suppliers).
+
+Gaseous Oxygen Regulator
+
+Ihe discussion of regulators for gaseous nitrogen service applies to 
+gaseous oxygen also, except that the regulator should be especially cleaned 
+for oxygen service and, if possible, metal-to-metal seats should be used within
+the regulator.  Regulator manufacturers should be consulted for reccomendations
+on seat materials for use with gaseous oxygen in their regulators.  Special
+fittings for attaching the regulator to the oxygen cylinder are available
+from the sources supplying nitrogen cylinder fittings.  These sources can also 
+supply cylinder manifold kits so that two or more oxygen cylinders can be used 
+simultaneously to achieve long engine run durations.
+
+Propellant Control Valves
+
+The propellant control valves allow the operator to start and then manually 
+remote-control the flow of each propellant in to the rocket engine.  These 
+valves should be stainless steel needle valves with Teflon packing or seals.
+Many manufacturers make this kind of valve (see List of Suppliers). The 
+valve for gaseous oxygen shoud be larger than the valve for the fuel line. 
+Engines of the size discussed in Example Design Calculation should use a 
+1/4-inch ftel valve (that is, 1/4 National Pipe Thread line size) and a 
+1/2-inch oxygen valve. The tubing actnally entering, and leaving, the 
+valves need not be this large, but the valves themselves should be as 
+indicated to afford a range of flow control with minimum pressure drop 
+across the valve. Since these valves control the flow of propellants, 
+they should be mounted near the tanks and engine on the test stand, and 
+operated remotely by means of valve stem extensions (see discussion on 
+Test Stand).
+
+Other Valves
+
+Other valves required in the feed system include the fuel tank vent and fill 
+valve, the drain valve, and the nitrogen purge valve. Inexpensive, high 
+quality ball valves are highly reccomended for these functions since they offer 
+positive shut-off, easy operation with handle indication of on or off, and full 
+line opening.  Brass or stainless steel valve bodies with Teflon seats are 
+acceptable, and the valves may be line or panel mounted (see List of Suppliers).
+
+Check Valves
+
+	Check valves permit fluid flow in one direction only. They are widely used in 
+the aircraft and hydraulic industry and are manufactured by many companies. 
+l/4-inch line size is recommended for all functions shown in Figure 10 with 
+the exception Of the gaseous oxygen line check valve which should 
+feature metal-to-metal seats and be at least 3/8inch line size. Check valves 
+should be thoroughly cleaned prior to use and tested to insure that tlle 
+check is working properly.
+
+Relief Valves
+
+
+
+	The fuel tank requires a relief device of some type to prevent tank failure 
+in the event of over-pressurization. While this is high unlikely, it 
+could happen if the gaseous nitrogen regulator failed to function or shut-off 
+properly.  An adjustable spring-loaded relief valve is reccomended because
+it may be set to different pressures as feed system uses change, and because,
+if used, does not have to be replaced.  An alternate device is the burst disc
+which ruptures at a preset pressure and relieves the overpressure in the tank. 
+Burst discs require replacement after actuation and are not pressure adjustable.
+A different disc must be used for each pressure range desired.
+
+Fuel Filter
+
+	Fuel injection holes on small liquid-fuel rocket engines 
+are easily plugged with contaminants from tbe fuel tank and control system. 
+A fuel filter which can filter out particles down to ten microns in size 
+is highly reccommended and will save tbe amateur builder much grief when 
+actual testing is started. Several concerns make small filters suitable
+for rocket engine feed systems (see List of Suppliers).
+
+Pressure Gauges
+
+	Fuel, oxygen, water, and combustion chamber pressure are essential measurements
+for rocket engine operation.  Buordon-tube pressure gauges offer accuracy, 
+ruggedness, low cost, and availability for this requirement. Numerous
+manufacturers make these gauges in a bewildering variety of styles, sizes,
+and prices.  Bronze Bourdon tubes are recommended since they are fully compatible
+(when cleaned) with gaseous oxygen or hydrocarbon fuel and are so widely used 
+that significant cost savings are possible.
+
+	Small (2 1/2 or 3-inch diameter) high pressure 
+gauges similar to those used on oxygen welding
+regulators should be used by the amateur builder 
+for measuring pressure in the high pressure gas cylinders or manifolds. 
+These gauges can be obtained from a welding supply shop.
+
+	Gauges for fuel, oxygen, water, and combustion chamber pressure 
+should be at least 3 1/2 inch diameter for easv reading, from a distance. 
+These 3 1/2 Acaloy gauges of Helicoid (see List of Suppliers) are 
+recommended because of their reliability and low cost. These 
+gauges are easily panel mounted and make a neat test stand installation.
+
+Plumbing
+
+Plumbing refers to tbe flow tubes and fittings used to collnect the 
+components discussed previously. 1/4-inch diameter stainless steel tubing 
+for the fuel and nitrogen systems and 3/8 inch diameter stainless 
+tubing for the oxygen line are recommended. Flare fittings with metal to 
+metal seats are also recommended for joining the tubing to other components. 
+1/4 and 3/8 inch diameter copper tubing can also be used for the fuel, 
+oxygen, and nitrogen supply system but is not as desirable as stainless 
+steel and is more easily flared. The amateur builder should use 
+only good flaring tools and should form or bend tubing only with a tube 
+bender. Where the fittings screw into fuel tank, valve, or other 
+components having pipe threads, the use of Teflon tape on the threads is 
+recommended. No other pipe thread compound should be used, especially 
+on gaseous oxygen components.
+@
+
+
+1.5
+log
+@webedit
+@
+text
+@d18 1
+a18 1
+	The compontnts of a rocket engine feed system are precision
+d22 1
+a22 1
+suppliers they are usually relatively expensive. The amateur
+d24 1
+a24 1
+expensive  project which, however, need be done only once. The use of
+d67 1
+a67 1
+service but also must use only conponents that are made frem oxygen
+d78 1
+a78 1
+	When cleaning components with soltent or acetone, the amateur
+d89 1
+a89 1
+shapes, made from carbon or stainless steel, are offered to the public
+d95 1
+a95 1
+hydrostatically tested to at least 1 1/2; times desired operating
+d97 1
+d127 1
+d140 1
+a140 1
+specialized design information, not usually available tohe amateur builder, 
+d148 1
+a148 1
+cylinder on the upstream side decreases . A good quality regulator
+d151 6
+a156 6
+decrease too close to the downstream pressure. Thus, all the gas in
+the cylinder is not usable since some excess pressure (hence, gas) is
+required to drive the gas throtlgll, anci lnaintain control of, the
+regulator. The f low ratc of nitrogen gas required to forçe the
+fuel from the tank is relatively small and coula be handled by a
+regular gaseous oxygen welding regu lator equipped with nitrogen
+d158 3
+a160 3
+adjustment to tlle high downstream pressure required for rocket engine
+operation. A number of commercial firms (see List of Suppliers)market
+regulators for non-x.«elding purposes that are admirably suited for
+d164 1
+a164 1
+fittings sre avai lable from several sources (see List of Suppliers).
+d180 1
+a180 1
+Tll(' propellant control valves allow the operator to start and then manually 
+d186 7
+a192 7
+1/4-inch ftel valve (tllat is, 1/4 National Pipe Thread line size) and a 
+1/2-inch oxygen valve. The tubing actnally entering, an(1 leaving, the 
+valves need not be this large, but tlle valves themselates shotlld be as 
+indicated to afford a range of flew control with minimum pressure drop 
+across the valve. Since these valves control the flow of prolzellants, 
+tlley shollld be mountcd ncar the tanks and engine on thc test stand, and 
+operated remotely hy means of valvc stem en:tensions (see discussion on 
+d206 4
+a209 4
+	Check valves permit fluid flow in on«direction only. They are widely used in 
+tll«a aircr.nft and hydraulic industry and are manufactxlrcd by many companies. 
+l/4-inch line size is recommrnded for all functions sllown in Figure 10 with 
+tllc exception Of tlle gaseous oxygen line check v.n^lve wllicll should 
+d211 1
+a211 1
+shonld be thoroughly cleaned prior to use and tested to insure that tlle 
+d219 1
+a219 1
+in tlle event of over-pressurization. While this is high unlikely, it 
+d222 1
+a222 1
+it may be set to different pressures as feed system uses change and because,
+d230 3
+a232 3
+	Fuc1 injection holes on small liquid-fuel rocket engines 
+are easilv plugged with contaminants from tbe fuel tank snd control system. 
+A fuel filter which can filtsr out Particles down to ten microns in size 
+d237 1
+a237 1
+Pressure Guages
+d240 1
+a240 1
+for rocket engine operation.  Buordon-tube pressure guages offer accuracy, 
+d242 1
+a242 1
+manufacturers make these gauges in a bewhildering variety of styles, sizes,
+d248 1
+a248 1
+guages similar to those used on oxygen welding
+d250 2
+a251 2
+for measuring pressnre in the high pressure gas cylinders
+ or manifolds. These guages can be obtained from a welding supply shop.
+d253 5
+a257 5
+	Gauges for fuel, oxygen, water, and combustion chambcr pressure 
+should be at least 3 1/2 inch diametcr for easv readinp, from a distance. 
+These 3 1/2 Acaloy gauges of Helicoid(see List of Suppliers) are 
+rccommended because of their reliability and low cost. Tllese 
+gatVg,es are casil> panel mollnted and make a neat test stand installation.
+d261 11
+a271 11
+Plumbing refers to tbe flow tuhes and fittings used to collnect tlXe 
+components discvlsscd previollslv. 1/4-inch diameter stainless steel tubing 
+for the fuel and nitrogen systems and 3/8 incll diameter stainless 
+tubing for the oxyg,en line are rccommended. Flare fitLings with metal to 
+metal seats are also recommended for joining llle tubing to other components. 
+1/4 and 3/8 inch diameter col)y!cr tubing can also be tlsed for tlle fuel, 
+ox!gen, and nitrogen stlpply system but is not as dtlrable as stainless 
+stecl and is more casil! dalared. The amateur builder should use 
+only good flaring tools and should form or bend tubing only witll a tube 
+bender. Wllere tllhc fittings scre1v into fuel tank, valve, or other 
+components having pipe threads, the use of Teflon tape on tlle tllreads is 
+d273 1
+a273 1
+on gaseous oMygen components.
+@
+
+
+1.4
+log
+@webedit
+@
+text
+@d162 1
+a162 2
+fittings sre avai lable from several sources (see List of Suppliers)
+.
+d168 7
+a174 1
+for oxygen
+d176 1
+a176 3
+. . ,, • — , „
+(}rf. n l!iO, ('xl'f'l)l tll.nt t1]f' r( fi fi11at.,r <il,,„,l.! 1„ 'ilB('t'i.|11)' C1('.nl}f'd f(Mr o:yl(ll {;(rviCçX :Znfl,if T)ossilwlff}, metal-lo-melal se.nts shotlld h(8 tlse(l witt|1 tl t !|(* t e>y ll 1 .n t l)r . 1t(b)tWX t .z t (>r mnrltl f ?C t ttr('rS S}l()tl 1 ( he cçsnslllte(t ror rebcoXtnllXsllllatiolls nn stat r,ltor
+ials [or tl!;f' x.'itll (t,l':fOtt': f)''\'gftl irl tlleir rep,nlators. ';llçcinl fittitlpz; for att-)cl)irlst tlle r{>;ul.ltor to tlle •!-'\s't'll (\'1 i!lf!f*r *?rfi ltfnil Xizle fr{>t 11(| f;()llre (|!; !;tll}l) l }> i rls- 1l i t 1, |l«l 1] ( *. I i l) If r f i t t i !lst 'i 'llle|S(b Sotlre r|!: ( ;lll :|1 f:f} * tllçl>l N ( x l illfs# r rU.nr|i fX)1d l<its so tllat lxvo (!r llzstl ç5-Xl#l} 1.!itl#!Xr«; (ar E)e lls(8d simtlltaZl(oZlt.lX 1,) :ltlli# f8 IX>rR¡t çW«X ing rtlrz dt.lratiorls .
+d178 14
+a191 1
+I'ropc ] I an t (,oll t ro I V.n I s.r •
+a192 3
+Tll(' Pr()l)('l 1.2lll ('()lltrf)l '/.q1'.'f'' ,tl 10',, t!1f oper
+alor to start alld tl]l n n;llltT.nl 1 1-Cmote -control t1l(' [lot} Or ('aC'll l)rO})f'} 1.|l1t irltO tlle rçrcl{et rns<i n • . l ll{ s r- v a I v • 1 I) f)t l I f 1 6) f ' S t t1 i 111 (' S S S. t f' (' I n ç dl( valvcs x.illl Tç1loll l.;lcl ing or s(.nls. Isan) Wlnllllfa<:lllrCl-s lllnl{( tlli; ltillçl OF valv( ( .l c T.ist of SXlF)y}licrs). Ihe Z|l\.te for 1a-ee1lS o:ygon shoRlld he larg/f r lllan ll|e valve ror the fnel line. ICnr,ill(|s of lhe s izçb discll;sed in l*N:.nmsvle l)csign C.n]cnlation llollld tlS( a 1/4-incll ftel valve (tllat is, I/gJ lN'alional l'ipc Tllrcad line size) and a l/2-incll o.-ygen valve. Tllc tubing actnally cntering, an(1 leaving, the valves nced nnt be this large, I)ut tlle valves themselates shotlld lze as indicated to affor(i a range of flew control wi th minimtlm pressure (Irop across the valve. Since these valves control the flot of prolzellants, tlley shollld be mountcd ncar the tanks and eny},inc on thc test stand, and operated remotely hy means of valvc stem en:tensions (see discussion on Test Stand).
+
+d195 6
+a200 2
+Other valves required in the feed system in
+ clude the fuel tank vent and fil] valve, the drain valve, and the nitrogen purge valve. Inexpensive, high Sn;Ml)li(]r#).
+d202 1
+a202 1
+Check V.-E lves
+d204 7
+a210 1
+	Check valves permit fluid flow in on«direction only. They are widely used in tll«a aircr.nft and hydraulic industry and are manufactxlrcd by many companies. l/4-inch line size is recommrnded for all functions sllown in Figure 10 with tllc exception Of tlle gaseous oxygen line check v.n^lve wllicll should feature metal-to-metal seats and be at least 3/8inch line size. Check valves shonld be thoroughly cleaned prior to use and tested to insure that tlle check is working properly.
+@
+
+
+1.3
+log
+@webedit
+@
+text
+@d193 9
+a201 1
+	The fuel tank requires a relief device of some type to prevent tank failure in tlle event of over-pressurization. Wa|ile this is high desired.
+d203 1
+a203 1
+	Fuc1 illjectioll hol( S <un !:nla 1 1 1 iqni d - ftle] rocket engillcs are easilv ç>lU~~~~S>s(i witl~~ contarjllats from tbe fucl talik -lnd colltrXrl sNster. A lu«l 1ilter whiclM can liltsr out Pnrticles ff0'.Tt tfn t(8n mierons ill siz(b is biglalv rfss<!rTrent2cfl and \.'ill !:aVt' tbe .'tTt}.-ttt'Hl- }„lil,lf\r rrllfl! [Prief x:llfn 'lt'l'l*']l t('St inl' i'; stnrtf|tl. Sçe f ral rfr ccrnx ra'K ^ f T 1l l f i lt« rt f;Xlil,ll8ll^ fr|1 rf^l lw«|t çt8):irlr f¡ (
+d205 6
+a210 1
+.:\ -t 1 r11'; (sl (| 1,i f:1 1'1 ';|l1'l'I i{'I'' ) 
+d212 1
+a212 1
+I I f'';!itll t' (..nIIfi't'!;
+d214 7
+a220 1
+tlfbl, f}X)'['('II, 1,;IIX|r av1fl tç118l))lf;2 i<'Xl c!larbfr
+a221 5
+l)rf>ff;ç;Zlrf& ar(b (jr;«;f llt i:11 Ilç@@af ttl-(le{ llt s 1l!r rrc>« t
+
+('ll7,illv Ol)er.'ttiOn. §\uOrçltul-tllllfi l)rt'';(dlre l,f.ll]f,{{S
+nrrer a<cnr.l(v, rnplXflns ;;, I(-; cç) t, arf! a ai;;I})ilit)r for t}l js rtfltlirfllldlt. rl,lB,tl'(',lS rnnvXfacturers make tlXese P.n|lgP!i ill a bt':.'i l.l(bring varietxw Of styles, sizts, .an!l [)I'iCf''-;. P,ronze n,l>hrçln-n llllres al-z) rf}(f)nlTXl(|nd(8(l ff illt^f8 tllttXs arçj flll ]v cf8rrçatil.le (>/1Z(}11 e }{>;llls8(l) vlilll F,lscbçzXl1 o:N»gcn or }y(lrocarl)oll [Xl(bl an,l fIre ';(l wifl(^l a* llseCl t}?nç Signifie;l„t eost S.nVil)>tX are V)ossibln.
+
+d231 2
+a232 2
+rccommen(le(l hec;ltlse of llleir reliabilitN and low cosL. Tllese 
+gatVg,es are casil> panel mollnted and make a neat test st.nn(l installat iOIl.
+@
+
+
+1.2
+log
+@webedit
+@
+text
+@d173 1
+a173 1
+ials [or tl!;f' x.'itll (t,l':fOtt': f)''\'gftl irl tlleir rep,nlators. ';llçcinl fittitlpz; for att-)cl)irlst tlle r{>;ul.ltor to tlle •!-'\s't'll (\'1 i!lf!f*r *?rfi ltfnil Xizle fr{>t 11(| f;()llre (|!; !;tll}l) l }> i rls- 1l i t 1, |l«l 1] ( *. I i l) If r f i t t i !lst 'i 'llle|S(b Sotlre r|!: ( ;lll :|1 f:f} * tllçl>l N ( x l illfs# r rU.nr|i fX)1d l<its so tllat lxvo (!r llzstl ç5-Xl#l} π.!itl#!Xr«; (ar E)e lls(8d simtlltaZl(oZlt.lX 1,) :ltlli# f8 IX>rR¡t çW«X ing rtlrz dt.lratiorls .
+d178 1
+a178 1
+alor to start alld tl]l n n;llltT.nl 1 1-Cmote -control t1l(' [lot} Or ('aC'll l)rO})f'} 1.|l1t irltO tlle rçrcl{et rns<i n • . l ll{ s r- v a I v • π I) f)t l I f 1 6) f ' S t t1 i 111 (' S S S. t f' (' I n ç dl( valvcs x.illl Tç1loll l.;lcl ing or s(.nls. Isan) Wlnllllfa<:lllrCl-s lllnl{( tlli; ltillçl OF valv( ( .l c T.ist of SXlF)y}licrs). Ihe Z|l\.te for 1a-ee1lS o:ygon shoRlld he larg/f r lllan ll|e valve ror the fnel line. ICnr,ill(|s of lhe s izçb discll;sed in l*N:.nmsvle l)csign C.n]cnlation llollld tlS( a 1/4-incll ftel valve (tllat is, I/gJ lN'alional l'ipc Tllrcad line size) and a l/2-incll o.-ygen valve. Tllc tubing actnally cntering, an(1 leaving, the valves nced nnt be this large, I)ut tlle valves themselates shotlld lze as indicated to affor(i a range of flew control wi th minimtlm pressure (Irop across the valve. Since these valves control the flot of prolzellants, tlley shollld be mountcd ncar the tanks and eny},inc on thc test stand, and operated remotely hy means of valvc stem en:tensions (see discussion on Test Stand).
+d206 1
+a206 1
+nrrer a<cnr.l(v, rnplXflns ;;, I(-; cç) t, arf! a ai;;I})ilit)r for t}l js rtfltlirfllldlt. rl,lB,tl'(',lS rnnvXfacturers make tlXese P.n|lgP!i ill a bt':.'i l.l(bring varietxw Of styles, sizts, .an!l [)I'iCf''-;. P,ronze n,l>hrçln-n llllres al-z) rf}(f)nlTXl(|nd(8(l ff illt^f8 tllttXs arçj flll ]v cf8rrçatil.le (>/1Z(}11 e }{>;llls8(l) vlilll F,lscbçzXlπ o:N»gcn or }y(lrocarl)oll [Xl(bl an,l fIre ';(l wifl(^l a* llseCl t}?nç Signifie;l„t eost S.nVil)>tX are V)ossibln.
+d208 5
+a212 1
+	Fimal I (2',. or 3-incll di,nnaeter) biptll F)rcssnre g.ltl¡,es simi lar lo tllç)se u«;eçl on o: gen: eldinr
+d214 5
+a218 2
+reglllatnrs sbolll(l hc use(J by the aTn~~ttcltr lrnild
+zr for measurillg y)ressnre in tllC higll pressure
+a219 6
+gas cylin(l(rs or mJnifo]cls. Illese l0S-tns;Cs can he
+
+f btaine(l Irom a wel(iing sn[)l)ly shop.
+
+	cattges for fuel, oZyg(n, x.«.ttCXr, tn(l tonhustion cllambcr pressure sllonl(l he at least 3'; incb diam(tcr for easv readinp, from a (listance. Ilre 3'" S\caloy gatlges of llelicoi(l(see List of SllPpliers) are rccommen(le(l hec;ltlse of llleir reliabilitN and low cosL. Tllese gatVg,es are casil> pancl mollnted and make a neat test st.nn(l installat iOIl.
+
+d223 2
+a224 2
+components discvlsscd previollslv. 1/4-inch (liameter stainless steel tubing 
+for tllo ffXel and nltrogen systems a1l(l 3/8 incll (liam(tor stninless 
+d227 8
+a234 1
+1/4 and 3/8 inclM diainmeter col)y!cr tvlbing can also be tlsed for tlle fuel, ox!gen, and nitrogen stlpply system bllt is not as dtlrable as stainless stecl an(l is more casil! dalared. Tllc amateur builder sl)ozll(l lXsc olllN good fiaring tools and shollkl fol-n) or bcn(l tubillg onlX witll a tube bender. Wllere tllhc fittings screπv into fuel tank, valve, or otller components llavin^ l pipe threads-, t}]e tlS( Of leFlor tape on tlle tllreads is recommended. No olllcr pi[)e threa(l compollnd should be use(l, esp((ia11> on gas(otls oMygen coml)onentS.
+@
+
+
+1.1
+log
+@webedit
+@
+text
+@d172 2
+a173 2
+(}rf. n l!iO, ('xl'f'l)l tll.nt t1]f' r( fi fi11at.,r <il,,„,l.! 1„ 'ilB('t'i.|11)' C1('.nl}f'd f(Mr o:yl(ll {;(rviCçX :Znfl,if T)ossilwlff}, metal-lo-melal se.nts shotlld h(8 tlse(l witt|π tl t !|(* t e>y ll 1 .n t l)r . 1t(b)tWX t .z t (>r mnrltl f ?C t ttr('rS S}l()tl 1 ( he cçsnslllte(t ror rebcoXtnllXsllllatiolls nn stat r,ltor
+ials [or tl!;f' x.'itll (t,l':fOtt': f)''\'gftl irl tlleir rep,nlators. ';llçcinl fittitlpz; for att-)cl)irlst tlle r{>;ul.ltor to tlle •!-'\s't'll (\'1 i!lf!f*r *?rfi ltfnil Xizle fr{>t 11(| f;()llre (|!; !;tll}l) l }> i rls- 1l i t 1, |l«l 1] ( *. I i l) If r f i t t i !lst 'i 'llle|S(b Sotlre r|!: ( ;lll :|1 f:f} * tllçl>l N ( x l illfs# r rU.nr|i fX)1d l<its so tllat lxvo (!r llzstl ç5-Xl#l} í.!itl#!Xr«; (ar E)e lls(8d simtlltaZl(oZlt.lX 1,) :ltlli# f8 IX>rR¡t çW«X ing rtlrz dt.lratiorls .
+d178 1
+a178 1
+alor to start alld tl]l n n;llltT.nl 1 π-Cmote -control t1l(' [lot} Or ('aC'll l)rO})f'} 1.|l1t irltO tlle rçrcl{et rns<i n • . l ll{ s r- v a I v • í I) f)t l I f 1 6) f ' S t t1 i 111 (' S S S. t f' (' I n ç dl( valvcs x.illl Tçπloll l.;lcl ing or s(.nls. Isan) Wlnllllfa<:lllrCl-s lllnl{( tlli; ltillçl OF valv( ( .l c T.ist of SXlF)y}licrs). Ihe Z|l\.te for 1a-ee1lS o:ygon shoRlld he larg/f r lllan ll|e valve ror the fnel line. ICnr,ill(|s of lhe s izçb discll;sed in l*N:.nmsvle l)csign C.n]cnlation llollld tlS( a 1/4-incll ftel valve (tllat is, I/gJ lN'alional l'ipc Tllrcad line size) and a l/2-incll o.-ygen valve. Tllc tubing actnally cntering, an(1 leaving, the valves nced nnt be this large, I)ut tlle valves themselates shotlld lze as indicated to affor(i a range of flew control wi th minimtlm pressure (Irop across the valve. Since these valves control the flot of prolzellants, tlley shollld be mountcd ncar the tanks and eny},inc on thc test stand, and operated remotely hy means of valvc stem en:tensions (see discussion on Test Stand).
+d195 1
+a195 1
+	Fuc1 illjectioll hol( S <un !:nla 1 1 1 iqni d - ftle] rocket engillcs are easilv ç>lU~~~~S>s(i witl~~ contarjllats from tbe fucl talik -lnd colltrXrl sNster. A lu«l πilter whiclM can liltsr out Pnrticles ff0'.Tt tfn t(8n mierons ill siz(b is biglalv rfss<!rTrent2cfl and \.'ill !:aVt' tbe .'tTt}.-ttt'Hl- }„lil,lf\r rrllfl! [Prief x:llfn 'lt'l'l*']l t('St inl' i'; stnrtf|tl. Sçe f ral rfr ccrnx ra'K ^ f T 1l l f i lt« rt f;Xlil,ll8ll^ fr|1 rf^l lw«|t çt8):irlr f¡ (
+d197 1
+a197 1
+.:\ -t 1 r11'; (sl (| 1,i f:π 1'1 ';|lπ'l'I i{'I'' ) 
+d203 1
+a203 1
+l)rf>ff;ç;Zlrf& ar(b (jr;«;f llt i:11 Ilç@@af ttl-(le{ llt s πl!r rrc>« t
+d206 1
+a206 1
+nrrer a<cnr.l(v, rnplXflns ;;, I(-; cç) t, arf! a ai;;I})ilit)r for t}l js rtfltlirfllldlt. rl,lB,tl'(',lS rnnvXfacturers make tlXese P.n|lgP!i ill a bt':.'i l.l(bring varietxw Of styles, sizts, .an!l [)I'iCf''-;. P,ronze n,l>hrçln-n llllres al-z) rf}(f)nlTXl(|nd(8(l ff illt^f8 tllttXs arçj flll ]v cf8rrçatil.le (>/1Z(}11 e }{>;llls8(l) vlilll F,lscbçzXlí o:N»gcn or }y(lrocarl)oll [Xl(bl an,l fIre ';(l wifl(^l a* llseCl t}?nç Signifie;l„t eost S.nVil)>tX are V)ossibln.
+d221 6
+a226 2
+Plumbing refers to tbe flolZ tuhes and fittings
+ t|s(Ed to collnect tlXe components discvlsscd previollslv. l/t|-inclπ (liameter stainless steel lXlbing for tllo ffXel and nltrogen systems aπl(l 3/8 incll (liam(tor stninless tubing for the oxyg,en line are rccommended. Flare fitLings iviLll mctal Lo metai s()ats are also recommended for joining llle t|ll}ills> to otller components. 1/4 and 3/8 inclM Mlinmeter col)y!cr tvlbing can also be tlsed for tlle fuel, ox!gen, and nitrogen stlpply system bllt is not as dtlrable as stainless stecl an(l is more casil! dalared. Tllc amateur builder sl)ozll(l lXsc olllN good fiaring tools and shollkl fol-n) or bcn(l tubillg onlX witll a tube bender. Wllere tllhc fittings screív into fuel tank, valve, or otller components llavin^ l pipe threads-, t}]e tlS( Of leFlor tape on tlle tllreads is recommended. No olllcr pi[)e threa(l compollnd should be use(l, esp((ia11> on gas(otls oMygen coml)onentS.
+@

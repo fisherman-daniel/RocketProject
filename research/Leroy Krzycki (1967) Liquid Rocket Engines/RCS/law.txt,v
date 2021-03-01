@@ -1,0 +1,47 @@
+head	1.1;
+access;
+symbols;
+locks
+	rooster:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	96.06.06.19.58.54;	author rooster;	state Exp;
+branches;
+next	;
+
+
+desc
+@webedit
+@
+
+
+1.1
+log
+@webedit
+@
+text
+@
+THE LAW
+
+	There are no known laws prohibiting the design or 
+construction of rocket engines, rocket vehicles or 
+accessories, in the United States. However, certain 
+communities do have laws prohibiting the operation of 
+rocket motors or engines or the free flight of rocket powered vehicles. 
+Prior to actually firing a rocket engine the amateur builder shuuld make 
+certain that he is not violating established ordinances. If ordinances 
+prohibit local testing, a remote site may be needed.
+	The amateur builder should keep in mind that a rocket	
+engine,	even a small one, is an extremely noisy devlce. If local ordinances 
+permit testing in a populated area, the amateur should consider the effect 
+of engine operation on his neighbors before the initial firing. The noise of a 
+rocket engine comes from the shearing action between the high velocity exhaust
+jet and the surrounding atmospere.  Some of the noise can be eliminated by firing 
+the engine into a water-cooled duct.  Ample quantities of water must be sprayed 
+into the exhaust duct  to rapidly cool the rocket exhause stream and to 
+protect the duct itself.  However, this technique restricts viewing of the 
+rocket exhaust plume and eliminates one of the unique features of rocket
+engine operation.
+@

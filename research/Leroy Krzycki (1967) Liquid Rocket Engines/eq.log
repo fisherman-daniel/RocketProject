@@ -1,0 +1,36 @@
+This is TeX, C Version 3.0 (format=lplain 93.12.16)  19 JUN 1996 10:10
+**&lplain eq.tex
+(eq.tex
+LaTeX Version 2.09 <7 Dec 1989>
+(/usr/local/lib/tex/inputs/article.sty
+Document Style `article' <16 Mar 88>.
+(/usr/local/lib/tex/inputs/art10.sty)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+) (/usr/local/lib/tex/inputs/9pt.sty)
+(/usr/local/lib/tex/inputs/psfig.sty
+\@unused=\write3
+
+psfig/tex 1.9
+\ps@stream=\read0
+\p@intvaluex=\dimen99
+\p@intvaluey=\dimen100
+) (eq.aux) [1
+
+] (eq.aux) ) 
+Here is how much of TeX's memory you used:
+ 388 strings out of 4158
+ 3590 string characters out of 53017
+ 35208 words of memory out of 262141
+ 2589 multiletter control sequences out of 9500
+ 19893 words of font info for 75 fonts, out of 72000 for 255
+ 14 hyphenation exceptions out of 607
+ 16i,5n,15p,160b,76s stack positions out of 300i,40n,60p,3000b,4000s
+
+Output written on eq.dvi (1 page, 3568 bytes).

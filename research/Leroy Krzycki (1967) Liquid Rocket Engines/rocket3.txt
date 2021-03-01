@@ -1,0 +1,559 @@
+ grcater than six inches in diameter; wall stress is a function of
+diameter, and at high diameter.
+
+Gaseous Nitrogen Regulator
+
+	The purpose of a regulator is to maintain a constant pressure
+on the downstream side of the regulator as the pressure in the gas
+cylinder on the upstream side decreases . A good quality regulator
+will maintain the downstream pressure quite accurately over a range
+of gas flow rates as long as the upstream cylinder pressure does not
+decrease too close to the downstream pressure. Thus, all the gas in
+the cylinder is not usable since some excess pressure (hence, gas) is
+required to drive the gas throtlgll, anci lnaintain control of, the
+regulator. The f low ratc of nitrogen gas required to forçe the
+fuel from the tank is relatively small and coula be llandled by a
+regular gaseous oxygen welding regu lator equipped with nitrogen
+cylinder fittings. }low ever, most welding regulators do not permit
+adjustment to tlle high downstream pressure required for rocket engine
+operation. A number of commercial firms (see List of Suppliers)market
+regulators for non-x.«elding purposes that are admirably suited for
+fuel tank pressurization. Especially attractive is the Grove Mity-Mite
+regulator with internal regulation. Inexpensive, special fittin,gs are
+required to attach these regulators to the gas cylinder. These
+fittings sre avai lable from several sources (see List of Suppl iers)
+.
+
+Gaseous Oxygen ReRulator
+
+Ihe discussion of regulators for gaseous nit
+
+. . ,, • — , „
+(}rf. n l!iO, ('xl'f'l)l tll.nt t1]f' r( fi fi11at.,r <il,,„,l.! 1„ 'ilB('t'i.|11)' C1('.nl}f'd f(Mr o:yl(ll {;(rviCçX :Znfl,if T)ossilwlff}, metal-lo-melal se.nts shotlld h(8 tlse(l witt|í tl t !|(* t e>y ll 1 .n t l)r . 1t(b)tWX t .z t (>r mnrltl f ?C t ttr('rS S}l()tl 1 ( he cçsnslllte(t ror rebcoXtnllXsllllatiolls nn stat r,ltor
+ials [or tl!;f' x.'itll (t,l':fOtt': f)''\'gftl irl tlleir rep,nlators. ';llçcinl fittitlpz; for att-)cl)irlst tlle r{>;ul.ltor to tlle •!-'\s't'll (\'1 i!lf!f*r *?rfi ltfnil Xizle fr{>t 11(| f;()llre (|!; !;tll}l) l }> i rls- 1l i t 1, |l«l 1] ( *. I i l) If r f i t t i !lst 'i 'llle|S(b Sotlre r|!: ( ;lll :|1 f:f} * tllçl>l N ( x l illfs# r rU.nr|i fX)1d l<its so tllat lxvo (!r llzstl ç5-Xl#l} Ç.!itl#!Xr«; (ar E)e lls(8d simtlltaZl(oZlt.lX 1,) :ltlli# f8 IX>rR¡t çW«X ing rtlrz dt.lratiorls .
+
+I'ropc ] I an t (,oll t ro I V.n I s.r •
+
+Tll(' Pr()l)('l 1.2lll ('()lltrf)l '/.q1'.'f'' ,tl 10',, t!1f oper
+alor to start alld tl]l n n;llltT.nl 1 í-Cmote -control t1l(' [lot} Or ('aC'll l)rO})f'} 1.|l1t irltO tlle rçrcl{et rns<i n • . l ll{ s r- v a I v • Ç I) f)t l I f 1 6) f ' S t t1 i 111 (' S S S. t f' (' I n ç dl( valvcs x.illl Tçíloll l.;lcl ing or s(.nls. Isan) Wlnllllfa<:lllrCl-s lllnl{( tlli; ltillçl OF valv( ( .l c T.ist of SXlF)y}licrs). Ihe Z|l\.te for 1a-ee1lS o:ygon shoRlld he larg/f r lllan ll|e valve ror the fnel line. ICnr,ill(|s of lhe s izçb discll;sed in l*N:.nmsvle l)csign C.n]cnlation llollld tlS( a 1/4-incll ftel valve (tllat is, I/gJ lN'alional l'ipc Tllrcad line size) and a l/2-incll o.-ygen valve. Tllc tubing actnally cntering, an(1 leaving, the valves nced nnt be this large, I)ut tlle valves themselates shotlld lze as indicated to affor(i a range of flew control wi th minimtlm pressure (Irop across the valve. Since these valves control the flot of prolzellants, tlley shollld be mountcd ncar the tanks and eny},inc on thc test stand, and operated remotely hy means of valvc stem en:tensions (see discussion on Test Stand).
+
+Other Valves
+
+Other valves required in the feed system in
+ clude the fuel tank vent and fil] valve, the drain valve, and the nitrogen purge valve. Inexpensive, high Sn;Ml)li(]r#).
+
+Check V.-E lves
+
+	Check valves permit fluid flow in on«direction only. They are widely used in tll«a aircr.nft and hydraulic industry and are manufactxlrcd by many companies. l/4-inch line size is recommrnded for all functions sllown in Figure 10 with tllc exception Of tlle gaseous oxygen line check v.n^lve wllicll should feature metal-to-metal seats and be at least 3/8inch line size. Check valves shonld be thoroughly cleaned prior to use and tested to insure that tlle check is working properly.
+
+Relief Valves
+
+
+
+	The fuel tank requires a relief device of some type to prevent tank failure in tlle event of over-pressurization. Wa|ile this is high desired.
+
+	Fuc1 illjectioll hol( S <un !:nla 1 1 1 iqni d - ftle] rocket engillcs are easilv ç>lU~~~~S>s(i witl~~ contarjllats from tbe fucl talik -lnd colltrXrl sNster. A lu«l íilter whiclM can liltsr out Pnrticles ff0'.Tt tfn t(8n mierons ill siz(b is biglalv rfss<!rTrent2cfl and \.'ill !:aVt' tbe .'tTt}.-ttt'Hl- }„lil,lf\r rrllfl! [Prief x:llfn 'lt'l'l*']l t('St inl' i'; stnrtf|tl. Sçe f ral rfr ccrnx ra'K ^ f T 1l l f i lt« rt f;Xlil,ll8ll^ fr|1 rf^l lw«|t çt8):irlr f¡ (
+
+.:\ -t 1 r11'; (sl (| 1,i f:í 1'1 ';|lí'l'I i{'I'' ) 
+
+I I f'';!itll t' (..nIIfi't'!;
+
+tlfbl, f}X)'['('II, 1,;IIX|r av1fl tç118l))lf;2 i<'Xl c!larbfr
+
+l)rf>ff;ç;Zlrf& ar(b (jr;«;f llt i:11 Ilç@af ttl-(le{ llt s íl!r rrc>« t
+
+('ll7,illv Ol)er.'ttiOn. §\uOrçltul-tllllfi l)rt'';(dlre l,f.ll]f,{{S
+nrrer a<cnr.l(v, rnplXflns ;;, I(-; cç) t, arf! a ai;;I})ilit)r for t}l js rtfltlirfllldlt. rl,lB,tl'(',lS rnnvXfacturers make tlXese P.n|lgP!i ill a bt':.'i l.l(bring varietxw Of styles, sizts, .an!l [)I'iCf''-;. P,ronze n,l>hrçln-n llllres al-z) rf}(f)nlTXl(|nd(8(l ff illt^f8 tllttXs arçj flll ]v cf8rrçatil.le (>/1Z(}11 e }{>;llls8(l) vlilll F,lscbçzXlÇ o:N»gcn or }y(lrocarl)oll [Xl(bl an,l fIre ';(l wifl(^l a* llseCl t}?nç Signifie;l„t eost S.nVil)>tX are V)ossibln.
+
+	Fimal I (2',. or 3-incll di,nnaeter) biptll F)rcssnre g.ltl¡,es simi lar lo tllç)se u«;eçl on o: gen: eldinr
+
+reglllatnrs sbolll(l hc use(J by the aTn~~ttcltr lrnild
+zr for measurillg y)ressnre in tllC higll pressure
+
+gas cylin(l(rs or mJnifo]cls. Illese l0S-tns;Cs can he
+
+f btaine(l Irom a wel(iing sn[)l)ly shop.
+
+	cattges for fuel, oZyg(n, x.«.ttCXr, tn(l tonhustion cllambcr pressure sllonl(l he at least 3'; incb diam(tcr for easv readinp, from a (listance. Ilre 3'" S\caloy gatlges of llelicoi(l(see List of SllPpliers) are rccommen(le(l hec;ltlse of llleir reliabilitN and low cosL. Tllese gatVg,es are casil> pancl mollnted and make a neat test st.nn(l installat iOIl.
+
+Plumbing
+
+Plumbing refers to tbe flolZ tuhes and fittings
+ t|s(Ed to collnect tlXe components discvlsscd previollslv. l/t|-inclí (liameter stainless steel lXlbing for tllo ffXel and nltrogen systems aíl(l 3/8 incll (liam(tor stninless tubing for the oxyg,en line are rccommended. Flare fitLings iviLll mctal Lo metai s()ats are also recommended for joining llle t|ll}ills> to otller components. 1/4 and 3/8 inclM Mlinmeter col)y!cr tvlbing can also be tlsed for tlle fuel, ox!gen, and nitrogen stlpply system bllt is not as dtlrable as stainless stecl an(l is more casil! dalared. Tllc amateur builder sl)ozll(l lXsc olllN good fiaring tools and shollkl fol-n) or bcn(l tubillg onlX witll a tube bender. Wllere tllhc fittings screÇv into fuel tank, valve, or otller components llavin^ l pipe threads-, t}]e tlS( Of leFlor tape on tlle tllreads is recommended. No olllcr pi[)e threa(l compollnd should be use(l, esp((ia11> on gas(otls oMygen coml)onentS.
+
+TEST STAND
+
+	llle amatetlr roclcet engine tesr stan(i is a strllcttlre wllicll incorporates a metllod for firml,r mollnting Ll)e rocket engine (preferably in a nozzle doxm aLtjttl(le), a mounting for tlle propellant tloz.« control needle valves, the fuel tank an(l associated plumbillg, and the oxygen and nitrogen cxlinders Rvitll regulators and associated plumi)illg. Tllc ol)crator's station, wllicll is reall> a [)art of the test stand, sholS]d be physic311X separated from the test stand proper by at Icasl: 20 feet, witll a shrapnel barrica(le betx-eln. llle operator's station should contain tlle control valve extensions,the ignition system hatterv an(l associatecl switches, and a mirror s\stcm so Ll]aL tlle operator does not directly view tllc operating rocket engine.
+	ll}e greatest llazard in testing small rocket enoines is from sl}rapnel in the evellt of engine explosion or disint(l,ration. Therefore, tlle test Stall(l prOp('r SllOtlttl l)C' ;uitably harrica(le(l to redllce sllralnol efreCt in all directions.
+
+l'igtlre 12 sho;;s schemntic.nllV ílle Prorwer ar
+rnn)(m(llí oF coml)nn(Xllt!g for a -af{ roCl{t çnpine t( t z;taE1(l. 111eb r(,(k(t ^rlr,ill( is sCl)nrlte(l from
+
+tlle prol)el lntlt fl(!\.,t C(.tlt rol v.nlvfZs 1)NE a l/8-inc}l tlaick :t((1 I)arrjen,lf. 1l}e çns«inl! ifirrll. att,1C}leX| tf5 .| St8ct jOtl Of sfllel (l]nnllel ill t}le noz
+
+:.1ç (101a1 In(^sit i()ll. l'l»iS ifi thf safX St oriçntat
+
+iOIl f(}r a I if l"id-[ttç.l rO( >('t etl}'itle Sit15e excess
+fllel9 irl t1Xo evltll oí .nt1 ilnitiX)ll Failnre,sim„lX
+(Irains Otlt tlle XElpine rloxzlf. ltt; srls;ine is
+monllte(l high no
+flame Clltlt{ or •.tlX,V- (.t|l.1icnlXd ç/I|attsl dcflect
+or fixttlre is r(flll;rf,l. 1I,« ((l,l)r( ;>efl pas c l
+in(lers (011(' nitlogt-tl illlfl ts'(1 O*\.0t,erl) are mollnted
+aL lll(- rear of tll, t, E ;ean»l nn.l are sçparated
+from tlle control ltalv> cotlpnrtr(nt h) a-otller
+5arriCa(l(' m2fl(' fr(nn Otl(*-itlC}I Cl}ick ^)ls»woocl. The
+nitroptell anfl ovyf(ll rfgtXl1lsrs- are rotlnted cn
+tllis plywoo.l t)arrj(a»lt :ll,O\e tlze cylinders. In
+tllis manllXr, (\X.eEl,l/fl (NliWl.l(rs ma> he replaced
+vZilll ell.lr¡(d Cflinfl.r; t!it}|onk d istnrhing tllc
+rellllators (.r ^}lllml);rl), A formXfl [)ioce Of sLain
+§ >sf; st |fsl •tllZill>, >)(]tx„f*(bn lll(| o:Z)g,(>n manifeld an(l tll( oxçv^)(n r(g>nlat(}r all(l a similar piece of tlll)ingll)(>tw((n tlle llitrop,en cylinder and its reg tllator are r(moved (itlrin>^ Cvlinder excllange, and tI}(n reConn(cte(l. l.iTl(>s sllólll(l alxaNs be capped xvllen not in use to pr(v(}llt entrx of dirt and olller foreign ohjects.
+	llle fuel tank is mo(lnt(;<l betW-een tl]e forxard steel harricade all(l t1}f rear plyv:oo(l barricade on a metal cross-piece attaclled to both barricades. l}le tank i.s mollnted in tIXe vertical position witll t})e liqui(l ot]tlet at the bottom.
+	The propellant flow control valves are mounted one atop tlle Ot}ler in a metal hracket wllich is attached to the forwarci steel barricade.Panel mounted needle valves are recommended since they facilitate mounting in t6le manner deseribed, and do not place mounting or operating stresses on the propellant flow ttlbing. Valve stem extensions, made from l/4-incll pipe permit operation
+ Figure 12 Test stand for small I iqllidftle] rocket engines.
+
+Of tlle control valves from t11( ol}cralnrfs rcmol( stntion, wlli(lw is loCntlel nt Iç1 t •:X-t leEt from ll}e t(st slalld prol)cr. I'rcssllre ^«nllges for tuel tank pressure oVxgen line pressure, coolillg waLXr e.it pr( sllr(» .nnl colrbu tion cl
+
+aml)er pressure, artX n)olllltefl in a pancl WlliC}| i s
+attaelle(l to tllc fnrv:;lrll nnl rfX.nr hnrricar!S a- ' wllicll faees tll( op(r.ntozzs renot( station.
+	Conling water l-nr tlle rocket engitl{ is brnug!t into a IIOSC coupliXlg .1llacb((l trs tll{ stanc!, -it
+semi-permanent pltlml)ing bftW((n tlWe collpling and tlle roeket enpine. I'at(r flox.ing from tlle cooling jaeket slloul(l bX (lirzctr(l av:a Irorl the engine or ean be direCt(-d dow)xZ.Rrd onto a 3-incl cleep laycr of coarse storles laid bçneath tlle roeket engine exl.allst. Tll(z;c stones will prcvent tlle engine exllatl;¿ rrom picking up dirt and dl]st; tlle water will cr.ol tlle stones and evtend their tXseful life. llle jet of eooling water can be observet3 by tlle opcr.nlor as an indication tllat cooling wattr is acluallN ftoi:ing tllrotn:' tl]e engine.
+	The test stançl propcr sllould baZe a framsÇ:nrk made from weldX-(l or holte(l stecl anglí. TlXe forward steel and rear plyN.^oo(l I)arrica!le are bo!tt(l to this anrle frame.Zork proSi(ling ri iditx arl.! stren^,tll. llle test stan(l s}lould eze firmlN attael}ed to tlle surface Of tlle tvst are3 eitller hX ho]ting to a concretc paXl or hj •figlling f!o.m witll san(l bags or concrete weigtlts.
+
+SAFETY
+
+	lsecatlse of the pllysicnl llazards inXol e<3 in llandling propellants and eontrollinr higl] pressure eombustion proeesses, eertain clementarX safety precautions must be observed in static testing of rocket engines. During tlle dcsign, and later,tl]e operation Of amateur liquid rocket engines , the following p,encral safety prccautions shou1d be observed:
+
+1. The operator should be protected by a suitable barricade located
+some distance (at least 20 feet) from the test unit.
+
+2. Control of valves (during engine ignition and steady-state
+operation should be by remote means which for amateur units is
+best achieved by manual control of needle valve via valve stem
+extensions .
+
+3. A large chemical fire extinguisher (or, at least, a plentiful
+supply of water) should always be on hand.
+
+4. The operator shOuld not view the test unit directly, but should use a mirror arrangement (somewllat like a periScope) or use a thick layer of reinforced safety glass attac}led to the operator}s barricade4 REMEMBER, the primary danger is from skrapnel in the event of engine
+explosion .
+
+5. Separating of fuel and oxidizer storage reduces the fire and explo8ion hazard and limits the amount of propellant stowed in any one area.
+
+ó The test stand tlnit should be barricaded on several sides to redtRce shrapnel effect in event of explosion.
+
+7 Valves,pressure pauges, and other componentS wllich directly sense fluid properties should not bc located in the °Perator's station, but sllould be on the te.ct stand and remotely read. This rule does not apply to electrical instrumentat
+ion wherein a transdtlcer is located on the test stand and an electrical readout(such as a meter) is located at the °Perator's station (this type of instrtlmentation is very expensive and is beyond the reach of most amateurs).
+
+8. .¿.|,-ll i t88> ~~w § g.n.a w s <ll()l, l <t bcW r i vcn Tar i or to t f*f l S ("r x^/ll«»llf*Vfsl' 1'.1'; ('','1 itl§(r valwZf ^; arf@ op{»r5) l t~~ tlOl i [ y l}«Wrsf}llllfX | t ll ll l l jf al-fWa i S }sazar{]o„f; .
+I\ test rnlst t I Vg:R br c-ofl Zu( l(d llnt i I the nperat
+
+f}r l}as assllr(t{l llilll{#¡lr tll4nt tnll TBfbrsonrlel arc
+
+#%llit5(l saf(|t)t lnalrie:l,l{Wf f|r {)tllçrt.-isrt prOtectfa4l.
+
+'). PerSOnllfbl Sllf>lllfl 1)( !}('ltli(E{(l t(| v:Ot-k in t!l
+Lest arca onl)t ir f|z« l :nltl .• i,; -{ t- ,qt-r> f t P.Plrat
+
+(](l ,lll(l n(>t- l)r(b!sFtlr i, ffie| .
+
+- 1(). Persol]llel ball(llillWs pl„ljX|ll.nrí Sll('|lltJ w(:ar SafetY C|qtl;Pm(&nl !;tICII .1!; ss1(l;f, f.nCf :Tlields or ruhlçer al)rons. R(nf T-l8(bl- tII|It na{)f:l fUfsIS are to: ic; do not l)rs.ntl çw rt|f l .a1^ }r: f r {-sen a
+
+11. No smolcing i -: ev( r l)( rri t t f d atlyg:b( z c near a test area wllcn prol)( ll.al]l !; ar( al F0 l)reSellt, Rcmcmher vapors rrç3tn b fdloc;lrbt n flleIs (s lcll as gasol ine) can tl-avel l(8!lg (I i ';tanecs from the test area an(l can be ilfnit((l at a rl:nnte point
+travelling back tn tl,~~W t(8-)t stanf«.
+
+12. A cl)eck-off lisl is l]rlPftll wllen condllcting a rockct en) ine firilzg .Xnd sllould bc made u
+of hotll tecl]nical events anCl safetx itens to be con]pleted prior to tlle firinr.
+
+ENsINE CHECK-OUT and CALIBRATION
+
+	After tlle rocket engine l)as beerl faL.ricated. severa] clleck-out tests and flow calibrations slloul(l be made prior to testing witb lixte propellants
+
+Leak Testing
+
+	Connect the engine cooling jacket to a readily available source of pressurized water (such as lawn or house supply; pressure sllould be 50-100 psi witll no flow). Attach a pressure gauge to
+ the outlet port of the jacket and open the water valve, allowing water to fill the jacket. Observe the jacket and engine for ] eaks . there shou id be no leaks .
+	A similar pressure check should be performed on the fuel manifold of the injector. Since the in jector face is not easily blanked off, PX rfortlM this test by flowing neater through the in ¡( ctor. Use a f i l t er i n the va ter line to avo i (l p I vXgç i ny the small fuel in jection holes. IJss a pl f srf gauge attached to the water line as near t o tll. in jector fuel entry port as ¡ ossil)ls . fll( r
+should he no 1 eaks .
+
+Flow Calibration
+
+	The water flow rate through the engine cnoling Jacket should be determined for various inlet pressures. Use a bathroom or other avai table scale to weigh, in a container, water flowing through the engine over a timed period. Water pressure can be measured either at the entrance or exit of the cooling jacket. Attach a flexible hose (garden variety will do) to the outlet of the cooling jacket and start water flowing through the jacket at the desire» pressure. IvlZen steady flow has been achieved quick1>t move the hose outlet into the catch container for a period of 30 seconds, then quickly remove the hose from the container Use a stop or sweep second watch for the timing and be accurate! Obtain the net weight of collected water by subtracting frown the weight of the filled container its empty weight. Divide the net weight by the time during which water was collected and the result will he water flow rate in lb/sec. This operation slloulci be repeated several times at different pressures to obtain the flow characteristics of the coolant jacket. If insufficient water pressure is available to achieve the design water flow rate, check the size of tubing or hose used between the water source and the
+
+engine; it may be restricting tlze water flow ratr. Check Also the size of the flc> :ihle o ltlct hose uscd. If these t( sts show that greater pressure is required to act ievc tlle desired f lot* rate, a diffcrent source of cooling water eras be repaired. Under extreme con(litions, an air-presri7ed cater tank or a moCor(lriven pump may be efplirsXl- Another solution is tç5 disassemhle t1„ (nstine anCl re-hore the outer shell to open "I' the vlattr flow passage. material should r:')T . rX move(l froln file c()ml)Vl!.t ion cllanlrer-nozzle.
+	IDIOT! rate tests r}f the in Hector, using water, c;ln he pV rforme(l ¡„ a manna r siXni l.nr to the ce>ol ills Sztsrc-^ alilZration9 znltl|C}}lpwl, their çwortl] is fplt'!'t iOUnl)le. Floe Çlnw clXar;R( tcrist ics •.f Mater alla the h!(lrocarl,,zxl fuels a e cli f(erellt so that z Eater coal il}rat i()ll is not directly cf}ml)arable ts> what wi 11 occclt whorl fllel is usefl. llor:et!er9 the pressure clr>„r refltlire(l to f Ic)çl a given q !ant itv of Wal or wi 1 l provide sonle indication of lZow c ]osely •les;gn olr jcceives wer> achieved.TIlis ttst should hi- coll(lucte(l in the same canner as tlZe cooling water calihratil)ll test except that the flow tine sholll(l he long enotlr)ll to accur 1late at least ten pollll(ls Of Water.
+
+Test Stand Cl]eck0tlt
+
+	liken the t( st stand an(l operator ' s area are completed and Components installed tests should lze condtlcte(i to determine that no gas or l i fluid leaks will Occur xrl]en actual propellants are used Fi 11 the talllc with clean water. Cap off the fuel and Oxygen lines where thev x>ould normally attach to Ll]e engine. Pressurize the sxstem to 100 psi and check for leaks. A soap solution can be used to check around all fittings and seals. SOap hobbles indicate the presence of a gas leak . I f no leaks are present increase the pressure to 200 psi and repeat the clctection procedure. Continue this procedure until the test stand operating pressure is reached and no
+ leaks are present. Depressurize the system and refill the fuel tank witll clean •at(r. Att.ncll the rocket engine to its test mount and connect all tubing. Presstlrize the stand in the normal manner and practice the ignition an(l ol)erating, sequence using water as fuel (gaseous oxygen cnn safely he usc(l in these tests, if desire(l). If no leaks develop, empty the fuel tank of water and dry Cry r I ushillg wi th nitrogen Fas for several
+seconds. Tlle engine and test stand are now ready for their first hot firing.
+
+IGNITION and OPERATION
+
+	Discussion of propellant ignition has been reserved until this point since it is really a test stand function and is required only for actual operation of the engine. Tile propellants used in amateur rocket engines require a separate source for ignition. Because the engines are small, the use of an engine-mounted spark plug is not generally feasible. Even if it were, the ignition of incoming propellants in the combustion chamber by a small spark plug is clangerout and unreliable. Propellant timing is extremely important in a bi-propellant liquid rocket engine. An excess of either propellant (if both are liquid) in the combustion cl]amber can lead to severe over-pressure upon ignition (known as "lZard" start) and possible fracture of the combustion cllamher. Tlle amateur engine using gaseous oxygen is not nearly as sensitive to hard starts as if the Oxidizer were a liquid.
+	Hundreds of tests with small liquidfuel rocket engines employing gaseous oxygen as the oxidizer have indicated that llot-source ignition provides excellent propellant ignition characteristics, and drastically reduces hard starts. Hot-source ignition works as follows: two lengths of insulated #16 or #18 solid wire are taped together and their exposed ends are bent to form a spark gap of about 3/32-inch. A small
+
+fs), tllc wires very nçar the spark tar btt not ol>st r uc( ins i t . 'all i s igll i t ion asseTnhl y i P. lulslXc(:l tllrou&lz the nozzle into the combllst ion c!laC,hsXr OF the rocket en)PilMf% .szz ll|¿lt tllf' sl,arlt gag> is in the lower # rid 0§ the c(>lrbusLion cltasrher l)ul not blocking the nozzlSX throats Tlnc wires olllsislc tllc en^!,ills» are }1(}r1t r)r t,a1,{fl If5 llf}l(l tile ignition assembly in posit ion tltlrifll tl)e ir„lition pllase. The tree •r:ds (%f 11 e tt:n wires are attached to the spal k t;O)nl Ale (;R I Or d yodel -T spark coil is ideals for tbis TlUlr)O';t'). Fil'tJre 13 details this llot-soEXrfe igniter. The ignition procedvll-e, after the tc;t st;lnd is prepared for firing is:
+
+Figure 13 lXot-source igniter for small liquid fuel rocket engines using gaseous oxygen oxidizer. Ignitor is consumed during each use and must be replaced.
+ l . The operator ascertains that the area i s c tear and ready for f Bring.
+
+2. The operator checks operation of the spark coil and then disconnects the coi l from the hattery for safety. The battery should be at the operator @ s remote station.
+
+3. The ignitor cotton is soaked in gasoline or kerosene .
+
+4. The ignitor is pushed through the nozzle into the combustion chamber and secured.
+
+5. Gas cylinder valves are opened, the fuel tank is pressurized, and all gas pressures adjusted to operating values.
+
+ó. Cooling water is allowed to flow throttle the engine at the proper rate.
+
+7. The firing bell or horn is sounded. The spark coil is reconnected to its battery.
+
+8. The oxygen flow needle valve is opened very slightly to allow a very small flow of gaseous oxygen to pass over the ignitor and out the combu s t i on ch amber .
+
+9. The spark coil is energized. Inside the combustion chamber the cotton igitor should immediately burst into flame in the oxygen atmosphere. The operator may have difficulty ascertaining that the cotton i s actually burning although small flaming bits of material may be ejected from the nozzle.
+
+l0. The fuel control needle valve is now opened very slightly to allow fuel to flow into the combustion chamber. A flame should immediately appear at the nozzle exit and a low whistling sound shou ld be heard .
+
+11. The oxygen and fuel flow rates should noV i)e rapidly anal simultancotlsly increased by or)eninr the control needle valves until tie comF)ustiOIl chamber pressure gauge indicates that desired con(lit ions Exist in•;i le the elbarher.
+
+12. The operator wi 11 nt f d t0 ju 'ze whether more or less ()Xyp(ll is rrelWlire(l for desired O/F ratio operation. >fore oxy) en is rep sired if the exhaust is bright )Fel lots or crf k . (this is an indication of unl)urnc(l carbon itl tll(' ( xl1aust); i f the exhaust is transparent or Maui 1X the oxygen flow should he de creaser s1 ight 1. . She correct mixture ratio is achieved When tb# e xhavlst gases are transparent (or nearly so)hut the supersonic stan(l-ing shocks (loach diary Al ls) in the exhaust are clearly seen. Rennenil)or that as Votl vary the fllel and oxidizer flops you are chatlvilzg not only the amount of material passing through the engine but are also affect iTll' the temperature of the burning gases. Both Of these effects will affect the combusl ion (II 1Xnller pressure.
+
+13. The noise from the engine will he quite high .
+
+14. The operator shot1l(l have a tinner or have someone time the engine run. It i s quite safe to simply let the engine run out of liquid fuel. The gaseous nitrogen pressurizing tine fuel tank then purges the fuel supply sN stem automatically. The engine will abruptly stop operation and the operator can then turn of f the f loXv of gaseous oxygen. If the engine is to be stopped prior to fuel depletion the fuel flour control valve should be quickly turned off, followed t}y opening of the nitrogen purge valve. After the engine has stopped operation (thus assuring that the nitrogen purge has forced all fuel from the engine ) the gaseous oxygen valve may be turned off. The
+ nitrogen purge valve is closed, tlXe c5 1 ineler valves are c loscd, an(l the fue I t anlc V ( l1 1 va l vlis opene(l. Tlle OX)'f'(Ul line is vt tlt « (1 I.y 1}r i/ l 1! opening tl1c oxygen flow need1e valv(-. WatX r should be alloweel to flow throug11 the cns ins cooling jacket for several minlltes .n rte r rzln termina t ion .
+
+l5. In the event of engine failure, tlXe sllt!tdown sequence de -ai led in (14), a1rove, sholl 1(1 1)ZZ folloWed. Always sht1t-off the liqui(l flle1 í irst . If engine metal parts are burnin,g, also inrlX (li ately shut-off tile flow of gaseous nx)g,en (met
+will burn vigorously in an oxygen envizo1lmel1t ) .
+
+16. A new ignitor will be required f or encl ignition attempt or firing. The igni tnr asseni)ly is partially consumed during the igllit ion process and residue is quickly blot.nl frc!m tlle combustion chamber upon ignition of tl1e ] if luid fue I .
+
+17. Always inspect the engine and other coml)onents for damage, appareat overheating or l]ot spots prior to anotller firing.
+
+18. Some engine designs may exllibit combustion instabí lity(ch1lgging, chuffing, erratic coml)ustion, etc.) at low chamber pressures or low fuel injection velocities. To avoid t1}is problem, the oy)erator sllould rapidly increase the chamber l)ressllrc after initial introduction of tlle liq„i tI r,l( I .
+
+	Igni tion and operation of small liquid-fuel rocket engines in the manner described offers tlle amateur a relatively safe and interesting activity. Tlle operator will quickly discover and use many procedures to improve engine and tes t s tand opera t i on .
+	After acllieving initial operation of the engine and tes t s tand, the amateur can hegin to
+
+. ., . \ _ . . _ . .
+cnnsider methods of mcasurinf enç ine tlXrust,detztmi1lin^t tlXe lleat lransfer to t}l( covlin5 ater, ;llld notI1l^) tlle clXaract( ristics of the rocl/et e1lgine exl1atlst. Pllotograplly of tl]is e:<lZaust is a definite clla11enge. - As these adrlitional feat11í es aí-e added to tlle expe rimertal Set-tJp, tl)c .nllt(lXr sl1o|lld always keer) safsty and iafe oy)zçr;1t ir}l« ç)rX)CX lltres forernost in mirlrt.
+
+THE LAW
+
+	Ill( re are nn lZnorvrl laws 1)rollil)it irly« tI)c (lesign •)r co11strv1( tiOll Of roCks t cnr>itltSt rocket ve01icle; s)r accessoí ies, in tlse 1Tnited States. §lowcver, c(rtai1l conrntlnili(!. (io llnve laçZ; yaroi)ibit:ill^ tl1çb olzsration of roCkf t nzXltors or er1gines or tl1e freo f I i>>llt of -ro( kel -F)oW( red vel)icles. I rior t{) ac1ua1 Iv S irills .a roe:ltet erxginc the eu?ln1etlr h1li 1(11 r sl)ctlld mnke certain tllat lle is not vfolnting estah1 isl1ed orclinanees. If ordi
+ te stinl«	a
+rernote	Si^o
+
+nallces proll i h i t I oca I may be nee(led.
+
+Tlle amateur bllilder
+ a rocket	
+engine	ever
+
+	sl)oule3 keep in mind that _.. n a small one, is an extremely noisy devlce. If local ordinances permit testineg in a pop1llat-cd area, the arate lr should consider tllc cffect of engine operation on his neig1}hors before the initial firinE. Ille noise of a rocket engine comes from thc shearing action between the high operation.
+ BIBLIOG,RAPH Y
+
+	The reader is urged to consult any of the following books for further information relating to rocket engines, materials, or design.
+
+Rocket Propulsion Elements, by George P. Sutton. John Wiley & Sons, Inc., New York, 1964.
+
+Design of Liquid, Solid, and Hybrid Rockets, by R. L. Peters. Hayden Book Co. Inc., New York, 1965.
+
+Elements of Flight Propulsion, by J. V. Foa.
+John Wiley & Sons, Inc., New York, ]9f)().
+
+Rocket Propulsion, by t1. Barrere an(l others. Elsevier Publishing Co., Netherlands 19(().
+
+Rocket Encyclopedia Illustrated. Aercl l'nbliX:ll(br. Inc., Los Angeles 26, California, 1959.
+
+.
+
+, .
+Thermodynamics, by Gordon J. Van Wylen.
+John Wiley & Sons, Inc., New York 1959.
+
+Fluid }Jecllanics, by Victor L. Streetcr. }lcGraw
+Hill Book Company, Inc., New York, ]966.
+
+Heat Transmission, by W. H. McAdams. McGraw-llill
+Book Company, Inc., New York, latest edition.
+
+Design of tlaclline Elements, by M. F. Spotts.
+Prentice-Hall, Inc., Englewood Cliffs, N. J.,
+1955.
+
+Mechanics of Materials, by Laurson & Cox.
+-John Wiley & Sons, Inc., New York, 1955.
+
+Stainless Steel Handbook, published by Allegheny
+Ludlum Steel Corp., Pittsburgh 22, Pa., 1959.
+
+Alcoa Aluminum Handbooks Ptlblislletl b5 Aluminum
+(omPany of America. PittsbVlrçll lit. 1 59.
+
+Alcoa llan.lbook of Design Stresses for Aluminum, pulvlislle(l by Alumintlm Company of America, Pitt shnrglX , lea ,, l or)f) .
+
+}latllcson (,can«pr(|ssrcl (:zs D;lta f5ook, [çllblishe<d by
+t!atheson, r. n. nix 85 I:ast Rntl erfnrd tX. J.
+l 9fió .
+ LIST of SUPPLIERS
+
+	The following list of suppliers ifi not complete since there are literally hundreds of companies in the United States manufacturing items of interest and use to the amateur rocket engine builder. The reader is urged to consult his nearest city's telephone book Yellow Pages. Illustrated catalogs can be obtained by writing the companies listed below; ask for a current ~ and the name nf the nea-v<F <llnnl ipr
+
+Regulator s
+
+Grove Valve and Regulator Co.
+6 529 Ho 1 1 i 9 Street
+Oakland, California 94608
+
+Victor Equipment Co.
+	840-854 Folsom Street	
+San Francisco, California 94107
+
+The Harris Calorific Co.
+550l Cass Avenue
+Cleveland, Ohio 44102
+
+Hoke Incorporated
+l0 Tenakill Park
+Cresskill New Jersey 07626
+
+Needle V a l v e s
+
+
+Dragon Engineering Co.
+Excelsior Drive & Carmenita
+P. O. 80x 489
+Norwalk, California 90650
+
+Hoke Incorporated
+10 Tenakill Park
+Cresskill, New Jersey 07626
+
+Repuhl ic Manufacttlring, Co.
+I Sf)55 lsrookpark Road
+(:levelanes Ol]io 4/142
+
+Robhins Aviation, lnc.
+3817 Santa Fe Avenue
+Vç-rnOçn, California ar)()c>q
+
+Circle Seal Products (o., Inc.
+East Foot}lill Blvd. 6. Cr.aig Street
+Pasadena, California 0ll()7
+
+Ball Valves
+
+
+llo1ce Incorporate(l
+10 Tenakill Park
+Cresskill, New Jersey ()7f.2fi
+
+Jamesbury Corporation
+669 Lincoln Street
+Worcester, !hssachvlsctts n I 605
+
+llydromatics, Jnc.
+7 Lawrence Street
+Bloomfield, New Jersey 07003
+
+Republic l4anufacttlrillg C°
+15655 Brookpark Road
+Cleveland Ohio 44142
+
+Check Valves
+
+Circle Seal Products Co., Inc.
+East Foothill Blvd. & Craig Street
+Pasadena, California 91107
+
+Republic Manufacturing Co.
+15655 Brookpark Road
+Cleveland, Ohio 44142
+
+Hoke Incorporated
+10 Tenakill Park
+Cresskill, New Jersey 07626
+ Filters
+
+Purolator Products, Inc.
+l000 New Brunswick Avenue
+Rahway, New Jersey 07065
+
+Poke Incorporated
+l0 Tenakill Park
+Cresskill, New Jersey 07626
+
+Microporous Filter Division
+Circle Seal Development Corp.
+P. O. Box 3666
+Anaheim, California 92803
+
+Relief Valves
+
+Circle Seal Products Co., Inc.
+East Foothill Blvd & Craig Street
+Pasadena, California 91107
+
+Hoke Incorporated
+l0 Tenakill Park
+Cresskill, New Jersey 07626
+
+Pressure_Gaug es
+
+Helicoid Gage Division
+American Chain & Cable Co.
+Connecticut Avenue & Hewitt Street
+Bridgeport, Connecticut 06602
+
+United States Gauge Division
+American Machine & Metals, Inc.
+Sellersville, Pennsylvania 18960
+
+Marsh Instrument Co.
+3501 Howard Street
+Skokie, Illinois 60076
+
+Heise Bourdon Tube Co., Inc.
+1 Brook Road
+Newtown, Connecticut 06470
+
+O-Rin¡ts
+
+Parker Seal Co.
+1050)7 Jefferson 151vd. 
+(t11ver City California t n2 30
+
+Minnesota Ruhl)cr (o.
+3628 Wooddalr Avenue
+Minneapolis, Hi nnf>srlt a 5 r)t4 I 6
+
+Crush Gaskets
+
+Gasket !LantSfactlXrirllw ('(-a., fnC*
+319 West 17th Street
+P. O. Box l5438
+I.os Angeles, California 9f)()15
+
+Spray Nozzle
+
+Delavan ManufactlXrirlp (:o.
+Grand Avenue & 4th Str(et
+West Des Moines, Tozsa 5()?t.5
+
+Spraying Systems Co.
+3265 Randolph Street
+Bellwood, Illinois ó()10'^
+
+Tube Fittings
+
+Parker Tube Fittings Division
+Parker-11anni r in Corp.
+17327 Euclid Avenue
+Cleveland, Ohio 44112
+
+Imperial-Eastman Corp.
+6300 West Howard Street
+Chicago, Illinois 60648
+
+Featherhead Co.
+320 East 131st Street
+Cleveland, Ohio 44108
+ Gas Cylinder Fittin]Rs
+
+Western Enterprises, Inc.
+27360 West Oviatt Road
+P. O. Box 9737
+Bay Village, Ohio 44140
+
+Hoke Incorporated
+10 Tenakill Park
+Cresskill, New Jersey 07626
+
+CONVERSION FACTORS
+
+	Multiply
+
+	Btu/minute
+
+	Btu/minute
+
+	Cubic feet
+
+	Cubic feet
+
+	Feet
+
+	Gallons
+
+Gallons
+
+	Gallons water
+
+	Miles
+
+	Miles/hour
+
+	Minute
+
+	Pounds
+
+	Pounds water
+
+	Square feet
+
+	Temp (°C + 17.78)
+
+ Temp (°F + 460)	1
+
+Temp (°F — 32)
+
+	hV
+
+	0.0235 fi
+
+	17.57
+
+	1728
+
+	7.4805 2
+
+	12
+
+	0.1337
+
+	231
+
+	To Obtain
+		Horsepower
+		Watts
+		Cubic
+inches
+		Gallons
+		Inches
+		Cubic feet
+		Cubic
+inches
+	8.3453	Pounds
+water
+	5280	Feet
+	1.467	Feet/sec
+	60	Seconds
+	16
+
+		Ounces
+	0.1198	Gallons
+	144
+	1.8
+
+Square inches
+
+Temp ( F)
+
+Abs. Temp (°R)
+
+Temp ( C)

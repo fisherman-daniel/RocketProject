@@ -1,0 +1,12 @@
+problem
+	rocket
+	equilibrium
+	p=20
+	pip=19.7433
+react
+	fuel=C2H5OH(L) wt=90 t,k=298
+	fuel=H2O(L) wt=10 t,k=298
+	oxid=O2 wt=100 t,k=298
+output
+	plot t p mach isp
+end

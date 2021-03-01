@@ -1,0 +1,109 @@
+DESIGN EQUATIONS
+
+	The following section will detail simplified equations for the
+design of small liquid-fuel rocket motors. The nomenclature for the
+motor design is shown in Figure 6.
+
+Nozzle
+
+	The nozzle throat cross-sectional area may be computed if the
+total propellant flow rate is known and the propellants and operating
+conditions have been chosen. Assuming perfect gas law theory:
+
+	At = Wt/Pt SQRT(R Tt/(gamma)g_c)	(7)
+
+where R = gas constant, given by R = R_bar/M. R_bar is the universal gas
+constant equal to 1545.32 ft-lb/lb(deg)R, and M is the molecular
+weight of the gas.  The molecular weight of the hot gaseous products
+of combustion of gaseous oxygenhydrocarbon fuel is about 24, so that
+R is about 65 ft-lb/lb(deg)R.
+	Gamma, (gamma), is the ratio of gas specific heats and is a
+thermodynamic variable which the reader is encouraged to read about
+elsewhere (see Bibliography). Gamma is about 1.2 for the products of
+combustion of gaseous oxygen/hydrocarbon fuel.
+	g_c is a constant relating to the earth's gravitation and is
+equal to 32.2 ft/sec/sec.
+	For further calculations the reader may consider the following
+as constants whenever gaseous oxygen/hydrocarbon propellants are
+used:
+
+R = 65 ft-lb/lb(deg)R
+
+(gamma) = 1.2
+
+g_c = 32.2 ft/sec^2
+
+	Tt is the temperature of the gases at the nozzle throat. The
+gas temperature at the nozzle throat is less than in the combustion
+chamber due to loss of thermal energy in accelerating the gas to the
+local speed of sound (Mach number = 1) at the throat. Therefore
+
+	Tt = Tc (1/(1+((gamma)-1)/2))	(8)
+
+For (gamma) = 1.2
+
+	Tt = (.909)(Tc)			(9)
+
+Tc is the combustion chamber flame temperature in degrees Rankine
+(degR), given by
+
+	T (degR) = T (degF) + 460	(10)
+
+	Pt is the gas pressure at the nozzle throat. The pressure at
+the nozzle throat is less than in the combustion chamber due to
+acceleration of the gas to the local speed of sound (Mach number = 1)
+at the throat. Therefore
+
+	Pt = Pc(1+((gamma)-1)/2)^((gamma)/((gamma)-1))		(11)
+
+For (gamma) = 1.2
+
+	Pt = (.564)(Pc)		(12)
+
+	The hot gases must now be expanded in the diverging section of
+the nozzle to obtain maximum thrust. The pressure of these gases will
+decrease as energy is used to accelerate the gas and we must now find
+that area of the nozzle where the gas pressure is equal to atmospheric
+pressure. This area will then be the nozzle exit area.
+ 
+	Mach number is the ratio of the gas velocity to the local
+speed of sound. The Mach number at the nozzle exit is given by a
+perfect gas expansion expression
+
+	Me^2 = 2/((gamma)-1)((Pc/Patm)^(((gamma)-1)/gamma) - 1)		(13)
+
+Pc is the pressure in the combustion chamber and Patm is
+atmospheric pressure, or 14.7 psi.
+	The nozzle exit area corresponding to the exit Mach number
+resulting from the choice of chamber pressure is given by 
+
+Ae = At/Me * ((1 + ((gamma)-1)/2 Me^2)/(((gamma)+1)/2))^(((gamma)+1)/2((gamma)-1))	(14)
+
+Since gamma is fixed at 1.2 for gaseous oxygen/hydrocarbon propellant
+products, we can calculate the parameters for future design use; the
+results are tabulated in Table III.
+
+TABLE III Nozzle Parameters for Various chamber
+pressures, (gamma) = 1.2, Patm = 14.7 psi
+
+<table>
+</table>
+
+	Ae = At (Ae/At)		(15)
+
+The temperature ratio between the chamber gases
+and those at the nozzle exit is given by
+
+	Te = Tc (Te/Tc)		(16)
+
+The nozzle throat diameter is given by
+
+	Dt = SQRT(4At/(pi))	(17)
+
+and the exit diameter is given by
+
+	De = SQRT(4Ae/(pi))	(18)
+
+A good value for the nozzle convergence half-angle (beta) (see Fig. 3)
+is 60 deg. The nozzle divergence half-angle, (alpha), should be no
+greater than 15 deg to prevent nozzle internal flow losses.

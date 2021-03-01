@@ -1,0 +1,58 @@
+SAFETY
+
+	Because of the physical hazards involved in handling propellants and 
+controlling high pressure combustion proeesses, certain elementary safety 
+precautions must be observed in static testing of rocket engines. During 
+the design, and later, the operation of amateur liquid rocket engines, the 
+following general safety precautions shou1d be observed:
+
+1. The operator should be protected by a suitable barricade located
+some distance (at least 20 feet) from the test unit.
+
+2. Control of valves during engine ignition and steady-state
+operation should be by remote means, which for amateur units is
+best achieved by manual control of needle valves via valve stem
+extensions.
+
+3. A large chemical fire extinguisher (or, at least, a plentiful
+supply of water) should always be on hand.
+
+4. The operator shOuld not view the test unit directly, but should use 
+a mirror arrangement (somewhat like a periscope) or use a thick layer of 
+reinforced safety glass attached to the operator's barricade. REMEMBER, 
+the primary danger is from shrapnel in the event of engine explosion.
+
+5. Separating of fuel and oxidizer storage reduces the fire and explosion 
+hazard and limits the amount of propellant stowed in any one area.
+
+6. The test stand unit should be barricaded on several sides to reduce 
+shrapnel effect in event of explosion.
+
+7 Valves, pressure pauges, and other components which directly sense fluid
+properties should not be located in the operator's station, but should be 
+on the test stand and remotely read. This rule does not apply to electrical 
+instrumentation wherein a transducer is located on the test stand and an 
+electrical readout (such as a meter) is located at the operator's station 
+(this type of instrumentation is very expensive and is beyond the reach 
+of most amateurs).
+
+8. Warning signals should be given prior to tests (or whenever gas 
+cylinder valves are open) to notify personnel that the area is hazardous. 
+A test must NEVER be conducted until the operator has assured himself that
+all personnel are behind safety barricades or otherwise protected.
+
+9. Personnel should be permitted to work in the test area only if fuel 
+and oxidizer are separated and not pressurized.
+
+10. Personnel handling propellants should wear safety equipment such as 
+gloves, face shields, or rubber aprons. Remember that most fuels are toxic;
+do not breathe fuel vapors for even a short time.
+
+11. No smoking is ever permitted anywhere near a test area when 
+propellants are alse present, Remember vapors from hydrocarbon fuels
+(such as gasoline) can travel long distances from the test area 
+and can be ignited at a remote point travelling back to the test stand.
+
+12. A check-off list is helpful when conducting a rocket engine firing 
+and should be made up of both technical events and safety items to 
+be completed prior to the firing.

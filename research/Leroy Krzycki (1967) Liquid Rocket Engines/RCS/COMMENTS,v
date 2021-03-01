@@ -1,0 +1,322 @@
+head	1.15;
+access;
+symbols;
+locks
+	rooster:1.15; strict;
+comment	@# @;
+
+
+1.15
+date	96.06.19.04.35.08;	author rooster;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	96.06.19.04.33.48;	author rooster;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	96.06.18.01.47.07;	author rooster;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	96.06.18.01.37.21;	author rooster;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	96.06.12.22.14.02;	author rooster;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	96.06.08.03.50.58;	author rooster;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	96.06.08.03.50.37;	author rooster;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	96.06.07.11.23.43;	author rooster;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	96.06.06.20.32.19;	author rooster;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	96.06.06.20.11.58;	author rooster;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	96.06.06.19.53.38;	author rooster;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	96.06.06.12.46.23;	author rooster;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	96.06.06.12.45.12;	author rooster;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	96.06.05.21.19.45;	author rooster;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	96.06.05.21.19.18;	author rooster;	state Exp;
+branches;
+next	;
+
+
+desc
+@webedit
+@
+
+
+1.15
+log
+@webedit
+@
+text
+@
+
+
+Editing is largely closed, for the nonce.  I may make the HTML
+editable after it settles a bit.  Handling of the equations is still
+in flux and a modernizing appendix is warranted.
+
+The HTML edition is at:
+
+http://www.im.lcs.mit.edu/rocket/
+
+
+
+
+Please leave any comments here.
+-Dan Risacher
+
+Paragraphs start with a single tab. 
+Leave blank lines around equations and figure headings.
+I'll set the equations with LaTeX and put them in as gifs.
+
+Copy text into emacs (or your favorite editor) and then copy it back
+before submitting changes if you are going to make a bunch.
+---
+Comment on "propellant choice":
+
+(1) The Atlas is no longer a "missile" but has been converted into
+a "space launch vehicle".
+
+(2) The calculation assumes that there are no losses; i.e. ,that
+the "maximum theoretical" Isp will be that which is achieved.
+There are numerous loss terms not accounted for; hence the flowrate
+given is incorrect.
+
+(3) Modern launch vehicles operate fuel rich as stated; however it
+is not due to a desire to reduce the combustion temperature.  Rather,
+the kinetic losses (losses due to departure from full shifting
+equilibrium) are a maximum at stoichiometric; the prudent designer
+therefore selects a mixture ratio "off stoichiometric" in order to
+minimize the kinetic losses.
+
+Under "Parameters" there is one scrambled phrase which I can not discover
+from context. (I think I fixed it -DR)
+Jim Glass/Rocketdyne
+
+(noted, but I think it's better to have the book remain true to the original.
+I'll collect comments and corrections such as these into an addendum -DR)
+---
+
+I graduated from College and was commisioned in the USAF today (6/7).
+Yay.
+=====================
+Comment 6/12
+
+Congratulations.
+
+I've been thru the entire document; I can do nothing at all with the "conversions"
+section because it is so badly scrambled.  I've done what I could with the
+Suppliers but it needs lots of work.
+
+There is a spot under 'check out' where I couldn't figure out the
+author's intent; I improvised.  My version says that a new source of
+water "will" be required...I'm not sure what the author had in mind.
+Let me know if you have difficulty finding the spot I'm talking about.
+
+Who else has been working on this besides me & you?
+
+Jim Glass/Rocketdyne
+M.I.T., Course XVI, 1975...
+-----
+6/17
+(I'm back from the beach.) 
+It looks like you and I have done the brunt of it.  One or two other 
+people have helped some.  Wayne Gramlich offered to help (he also has
+a copy of the book) but I know he's been traveling.
+
+I found the spot you mentioned.  The original said "may" not "will" but 
+otherwise you had it right.  I'm going to start on the conversion to HTML.
+
+The conversions section isn't particularly important anyway.
+
+-Dan@
+
+
+1.14
+log
+@webedit
+@
+text
+@d5 2
+a6 1
+editable after it settles a bit.
+@
+
+
+1.13
+log
+@webedit
+@
+text
+@d1 13
+@
+
+
+1.12
+log
+@webedit
+@
+text
+@d62 6
+@
+
+
+1.11
+log
+@webedit
+@
+text
+@d55 8
+a62 1
+M.I.T., Course XVI, 1975...
+@
+
+
+1.10
+log
+@webedit
+@
+text
+@d38 18
+@
+
+
+1.9
+log
+@webedit
+@
+text
+@d34 1
+a34 1
+
+@
+
+
+1.8
+log
+@webedit
+@
+text
+@d34 4
+@
+
+
+1.7
+log
+@webedit
+@
+text
+@d10 1
+a10 1
+
+d29 1
+a29 1
+from context.
+@
+
+
+1.6
+log
+@webedit
+@
+text
+@d30 4
+a33 1
+Jim Glass/Rocketdyne
+@
+
+
+1.5
+log
+@webedit
+@
+text
+@d28 2
+@
+
+
+1.4
+log
+@webedit
+@
+text
+@d9 20
+a28 1
+before submitting changes if you are going to make a bunch.
+@
+
+
+1.3
+log
+@webedit
+@
+text
+@d8 2
+@
+
+
+1.2
+log
+@webedit
+@
+text
+@d4 4
+a7 1
+testcomment
+@
+
+
+1.1
+log
+@webedit
+@
+text
+@d1 4
+a4 2
+Please leave any comments here.
+-Dan Risacher
+@

@@ -1,0 +1,388 @@
+head	1.2;
+access;
+symbols;
+locks
+	rooster:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	96.06.12.22.08.15;	author rooster;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	96.06.05.20.50.24;	author rooster;	state Exp;
+branches;
+next	;
+
+
+desc
+@webedit
+@
+
+
+1.2
+log
+@webedit
+@
+text
+@ IST of SUPPLIERS
+
+The following list of suppliers is not complete since there are literally hundreds of companies in the United States manufacturing items of interest and use to the amateur rocket engine builder. The reader is urged to consult his nearest city's telephone book Yellow Pages. Illustrated catalogs can be obtained by writing the companies listed below; ask for a current ~ and the name nf the nea-v<F <llnnl ipr
+
+Regulator 
+
+Grove Valve and Regulator Co.
+6 529 Ho 1 1 i 9 Street
+Oakland, California 94608
+
+Victor Equipment Co.
+840-854 Folsom Street	
+San Francisco, California 94107
+
+The Harris Calorific Co.
+550l Cass Avenue
+Cleveland, Ohio 44102
+
+Hoke Incorporated
+l0 Tenakill Park
+Cresskill New Jersey 07626
+
+Needle Valves
+
+
+Dragon Engineering Co.
+Excelsior Drive & Carmenita
+P. O. 80x 489
+Norwalk, California 90650
+
+Hoke Incorporated
+10 Tenakill Park
+Cresskill, New Jersey 07626
+
+Republic Manufacturing, Co.
+I Sf)55 lsrookpark Road
+(:levelanes Ol]io 4/142
+
+Robhins Aviation, lnc.
+3817 Santa Fe Avenue
+Vernon, California ar)()c>q
+
+Circle Seal Products Co., Inc.
+East Foothill Blvd. & Craig Street
+Pasadena, California 91107
+
+Ball Valves
+
+
+Hoke Incorporated
+10 Tenakill Park
+Cresskill, New Jersey 07626
+
+Jamesbury Corporation
+669 Lincoln Street
+Worcester, Massachusetts n I 605
+
+Hydromatics, Jnc.
+7 Lawrence Street
+Bloomfield, New Jersey 07003
+
+Republic Manufacturing Co.
+15655 Brookpark Road
+Cleveland Ohio 44142
+
+Check Valves
+
+Circle Seal Products Co., Inc.
+East Foothill Blvd. & Craig Street
+Pasadena, California 91107
+
+Republic Manufacturing Co.
+15655 Brookpark Road
+Cleveland, Ohio 44142
+
+Hoke Incorporated
+10 Tenakill Park
+Cresskill, New Jersey 07626
+
+ Filters
+
+Purolator Products, Inc.
+l000 New Brunswick Avenue
+Rahway, New Jersey 07065
+
+Hoke Incorporated
+l0 Tenakill Park
+Cresskill, New Jersey 07626
+
+Microporous Filter Division
+Circle Seal Development Corp.
+P. O. Box 3666
+Anaheim, California 92803
+
+Relief Valves
+
+Circle Seal Products Co., Inc.
+East Foothill Blvd & Craig Street
+Pasadena, California 91107
+
+Hoke Incorporated
+l0 Tenakill Park
+Cresskill, New Jersey 07626
+
+Pressure Gauges
+
+Helicoid Gage Division
+American Chain & Cable Co.
+Connecticut Avenue & Hewitt Street
+Bridgeport, Connecticut 06602
+
+United States Gauge Division
+American Machine & Metals, Inc.
+Sellersville, Pennsylvania 18960
+
+Marsh Instrument Co.
+3501 Howard Street
+Skokie, Illinois 60076
+
+Heise Bourdon Tube Co., Inc.
+1 Brook Road
+Newtown, Connecticut 06470
+
+O-Rings
+
+Parker Seal Co.
+1050)7 Jefferson 151vd. 
+Culver City California t n2 30
+
+Minnesota Rubber (o.
+3628 Wooddalr Avenue
+Minneapolis, Hi nnf>srlt a 5 r)t4 I 6
+
+Crush Gaskets
+
+Gasket !LantSfactlXrirllw ('(-a., fnC*
+319 West 17th Street
+P. O. Box l5438
+I.os Angeles, California 9f)()15
+
+Spray Nozzle
+
+Delaval Manufacturing Co.
+Grand Avenue & 4th Street
+West Des Moines, Tozsa 5()?t.5
+
+Spraying Systems Co.
+3265 Randolph Street
+Bellwood, Illinois  ()10'^
+
+Tube Fittings
+
+Parker Tube Fittings Division
+Parker-Hannifin Corp.
+17327 Euclid Avenue
+Cleveland, Ohio 44112
+
+Imperial-Eastman Corp.
+6300 West Howard Street
+Chicago, Illinois 60648
+
+Featherhead Co.
+320 East 131st Street
+Cleveland, Ohio 44108
+
+ Gas Cylinder Fittings
+
+Western Enterprises, Inc.
+27360 West Oviatt Road
+P. O. Box 9737
+Bay Village, Ohio 44140
+
+Hoke Incorporated
+10 Tenakill Park
+Cresskill, New Jersey 07626
+@
+
+
+1.1
+log
+@webedit
+@
+text
+@d1 175
+a175 173
+ LIST of SUPPLIERS
+
+	The following list of suppliers ifi not complete since there are literally hundreds of companies in the United States manufacturing items of interest and use to the amateur rocket engine builder. The reader is urged to consult his nearest city's telephone book Yellow Pages. Illustrated catalogs can be obtained by writing the companies listed below; ask for a current ~ and the name nf the nea-v<F <llnnl ipr
+
+Regulator s
+
+Grove Valve and Regulator Co.
+6 529 Ho 1 1 i 9 Street
+Oakland, California 94608
+
+Victor Equipment Co.
+	840-854 Folsom Street	
+San Francisco, California 94107
+
+The Harris Calorific Co.
+550l Cass Avenue
+Cleveland, Ohio 44102
+
+Hoke Incorporated
+l0 Tenakill Park
+Cresskill New Jersey 07626
+
+Needle V a l v e s
+
+
+Dragon Engineering Co.
+Excelsior Drive & Carmenita
+P. O. 80x 489
+Norwalk, California 90650
+
+Hoke Incorporated
+10 Tenakill Park
+Cresskill, New Jersey 07626
+
+Repuhl ic Manufacttlring, Co.
+I Sf)55 lsrookpark Road
+(:levelanes Ol]io 4/142
+
+Robhins Aviation, lnc.
+3817 Santa Fe Avenue
+V-rnOn, California ar)()c>q
+
+Circle Seal Products (o., Inc.
+East Foot}lill Blvd. 6. Cr.aig Street
+Pasadena, California 0ll()7
+
+Ball Valves
+
+
+llo1ce Incorporate(l
+10 Tenakill Park
+Cresskill, New Jersey ()7f.2fi
+
+Jamesbury Corporation
+669 Lincoln Street
+Worcester, !hssachvlsctts n I 605
+
+llydromatics, Jnc.
+7 Lawrence Street
+Bloomfield, New Jersey 07003
+
+Republic l4anufacttlrillg C¡
+15655 Brookpark Road
+Cleveland Ohio 44142
+
+Check Valves
+
+Circle Seal Products Co., Inc.
+East Foothill Blvd. & Craig Street
+Pasadena, California 91107
+
+Republic Manufacturing Co.
+15655 Brookpark Road
+Cleveland, Ohio 44142
+
+Hoke Incorporated
+10 Tenakill Park
+Cresskill, New Jersey 07626
+ Filters
+
+Purolator Products, Inc.
+l000 New Brunswick Avenue
+Rahway, New Jersey 07065
+
+Poke Incorporated
+l0 Tenakill Park
+Cresskill, New Jersey 07626
+
+Microporous Filter Division
+Circle Seal Development Corp.
+P. O. Box 3666
+Anaheim, California 92803
+
+Relief Valves
+
+Circle Seal Products Co., Inc.
+East Foothill Blvd & Craig Street
+Pasadena, California 91107
+
+Hoke Incorporated
+l0 Tenakill Park
+Cresskill, New Jersey 07626
+
+Pressure_Gaug es
+
+Helicoid Gage Division
+American Chain & Cable Co.
+Connecticut Avenue & Hewitt Street
+Bridgeport, Connecticut 06602
+
+United States Gauge Division
+American Machine & Metals, Inc.
+Sellersville, Pennsylvania 18960
+
+Marsh Instrument Co.
+3501 Howard Street
+Skokie, Illinois 60076
+
+Heise Bourdon Tube Co., Inc.
+1 Brook Road
+Newtown, Connecticut 06470
+
+O-RinÁts
+
+Parker Seal Co.
+1050)7 Jefferson 151vd. 
+(t11ver City California t n2 30
+
+Minnesota Ruhl)cr (o.
+3628 Wooddalr Avenue
+Minneapolis, Hi nnf>srlt a 5 r)t4 I 6
+
+Crush Gaskets
+
+Gasket !LantSfactlXrirllw ('(-a., fnC*
+319 West 17th Street
+P. O. Box l5438
+I.os Angeles, California 9f)()15
+
+Spray Nozzle
+
+Delavan ManufactlXrirlp (:o.
+Grand Avenue & 4th Str(et
+West Des Moines, Tozsa 5()?t.5
+
+Spraying Systems Co.
+3265 Randolph Street
+Bellwood, Illinois —()10'^
+
+Tube Fittings
+
+Parker Tube Fittings Division
+Parker-11anni r in Corp.
+17327 Euclid Avenue
+Cleveland, Ohio 44112
+
+Imperial-Eastman Corp.
+6300 West Howard Street
+Chicago, Illinois 60648
+
+Featherhead Co.
+320 East 131st Street
+Cleveland, Ohio 44108
+ Gas Cylinder Fittin]Rs
+
+Western Enterprises, Inc.
+27360 West Oviatt Road
+P. O. Box 9737
+Bay Village, Ohio 44140
+
+Hoke Incorporated
+10 Tenakill Park
+Cresskill, New Jersey 07626
+@

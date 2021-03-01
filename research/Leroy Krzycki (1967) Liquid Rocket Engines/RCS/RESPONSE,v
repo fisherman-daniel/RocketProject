@@ -1,0 +1,84 @@
+head	1.3;
+access;
+symbols;
+locks
+	rooster:1.3; strict;
+comment	@# @;
+
+
+1.3
+date	97.06.30.14.27.08;	author rooster;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	97.06.29.21.22.35;	author rooster;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	96.06.19.16.42.07;	author rooster;	state Exp;
+branches;
+next	;
+
+
+desc
+@webedit
+@
+
+
+1.3
+log
+@webedit
+@
+text
+@My apologies that the RESPONSE feature was broken for a long while. 
+I didn't actually notice. Hopefully it is now fixed.
+- Daniel Risacher (magnus@@mit.edu)
+
+---
+
+Very informative and interesting. However, I operate using a text based Browser.
+I would be very nice if the whole caboodle was packaged up as a pdf file an 
+the reader given the option to download.
+Thanks for the work, Vin
+PS If it does become available, could you email me at v.p.crabtree@@brad.ac.uk \
+and I will download it.
++
++
+Great stuff,  Thank You for the effort to rE-publish it.
+Jim
++
+OUTSTANDING!  -  I made a hard copy which will be treasured and placed between 
+on my book shelf between Sutton and Marks. 
++-------------------------
+1997.06.30+22:20 Singapore
+
+I lost my copy of this almost 15 years ago 
+in a lost crate of such treasures.
+I am pleased to find this timeless work of rocketry again
+ and my hearty applause to your posting on the WEB.
+ thanks !            mpowers8@@pacific.net.sg 
+--------------------------------------------@
+
+
+1.2
+log
+@webedit
+@
+text
+@d20 9
+a28 1
++
+@
+
+
+1.1
+log
+@webedit
+@
+text
+@d1 20
+a20 1
+Please submit reader comments here.
+@

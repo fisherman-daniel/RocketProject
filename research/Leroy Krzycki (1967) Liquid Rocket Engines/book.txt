@@ -1,0 +1,31 @@
+HOW to DESIGN, BUILD and TEST SMALL LIQUID-FUEL ROCKET ENGINES
+ROCKETLAB / CHINA LAKE, CALIF.
+
+NOTICE
+
+ROCKETLAB cannot assume responsibility, in any manner whatsoever, for
+the use readers make of the information presented herein or the
+devices resulting therefrom.
+
+
+Foreword
+
+The rocket engine is a relatively simple device in which propellants
+are burned and the resulting high pressure gases are expanded through
+a specially shaped nozzle to produce thrust.  Gas pressurized
+propellant tanks and simple propellant flow controls make operation
+of a small liquid-fuel rocket engine about as simple as operating an
+automobile engine.  Why then do so many amateur rocket engines fail or
+cause injury?  The reason, usually and simply, is that the amateur is
+not accustomed to high pressure devices operating near material
+temperature limits.  His normal everyday life is, instead, filled with
+devices and gadgets operating at low pressures and at low thermal
+energy levels.  With proper design, careful workmanship, and good test
+equipment, operated in a safe manner, the amateur can build small,
+liquid-fuel rocket engines which will have hours of safe operating
+life.
+
+The puropse of this publication is to provide the serious amateur
+builder with design information, fabrication procedures, test
+equipement requirements, and safe oeprating procedures for small
+liquid-fuel rocket engines.

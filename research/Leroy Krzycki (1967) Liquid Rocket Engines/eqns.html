@@ -1,0 +1,419 @@
+<TITLE>DESIGN EQUATIONS</TITLE>
+<H3>DESIGN EQUATIONS</H3>
+
+
+ <P> The following section will detail simplified equations for the
+design of small liquid-fuel rocket motors. The nomenclature for the
+motor design is shown in Figure 6.
+
+<P align=center>
+<A NAME="figure 6">
+<IMG SRC="fig-6.gif" alt="(figure 6)"> 
+ <BR> Figure 6 Motor Design Configuration
+
+<a name=nozzle><H4>Nozzle</H4></a>
+
+
+ <P> The nozzle throat cross-sectional area may be computed if the
+total propellant flow rate is known and the propellants and operating
+conditions have been chosen. Assuming perfect gas law theory:
+
+ <P align="right"> <img src="neq-7.gif" alt=" At = Wt/Pt SQRT(R Tt/(gamma)g_c)	(7)">
+ <P>
+
+
+ <BR> where R = gas constant, given by R = R_bar/M. R_bar is the
+universal gas constant equal to 1545.32 ft-lb/lb(deg)R, and M is the
+molecular weight of the gas.  The molecular weight of the hot gaseous
+products of combustion of gaseous oxygen/hydrocarbon fuel is about 24,
+so that R is about 65 ft-lb/lb(deg)R.
+ <P> Gamma, <img src=gamma.gif alt="(gamma)">, is the ratio of gas
+specific heats and is a thermodynamic variable which the reader is
+encouraged to read about elsewhere (see <A
+HREF="bib.html">Bibliography</A>). Gamma is about 1.2 for the products
+of combustion of gaseous oxygen/hydrocarbon fuel.
+ <P> g<sub>c</sub> is a constant relating to the earth's gravitation and is
+equal to 32.2 ft/sec/sec.
+ <P> For further calculations the reader may consider the following
+as constants whenever gaseous oxygen/hydrocarbon propellants are
+used:
+
+<BR> 
+R = 65 ft-lb/lb(deg)R
+
+<BR> 
+<img src=gamma.gif alt="(gamma)"> = 1.2
+
+<BR> 
+g<sub>c</sub> = 32.2 ft/sec^2
+
+ <P> Tt is the temperature of the gases at the nozzle throat. The
+gas temperature at the nozzle throat is less than in the combustion
+chamber due to loss of thermal energy in accelerating the gas to the
+local speed of sound (Mach number = 1) at the throat. Therefore
+
+ <P align="right"> <img src="neq-8.gif" alt=" Tt = Tc (1/(1+((gamma)-1)/2))	(8)">
+ <P>
+
+<BR> 
+For <img src=gamma.gif alt="(gamma)"> = 1.2
+
+ <P align="right"> <img src="neq-9.gif" alt=" Tt = (.909)(Tc)			(9)">
+ <P>
+
+<BR> 
+Tc is the combustion chamber flame temperature in degrees Rankine
+(degR), given by
+
+ <P align="right"> <img src="neq-10.gif" alt=" T (degR) = T (degF) + 460	(10)">
+ <P>
+
+ <P> Pt is the gas pressure at the nozzle throat. The pressure at
+the nozzle throat is less than in the combustion chamber due to
+acceleration of the gas to the local speed of sound (Mach number = 1)
+at the throat. Therefore
+
+ <P align="right"> <img src="neq-11.gif" alt=" Pt = Pc(1+((gamma)-1)/2)^((gamma)/((gamma)-1))		(11)">
+ <P>
+
+<BR> 
+For <img src=gamma.gif alt="(gamma)"> = 1.2
+
+ <P align="right"> <img src="neq-12.gif" alt=" Pt = (.564)(Pc)		(12)">
+ <P>
+
+ <P> The hot gases must now be expanded in the diverging section of
+the nozzle to obtain maximum thrust. The pressure of these gases will
+decrease as energy is used to accelerate the gas and we must now find
+that area of the nozzle where the gas pressure is equal to atmospheric
+pressure. This area will then be the nozzle exit area.
+ 
+ <P> Mach number is the ratio of the gas velocity to the local
+speed of sound. The Mach number at the nozzle exit is given by a
+perfect gas expansion expression
+
+ <P align="right"> <img src="neq-13.gif" alt=" Me^2 = 2/((gamma)-1)((Pc/Patm)^(((gamma)-1)/gamma) - 1)		(13)">
+ <P>
+
+<BR> 
+P<sub>c</sub> is the pressure in the combustion chamber and P<sub>atm</sub> is
+atmospheric pressure, or 14.7 psi.
+ <P> The nozzle exit area corresponding to the exit Mach number
+resulting from the choice of chamber pressure is given by 
+
+ <P align="right"> <img src="neq-14.gif" alt=" Ae = At/Me * ((1 + ((gamma)-1)/2 Me^2)/(((gamma)+1)/2))^(((gamma)+1)/2((gamma)-1))	(14)">
+
+ <P>
+Since gamma is fixed at 1.2 for gaseous oxygen/hydrocarbon propellant
+products, we can calculate the parameters for future design use; the
+results are tabulated in Table III.
+
+<BR> 
+<H4>TABLE III</H4>
+Nozzle Parameters for Various chamber
+pressures, <img src=gamma.gif alt="(gamma)"> = 1.2, Patm = 14.7 psi
+
+<table border align=center>
+<tr>
+<th>P<sub>c</sub>	
+<th>M<sub>e</sub>
+<th>A<sub>e</sub>/A<sub>t</sub>
+<th>T<sub>e</sub>/T<sub>c</sub>
+
+<tr><td>100	<td>1.95	<td>	1.79	<td> 0.725
+<tr><td>200	<td>2.74	<td>	2.74	<td> 0.65
+<tr><td>300	<td>2.55	<td>	3.65	<td> 0.606
+<tr><td>400	<td>2.73	<td>	4.6	<td> 0.574
+<tr><td>500	<td>2.83	<td>	5.28	<td> 0.55
+</table>
+
+ <P align="right"> <img src="neq-15.gif" alt=" Ae = At (Ae/At)		(15)">
+ <P>
+
+The temperature ratio between the chamber gases
+and those at the nozzle exit is given by
+
+ <P align="right"> <img src="neq-16.gif" alt=" Te = Tc (Te/Tc)		(16)">
+
+<p> 
+The nozzle throat diameter is given by
+
+ <P align="right"> <img src="neq-17.gif" alt=" Dt = SQRT(4At/(pi))	(17)">
+ <P>
+
+and the exit diameter is given by
+
+ <P align="right"> <img src="neq-18.gif" alt=" De = SQRT(4Ae/(pi))	(18)">
+ <P>
+
+<BR> 
+A good value for the nozzle convergence half-angle (beta) (see Fig. 3)
+is 60 deg. The nozzle divergence half-angle, (alpha), should be no
+greater than 15 deg to prevent nozzle internal flow losses.
+
+<a name="cc"><H4>Combustion Chamber</H4></a>
+
+
+ <P> A parameter describing the chamber volume required for
+complete combustion is the characteristic chamber length, L*, which
+is given by
+
+ <P align="right"> <img src="neq-19.gif" alt="L* =  Vc/At (19)">
+ <P>
+
+
+<BR> where Vc is the chamber volume (including the converging section of
+the nozzle), in cubic inches, and At is the nozzle throat area
+(in2). For gaseous oxygen/hydrocarbon fuels, an L* of 50 to 100 inches
+is appropriate.  L* is really a substitute for determining the chamber
+residence time of the reacting propellants.
+ <P> To reduce losses due to flow velocity of gases within the
+chamber, the combustion chamber cross sectional area should be at
+least three times the nozzle throat area.  This ratio is known as
+"contraction ratio".
+ <P> The combustion chamber cross-sectional area is given by
+
+ <P align="right"> <img src="neq-20.gif" alt=" Ac = (pi)Dc^2/4		(20)">
+ <P>
+
+
+<BR> The chamber volume is given by
+
+ <P align="right"> <img src="neq-21.gif" alt=" Vc = AcLc + convergent volume		(21)">
+ <P>
+
+
+<BR> For small combustion chambers the convergent volume is about 1/10 the
+volume of the cylinrical portion of the chamber, so that 
+
+ <P align="right"> <img src="neq-21.gif" alt=" Vc = 1.1 (AcLc)		(21)">
+ <P>
+
+
+<BR> The chamber diameter for small combustion chambers (thrust level less
+than 75 lbs) should be three to five times the nozzle throat diameter
+so the injector will have usable face area.
+
+<a name="cwt"><H4>Chamber Wall Thickness</H4></a>
+
+ <P> The combustion chamber must be able to withstand the internal
+pressure of the hot combustion gases. The combustion chamber must also
+be physically attached to the cooling jacket and, therefore, the
+chamber wall thickness must be sufficient for welding or brazing
+purposes. Since the chamber will be a cylindrical shell, the working
+stress in the wall is given by
+
+ <P align="right"> <img src="neq-22.gif" alt=" S = PD/2t_w		(22)">
+ <P>
+
+
+<BR> where P is the pressure in the combustion chamber (neglecting the
+effect of coolant pressure on the outside of the shell), D is the mean
+diameter of the cylinder, and t<sub>w</sub> is the thickness of the cylinder
+wall. A typical material for small water-cooled combustion chambers is
+copper, for which the allowable working stress is about 8000 psi. The
+thickness of the combustion chamber wall is therefore given by
+
+ <P align="right"> <img src="neq-23.gif" alt=" t_w = PD/16000	   	(23)">
+ <P>
+
+<BR> This is the minimum thickness; actually the thickness should be
+somewhat greater to allow for welding, buckling, and stress
+concentration. The thickness of the chamber wall and nozzle are
+usually equal.
+ <P> Equation (22) can also he used to calculate the wall thickness
+of the water cooling jacket.  Here again, the value of t<sub>w</sub> will be the
+minimum thickness since welding factors and design considertions (such
+as O-rings, grooves, etc.) will usually require walls thicker than
+those indicated by the stress equation. A new allowable stress value
+must be used in Equation (22), dependent on the jacket material
+chosen.
+
+<a name="cooling"><H4>Engine Cooling</H4></a>
+
+ <P> The amateur should not consider building uncooled rocket engines
+since they can operate for only a short time and their design requires
+a thorough knowledge of heat and mass transfer engineering. Cooled
+rocket motors have provision for cooling some or all metal parts
+coming into contact with the hot combustion gases. The injector is
+usually self-cooled by the incoming flow of propellants. The
+combustion chamber and nozzle definitely require cooling.
+ <P> A cooling jacket permits the circulation of a coolant, which, in
+the case of flight engines is usually one of the propellants.
+However, for static tests and for amateur operation, water is the only
+coolant recommended. The cooling jacket consists of an inner and outer
+wall. The combustion chamber forms the inner wall and another
+concentric but larger cylinder provides the outer wall. The space
+between the walls serves as the coolant passage. The nozzle throat
+region usually has the highest heat transfer intensity and is,
+therefore, the most difficult to cool.
+ <P> The energy release per unit chamber volume of a rocket engine is
+very large, and can be 250 times that of a good steam boiler or five
+times that of a gas turbine combustion chamber. The heat transfer rate
+of a rocket engine is usually 20 to 200 times that of a good boiler.
+It is apparent, therefore, that the cooling of a rocket engine is a
+difficult and exacting task.  The complete heat transfer design of a
+rocket engine is extremely complex and is usually beyond the
+capabilities of most amateur builders.  Some important empirical
+design guidelines are available, however, and are listed below:
+
+<ol>
+<LI> Use water as the coolant. 
+<LI> Use copper for the combustion chamber and nozzle walls. 
+<LI> Water flow velocity in the cooling jacket should be 20-50 ft/sec. 
+<LI> Water flow rate should be high enough so that boiling does not occur. 
+<LI> Extend the water cooling jacket beyond the face of the injector.
+<LI> A steady flow of cooling water is essential.
+</ol>
+
+<a name="transfer"><H4>Heat Transfer</H4></a>
+
+
+ <P> The largest part of the heat transferred from the hot chamber
+gases to the chamber walls is by convection. The amount of heat
+transferred by conduction is small and the amount transferred by
+radiation is usually less than 25%, of the total. The chamber walls
+have to be kept at a temperature such that the wall material strength
+is adequate to prevent failure. Material failure is usually caused by
+either raising the wall temperature on the gas side so as to weaken,
+melt, or damage the wall material or by raising the wall temperature
+on the liquid coolant side so was to vaporize the liquid next to the
+wall. The consequent failure is caused because of the sharp
+temperature rise in the wall caused by exessive heat transfer to
+the boiling coolant.
+ <P> In water-cooled chambers the transferred heat is absorbed by
+the water. The water must have in adequate heat capacity to
+prevent boiling of the water at any point in the cooling
+jacket. The total heat tranferred from the chamber to the cooling
+water is given by
+
+ <P align="right"> <img src="neq-24.gif" alt=" Q = q A = w_w * c_p * (T - Ti)		(24)">
+ <P>
+<BR> where
+<BR> Q = total heat transferred, Btu/sec
+<BR> q = average heat transfer rate of chamber, Btu/in^2-sec
+<BR> A = heat transfer area, in2
+<BR> w_w = coolant flow rate, Ib/sec
+<BR> c_p = specific heat of coolant, Btu/lb(deg) F
+<BR> T = temperature of coolant leaving jacket, deg F
+<BR> Ti = temperature of coolant entering jacket, deg F
+
+<BR> 
+the use of this equation will be illustrated in the section Example
+Design calculation.
+
+<a name=materials><H4>Materials</H4></a>
+
+ <P> The combustion chamber and nozzle walls have to withstand
+relatively high temperature, high gas velocity, chemical erosion, and
+high stress. The wall material must be capable of high heat transfer
+rates (which means good thermal conductivity) yet, at the same time,
+have adequate strength to withstand the chamber combustion pressure.
+Material requirements are critical only in those parts which come into
+direct contact with propellant gases.  Other motor components can be
+made of conventional material.
+ <P> Once the wall material of an operating rocket engine begins to
+fail, final burn-through and engine destruction are extremely
+rapid. Even a small pinhole in the chamber wall will almost
+immediately (within one second) open into a large hole because the hot
+chamber gases (4000-6000 deg F) will oxidize or melt the adjacent
+metal, which is then blown away exposing new metal to the hot gases.
+ <P> Exotic metals and difficult fabrication techniques are used in
+today's space and missile rocket engines, providlng a lightweight
+structure absolutely required for efficient launch and flight
+vehiclcs. These advanced metals and fabrication techniques are far
+outside the reach of the serious amateur builder. However, the use
+of more commonplace (and much less expensive) metals and fabrication
+techniques is quite possible, except that a flightweight engine will
+not result. Since almost all amateur rocket firing should be
+conducted on a static test stand, this is not a severe restriction to
+the amateur builder. Experience with a wide variety of rocket
+engine designs leads to the following rcconmendations for amateur
+rocket engines:
+
+<ol> 
+
+<LI> The combustion chamber and nozzle should be machined in one
+piece, from copper.
+
+<LI> Those injector parts in contact with the hot chamber gases should
+also be machined from copper.
+
+<LI> The cooling jacket and those injector parts not in contact with
+the hot propellant gases, should be fabricated from brass or stainless
+steel.
+
+<LI> Expert machine and welding work is essential to produce a safe
+and useable rocket engine. Shoddy or careless workmanship, or poor
+welds, can easily cause engine failure.
+
+</ol>
+
+<a name=injectors><H4>Injectors</H4></a>
+
+ <P>The function of the injector is to introduce the propellants into
+the combustion chamber in such a a way that efficent combustion can
+occur.  There are two types of injectors which the amateur buider can
+consider for small engine design.  One of these is the impinging
+stream injector win which the oxidizer and fuel are injected through a
+number of sepaate holes so that the resulting strams intersect with
+each other. The fuel stream will impinge with the oxidizer stream and
+both will break up into small droplets. When gaseous oxygen is used as
+the oxidizer, and a liquid hydrocarbon is used as fuel, the
+impingement of the liquid stream with the high velocity gas stream
+results in diffusion and vaporisation, causing good mixing and
+efficient combustion. A disadvantage of this type of injector is that
+extremely small holes are required for small engine flow rates and the
+hydraulic characterisitcs and equations normally used to predict
+injector parameters do not give good results for small orifices.  The
+small holes are also difficult to drill, especially in soft copper.
+ <P> However, to provide a complete picture of the equations
+used in rocket engine design, we present below the equation for
+the flow of liquid through a simple orifice (a round drilled
+hole, for example)
+
+ <P align="right"> <img src="neq-25.gif" alt=" w = Cd A SQRT(2g(rho)(deltaP))		(25)">
+ <P>
+
+ <BR> where
+
+ <br> w = propellalnt flow rate, lb/sec
+ <br> A = area of orifice, ft2
+ <br> (deltaP) = pressure drop across orifice, lb/ft^2
+ <br> (rho) = density of propellant, lb/ft^3
+ <br> g = gravitational constant, 32.2 ft/sec2
+ <br> Cd = orifice discharge coefficient
+
+
+ <BR> The discharge coefficient for a well-shaped simple orifice will
+usually have a value between 0.5 and 0.7.
+ <P> The injection velocity, or vclocity of the liquid stream
+issuing from the orifice, is given by
+
+ <P align="right"> <img src="neq-26.gif" alt=" v = Cd SQRT(2g((deltaP)/(rho)))		(26)">
+ <P>
+
+ <BR> Injection pressure drops of 70 to 150 psi, or injection
+vclocities of 50 to 100 ft/sec are usually used in small liquid-fuel
+rocket engines. The injection pressure drop must be high enough to
+eliminate combustion instability inside the combustion chamber but
+must not be so high that the tankage and pressurization system used to
+supply fuel to the engine are penalized.
+ <P> A second type of injector is the spray nozzle in which conical,
+solid cone, hollow cone, or other type of spray sheet can be
+obtained. When a liquid hydrocarbon fuel is forced through a spray
+nozzle (similar to those used in home oil burners) the resulting fuel
+droplets are easily mixed with gaseous oxygen and the resulting
+mixture readily vaporized and burned.  Spray nozzles are especially
+attractive for the amateur builder since several companies manufacture
+them commercially for oil burners and other applications. The amateur
+need only determine the size and spray characteristics required for
+his engine design and the correct spray nozzle can then be purchascd
+at low cost. Figure 7 illustrates the two types of injectors.
+ <P> The use of commercial spray nozzles for amateur built rocket
+engines is highly recommended.
+
+<P align=center>
+<A NAME="figure 7">
+<IMG SRC="fig-7.gif" alt="(figure 7)"> 
+ <BR> Figure 7 Fuel injectors for Amatuer Rocket Engines.

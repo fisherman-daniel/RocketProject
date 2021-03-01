@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<mavlink>
+    <!-- <include>minimal.xml</include> -->
+    <enums>
+        <enum name="SYS_ID">
+            <entry value="1" name="SYS_ID_ROCKET"></entry>
+            <entry value="255" name="SYS_ID_GROUND_STATION"></entry>
+        </enum>
+        <enum name="COMP_ID">
+            <entry value="0" name="COMP_ID_ALL"></entry>
+            <entry value="10" name="COMP_ID_ENGINE_COMPUTER"></entry>
+            <entry value="20" name="COMP_ID_FLIGHT_COMPUTER"></entry>
+            <entry value="30" name="COMP_ID_RADIO_COMPUTER"></entry>
+        </enum>
+        <!--ACK enums-->
+        <enum name="ACK_RESULT">
+            <entry name="ACK_RESULT_COMMAND_COMPLETE"></entry>
+            <entry name="ACK_RESULT_BAD_PACKET"></entry>
+            <entry name="ACK_RESULT_COMMAND_FAILED"></entry>
+            <entry name="ACK_RESULT_COMMAND_IN_PROGRESS"></entry>
+        </enum>
+        <!--Engine Computer enums-->
+        <enum name="VALVE_ID">
+            <entry value="0" name="VALVE_ID_FUEL_MAIN"></entry>
+            <entry value="1" name="VALVE_ID_OX_MAIN"></entry>
+            <entry value="2" name="VALVE_ID_FUEL_VENT"></entry>
+            <entry value="3" name="VALVE_ID_OX_VENT"></entry>
+        </enum>
+        <enum name="PRESS_ID">
+            <entry value="0" name="PRESS_ID_FUEL_INJ"></entry>
+            <entry value="1" name="PRESS_ID_OX_INJ"></entry>
+            <entry value="2" name="PRESS_ID_FUEL_TANK"></entry>
+            <entry value="3" name="PRESS_ID_OX_TANK"></entry>
+        </enum>
+        <enum name="VALVE_STATUS_FLAGS" bitmask="true">
+            <entry value="1" name="VALVE_FLAGS_MANUAL_OVERRIDE">
+                <description>1 to listen to commands, 0 to ignore and do auto control. cleared when EC needs control, but the GS can always get control back by sending a command</description>
+            </entry>
+            <entry value="2" name="VALVE_FLAGS_FULL_OPEN">
+                <description>1 if known fully open, 0 otherwise</description>
+            </entry>
+            <entry value="4" name="VALVE_FLAGS_FULL_CLOSED">
+                <description>1 if known fully closed, 0 otherwise</description>
+            </entry>
+            <entry value="8" name="VALVE_FLAGS_ENCODER_RELIABLE">
+                <description>1 if it's been homed, 0 otherwise</description>
+            </entry>
+        </enum>
+        <enum name="VALVE_CMD">
+            <entry name="VALVE_CMD_OPEN"></entry>
+            <entry name="VALVE_CMD_CLOSE"></entry>
+            <entry name="VALVE_CMD_PULSE"></entry>
+            <entry name="VALVE_CMD_SET_POSITION"></entry>
+            <entry name="VALVE_CMD_END_MANUAL_OVERRIDE"></entry>
+        </enum>
+        <enum name="IGNITOR_FLAGS" bitmask="true">
+            <entry value="1" name="IGNITOR_FLAGS_CONTINUITY"></entry>
+            <entry value="2" name="IGNITOR_FLAGS_FIRING"></entry>
+        </enum>
+        <enum name="TANK_FLAGS" bitmask="true">
+            <entry value="1" name="TANK_FLAGS_FUEL"></entry>
+            <entry value="2" name="TANK_FLAGS_OX"></entry>
+        </enum>
+        <enum name="ENGINE_COMPUTER_STATE">
+            <entry name="ENGINE_COMPUTER_STATE_PREFLIGHT_CHECK"></entry>
+            <entry name="ENGINE_COMPUTER_STATE_FUEL_PRESS"></entry>
+            <entry name="ENGINE_COMPUTER_STATE_OX_PRESS"></entry>
+            <entry name="ENGINE_COMPUTER_STATE_IGNITION_AUTOSEQ"></entry>
+            <entry name="ENGINE_COMPUTER_STATE_BURN_AUTOSEQ"></entry>
+            <entry name="ENGINE_COMPUTER_STATE_ENGINE_CUTOFF"></entry>
+            <entry name="ENGINE_COMPUTER_STATE_ABORT_DURING_BURN"></entry>
+            <entry name="ENGINE_COMPUTER_STATE_ABORT_GENERIC"></entry>
+        </enum>
+        <enum name="STATE_CMD">
+            <entry name="STATE_CMD_FORCE_GOTO"></entry>
+            <entry name="STATE_CMD_ABORT"></entry>
+            <entry name="STATE_CMD_PROCEED"></entry>
+        </enum>
+        <enum name="ABORT_FLAGS" bitmask="true">
+            <entry value="0" name="ABORT_FLAGS_NONE"></entry>
+            <entry value="1" name="ABORT_FLAGS_MANUAL_ABORT"></entry>
+            <entry value="2" name="ABORT_FLAGS_FUEL_TANK_OVERPRESS"></entry>
+            <entry value="4" name="ABORT_FLAGS_OX_TANK_OVERPRESS"></entry>
+            <entry value="8" name="ABORT_FLAGS_FUEL_INJ_OVERPRESS"></entry>
+            <entry value="16" name="ABORT_FLAGS_OX_INJ_OVERPRESS"></entry>
+            <entry value="32" name="ABORT_FLAGS_IGNITION_TIMEOUT"></entry>
+            <entry value="64" name="ABORT_FLAGS_LINK_TIMEOUT"></entry>
+            <entry value="128" name="ABORT_FLAGS_POWER_FAULT"></entry>
+        </enum>
+    </enums>
+    <messages>
+        <!--management messages-->
+        <message id="0" name="HEARTBEAT">
+            <description>if one of these is not received for a while the other devices will think you are offline</description>
+            <field type="uint8_t" name="nothin"></field>
+        </message>
+        <message id="1" name="PRE_CMD">
+            <description>Send before an important command which needs acknowledgement. Only relevant systems/components should take action. Commands are ignored if this is not received.</description>
+            <field type="uint8_t" name="message_id"></field>
+        </message>
+        <message id="2" name="ACK_CMD">
+            <description>Acknowledges that a command was received and successfully executed.</description>
+            <field type="uint8_t" name="message_id"></field>
+            <field type="uint8_t" name="result" enum="ACK_RESULT">Allows indicating whether command succesfully completed</field>
+        </message>
+        <!--downlink messages-->
+        <message id="32" name="ENGINE_COMPUTER_STATUS">
+            <description>Info about state machine, arming, abort-worthy issues</description>
+            <field type="uint8_t" name="state" enum="ENGINE_COMPUTER_STATE"></field>
+            <field type="uint8_t" name="state_proceed" enum="ENGINE_COMPUTER_STATE"></field>
+            <field type="uint8_t" name="state_abort" enum="ENGINE_COMPUTER_STATE"></field>
+            <field type="int16_t" name="time">mission time, in tenths of a second</field>
+            <field type="uint8_t" name="abort_flags" enum="ABORT_FLAGS"></field>
+            <field type="uint8_t" name="cpu_load" units="%"></field>
+            <field type="uint8_t" name="power_source" enum="POWER_SOURCE">Battery or external supply</field>
+            <field type="uint16_t" name="voltage" units="mV">voltage on supply bus, whether that's internal battery or external power</field>
+        </message>
+        <message id="33" name="ENGINE_SENSORS">
+            <description>All engine sensor info</description>
+            <!--main propellant valves-->
+            <field type="uint8_t" name="fuel_main_valve_status" enum="VALVE_STATUS_FLAGS">current valve control mode</field>
+            <field type="uint8_t" name="fuel_main_valve_position" units="%">Position valve is currently at. 255 if valve is not yet homed.</field>
+            <field type="uint8_t" name="fuel_main_valve_goal_position" units="%">Position valve is supposed to be moving toward. 255 if position was never set</field>
+            <field type="uint8_t" name="fuel_main_valve_motor_power">Motor power level</field>
+            <field type="uint8_t" name="ox_main_valve_status" enum="VALVE_STATUS_FLAGS"></field>
+            <field type="uint8_t" name="ox_main_valve_position" units="%"></field>
+            <field type="uint8_t" name="ox_main_valve_goal_position" units="%"></field>
+            <field type="uint8_t" name="ox_main_valve_motor_power">Motor power level</field>
+            <!--injector pressures-->
+            <field type="uint16_t" name="fuel_injector_pressure" units="dbar">Pressure sensor reading at fuel injector</field>
+            <field type="uint16_t" name="ox_injector_pressure" units="dbar">Pressure sensor reading at ox injector</field>
+            <!--other sensors-->
+            <field type="uint16_t" name="thrust" units="cN">Load cell reading</field>
+            <field type="uint8_t" name="ignitor_flags" enum="IGNITOR_FLAGS">Ignitor continuity and firing state</field>
+        </message>
+        <message id="34" name="TANK_SENSORS">
+            <description>All tank sensor info</description>
+            <!--tank vent valves-->
+            <field type="uint8_t" name="fuel_vent_valve_status" enum="VALVE_STATUS_FLAGS">current valve control mode</field>
+            <field type="uint8_t" name="fuel_vent_valve_position" units="%open">Position valve is currently at. NaN if valve is not yet homed.</field>
+            <field type="uint8_t" name="fuel_vent_valve_goal_position" units="%open">Position valve is supposed to be moving toward. NaN if position was never set</field>
+            <field type="uint8_t" name="fuel_vent_valve_motor_power">Motor power level</field>
+            <field type="uint8_t" name="ox_vent_valve_status" enum="VALVE_STATUS_FLAGS">current valve control mode</field>
+            <field type="uint8_t" name="ox_vent_valve_position" units="%open">Position valve is currently at. NaN if valve is not yet homed.</field>
+            <field type="uint8_t" name="ox_vent_valve_goal_position" units="%open">Position valve is supposed to be moving toward. NaN if position was never set</field>
+            <field type="uint8_t" name="ox_vent_valve_motor_power">Motor power level</field>
+            <!--tank pressures-->
+            <field type="uint16_t" name="fuel_tank_pressure" units="dbar">Pressure sensor reading at fuel injector</field>
+            <field type="uint16_t" name="ox_tank_pressure" units="dbar">Pressure sensor reading at ox injector</field>
+            <!--tank fill levels-->
+            <field type="uint8_t" name="fuel_tank_fill_level" units="%">Fuel tank fill level sensor. gives percentage of liquid in tank</field>
+            <field type="uint8_t" name="ox_tank_fill_level" units="%">Ox tank fill level sensor</field>
+            <!--others-->
+            <field type="uint8_t" name="fill_lines_detected" enum="TANK_FLAGS"></field>
+        </message>
+        <!--uplink messages-->
+        <!--state machine control-->
+        <message id="64" name="CMD_SET_STATE">
+            <description></description>
+            <field type="uint8_t" name="cmd" enum="STATE_CMD"></field>
+            <field type="uint8_t" name="new_state" enum="ENGINE_COMPUTER_STATE">for CMD_GOTO_STATE. ignore otherwise</field>
+        </message>
+        <!--other commands-->
+        <!--commands override local values only until ground station heartbeat times out. After that, things go back to the way they were before based on the state machine-->
+        <message id="65" name="CMD_SET_VALVE">
+            <description></description>
+            <field type="uint8_t" name="valve" enum="VALVE_ID"></field>
+            <field type="uint8_t" name="cmd" enum="VALVE_CMD"></field>
+            <field type="uint8_t" name="goal_position" units="%"></field>
+            <field type="uint16_t" name="pulse_duration" units="ms"></field>
+        </message>
+    </messages>
+</mavlink>

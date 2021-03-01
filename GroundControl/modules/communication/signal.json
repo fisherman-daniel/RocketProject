@@ -1,0 +1,21 @@
+{
+    "signals": [
+        {
+            "name": "info",
+            "direction": "rx",
+            "interval": 1,
+            "data": [
+                {
+                    "name": "temp",
+                    "value": 250,
+                    "units": "degC"
+                },
+                {
+                    "name": "press",
+                    "value": 100,
+                    "units": "bar"
+                }
+            ]
+        }
+    ]
+}

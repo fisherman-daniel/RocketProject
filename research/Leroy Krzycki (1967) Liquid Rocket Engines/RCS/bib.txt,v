@@ -1,0 +1,123 @@
+head	1.2;
+access;
+symbols;
+locks
+	rooster:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	96.06.07.11.31.10;	author rooster;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	96.06.06.20.17.50;	author rooster;	state Exp;
+branches;
+next	;
+
+
+desc
+@webedit
+@
+
+
+1.2
+log
+@webedit
+@
+text
+@BIBLIOGRAPHY
+
+	The reader is urged to consult any of the following books for further 
+information relating to rocket engines, materials, or design.
+
+Rocket Propulsion Elements, by George P. Sutton. John Wiley & Sons, Inc., 
+New York, 1964.
+
+Design of Liquid, Solid, and Hybrid Rockets, by R. L. Peters. 
+Hayden Book Co. Inc., New York, 1965.
+
+Elements of Flight Propulsion, by J. V. Foa.
+John Wiley & Sons, Inc., New York, 1960.
+
+Rocket Propulsion, by M. Barrere and others. Elsevier Publishing Co., 
+Netherlands 1960.
+
+[Aerospace Propulsion, by Dennis G. Shepherd, Elsevier Publishing Company, 
+335 Vanderbilt Avenue, New York, NY, 1972. ISBN 71-190302.]
+
+Rocket Encyclopedia Illustrated. Aero Publishers. Inc., 
+Los Angeles 26, California, 1959.
+
+Thermodynamics, by Gordon J. Van Wylen.
+John Wiley & Sons, Inc., New York 1959.
+
+Fluid Mechanics, by Victor L. Streeter. McGraw
+Hill Book Company, Inc., New York, 1966.
+
+Heat Transmission, by W. H. McAdams. McGraw-Hill
+Book Company, Inc., New York, latest edition.
+
+Design of Machine Elements, by M. F. Spotts.
+Prentice-Hall, Inc., Englewood Cliffs, N. J.,
+1955.
+
+Mechanics of Materials, by Laurson & Cox.
+John Wiley & Sons, Inc., New York, 1955.
+
+Stainless Steel Handbook, published by Allegheny
+Ludlum Steel Corp., Pittsburgh 22, Pa., 1959.
+
+Alcoa Aluminum Handbooks published by Aluminum
+Company of America. Pittsburgh. 1959.
+
+Alcoa Handlbook of Design Stresses for Aluminum, 
+published by Aluminum Company of America, Pittsburgh.
+
+Matheson Compressed Gas Data Book, publishe<d by
+Matheson, P.O. Box 85 East Rutherfnrd N. J. 1966.
+@
+
+
+1.1
+log
+@webedit
+@
+text
+@d3 2
+a4 1
+	The reader is urged to consult any of the following books for further information relating to rocket engines, materials, or design.
+d13 1
+a13 1
+John Wiley & Sons, Inc., New York, ]9f)().
+d15 2
+a16 2
+Rocket Propulsion, by t1. Barrere an(l others. Elsevier Publishing Co., 
+Netherlands 19xx.
+d18 4
+a21 1
+Rocket Encyclopedia Illustrated. Aercl l'nbliX:ll(br. Inc., 
+a23 3
+Aerospace Propulsion, by Dennis G. Shepherd, Elsevier Publishing Company, 
+335 Vanderbilt Avenue, New York, NY, 1972. ISBN 71-190302.
+
+d27 2
+a28 2
+Fluid Mecllanics, by Victor L. Streetcr. McGraw
+Hill Book Company, Inc., New York, ]966.
+d38 1
+a38 1
+-John Wiley & Sons, Inc., New York, 1955.
+d44 1
+a44 1
+Company of America. Pittsburgh . 1 59.
+d47 1
+a47 1
+published by Aluminum Company of America, Pittsburgh .
+d49 2
+a50 3
+}latllcson (,canÇpr(|ssrcl (:zs D;lta f5ook, [ llblishe<d by
+t!atheson, r. n. nix 85 I:ast Rntl erfnrd tX. J.
+l 9fi  .
+@

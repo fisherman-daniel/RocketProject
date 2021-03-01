@@ -1,0 +1,42 @@
+head	1.1;
+access;
+symbols;
+locks
+	magnus:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	96.06.06.05.14.45;	author magnus;	state Exp;
+branches;
+next	;
+
+
+desc
+@foo.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@file= /im/magnus/proj/rocket/README, name= README, stat= protected 
+file= /im/magnus/proj/rocket/COMMENTS, name= COMMENTS, stat= unlocked 
+file= /im/magnus/proj/rocket/intro.txt, name= introduction, stat= unlocked 
+file= /im/magnus/proj/rocket/propellant.txt, name= propellant, stat= unlocked 
+file= /im/magnus/proj/rocket/eqns.txt, name= equations, stat= unlocked 
+file= /im/magnus/proj/rocket/parameters.txt, name= parameters, stat= unlocked 
+file= /im/magnus/proj/rocket/example.txt, name= example, stat= unlocked 
+file= /im/magnus/proj/rocket/fabrication.txt, name= fabrication, stat= unlocked 
+file= /im/magnus/proj/rocket/testing.txt, name= testing, stat= unlocked 
+file= /im/magnus/proj/rocket/test_stand.txt, name= test_stand, stat= unlocked 
+file= /im/magnus/proj/rocket/safety.txt, name= safety, stat= unlocked 
+file= /im/magnus/proj/rocket/check_out.txt, name= check_out, stat= unlocked 
+file= /im/magnus/proj/rocket/ignition.txt, name= ignition, stat= unlocked 
+file= /im/magnus/proj/rocket/law.txt, name= law, stat= unlocked 
+file= /im/magnus/proj/rocket/bib.txt, name= bibliography, stat= unlocked 
+file= /im/magnus/proj/rocket/suppliers.txt, name= suppliers, stat= unlocked 
+file= /im/magnus/proj/rocket/conversions.txt, name= conversions, stat= unlocked 
+@

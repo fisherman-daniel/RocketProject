@@ -1,0 +1,39 @@
+CONVERSION FACTORS
+
+
+Multiply              by              To Obtain        
+                                                       
+Btu/minute            0.02356         Horsepower       
+                                                       
+Btu/minute            17.57           Watts      
+                                                       
+Cubic feet            1728            Cubic inches     
+                                                       
+Cubic feet            7.48052         Gallons          
+                                                       
+Feet                  12              Inches           
+                                                       
+Gallons               0.1337          Cubic feet       
+                                                       
+Gallons               231             Cubic inches     
+                                                       
+Gallons water         8.3453          Pounds water     
+                                                       
+Miles                 5280            Feet             
+                                                       
+Miles/hour            1.467           Feet/sec         
+                                                       
+Minute                60              Seconds          
+                                                       
+Pounds                16              Ounces           
+                                                       
+Pounds water          0.1198          Gallons          
+                                                       
+Square feet           144             Square inches    
+                                                       
+Temp (degC + 17.78)   1.8             Temp (degF)      
+                                                       
+Temp (degF + 460)     1               Abs. Temp (degR) 
+                                                       
+Temp (degF - 32)      5/9             Temp (degC)      
+

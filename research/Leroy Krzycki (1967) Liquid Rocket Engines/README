@@ -1,0 +1,26 @@
+
+
+
+Wecome to the tarball version of the book:
+HOW to DESIGN, BUILD and TEST SMALL LIQUID-FUEL ROCKET ENGINES
+
+I want to put this book on the W3 for people to read and use.  The
+book has been out-of-print for some time now and is hard to find.  I
+have a photocopy of a photocopy that I scanned and processed with
+Optical Character Recognition (OCR) software.  (Omnipage Pro)
+
+Unfortunately, as anyone who has used OCR systems knows, the
+conversion of bitmap to text is not from perfect, especially if the
+original text is hard to read (such as a second-generation photocopy).
+Before converting the text to HTML, these errors were edited out by
+human beings, who are also prone to error.  Reader beware.
+
+As a unix person, I don't know how this will look if untarred under
+Dos, Windows, MacOS, AmigaDOS, CP/M, VMS, MVS, or any other operating
+system.  Your milage may vary.  
+
+The file index.html is the start point, although it si just a symbolic
+link to book.html, which is the real top.
+
+-Daniel Risacher
+ 29 Jun 1997

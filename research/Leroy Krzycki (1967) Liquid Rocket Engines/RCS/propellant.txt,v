@@ -1,0 +1,206 @@
+head	1.2;
+access;
+symbols;
+locks
+	rooster:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	96.06.06.19.50.29;	author rooster;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	96.06.05.21.33.18;	author rooster;	state Exp;
+branches;
+next	;
+
+
+desc
+@webedit
+@
+
+
+1.2
+log
+@webedit
+@
+text
+@PROPELLANT CHOICE
+
+	Liquid rocket engines can burn a variety of oxidizer - fuel
+combinations, some of which are tabulated in Table I. Most of the
+propellant combinations listed are dangerous, toxic, and
+expensive. The amateur builder of rocket engines on the other hand,
+requires propellants that are readily available, reasonably safe and
+easy to handle, and inexpensive. Based on experience, ROCKETLAB
+recommends the use of gaseous oxygen as the oxidizer and a hydrocarbon
+liquid as the fuel. They give good performance, the combustion flame
+is readily visible, and their high combustion temperature presents an
+adequate design challenge to the amateur builder. The propellants are
+used in the Atlas missile and the Saturn space booster.  In these
+systems, however, liquid rather than gaseous oxygen is used as the
+oxidizer.
+	Gaseous oxygen can be readily and inexpensively obtained in
+pressurized cylinders in almost any community because of its use in
+oxy-acetylene welding. With reasonable precautions, to be detailed
+later, the gas (and cylinder) is safe to handle for rocket test stand
+use.  Gas pressures are easily regulated with commercial regulators
+and gas flow rate is easily controlled with commercially available
+valves.
+	Hydrocarbon fuels, such as gasoline and alcohol, are readily
+available in any community. Safety precautions are already known by
+most responsible individuals due to wide use of the fuels in internal
+combustion engines for automobiles and power equipment.
+	All subsequent sections of this publication will refer to, and
+assume, that the propellants to he used in amateur liquid-fuel rocket
+engines are gaseous oxygen and hydrocarbon fuel.
+	The flame temperature of hydrocarbon fuels burned in gaseous
+oxygen at various combustion chamber pressures is shown in Figure 3
+for the stoichiometric mixture ratio. Mixture ratio is defined as
+the weight flow of oxidizer divided by the weight flow of fuel, or
+
+	O/F = Wo/Wf		(1)
+
+where 
+
+Wo = lb of oxygen/sec
+Wf = lb of fuel/sec
+
+	When a stoichiometric ratio is achieved just enough oxygen is
+present to chemically react with all the fuel; the highest flame
+temperature is achieved under these conditions. If a lower flame
+temperature is desired it is usually better to have more fuel present
+than oxidizer; this is known as burning "off-ratio" or "fuel-rich."
+This condition is less severe on the rocket engine than burning, at
+stoichiometric or oxygen-rich conditions.
+	Figure 4 indicates how the flame temperature varies when
+combustion chamber pressure is held at a constant value and the
+mixture ratio is allowed to vary.	
+
+	The thrust developed per pound of total propellant burned per
+second is known as specific impulse and is defined as
+
+	Isp = thrust/total propellant flow rate		(2)
+
+Figure 5 indicates the maximum performance possible from hydrocarbon
+fuels burned with gaseous oxygen at various chamber pressures with
+the gas expanded to atmospheric pressure. This graph can be used to
+determine the propellant flow rate required to produce a certain
+thrust. Suppose you wish to design a rocket engine using gaseous
+oxygen/gasoline propellants to be burned at a chamber pressure of
+200 psi with a thrust of 100 lbs. At these conditions the propellant
+performance, from Figure 5, is 244 lb of thrust per lb of propellant
+burned per second. Therefore
+
+	Wt = F/Isp = 100/244 = 0.41 lb/sec	(3)
+
+Since the maximum Isp mixture ratio (r) for oxygen/gasoline is 2.5, we
+have:
+
+	Wo = Wt r/(r + 1) = O. 293 lb/sec	(4)
+
+	Wf = Wt/(r + 1) = 0.117 lb/sec		(5)
+	
+	Wt = Wo + Wf		(6)
+
+PROPELLANT PROPERTIES
+
+	The chemical and physical properties of gaseous oxygen,
+methyl alcohol, and gasoline are given in Table II.
+
+@
+
+
+1.1
+log
+@webedit
+@
+text
+@d1 83
+a83 83
+PROPELLANT CHOICE
+
+	Liquid rocket engines can burn a variety of oxidizer - fuel
+combinations, some of Which are tabulated in Table I. Most of the
+propellant combinations listed are dangerous, toxic, and
+expensive. The amateur builder of rocket engines on the other hand,
+requires propellants that are readily available, reasonably safe and
+easy to handle, and inexpensive. Based on experience, ROCKETLAB
+recommends the use of gaseous oxygen as the oxidizer and a hydrocarbon
+liquid as the fuel. They give good performance, the combustion flame
+is readily visible, and their high combustion temperature presents an
+adequate design challenge to the amateur builder. The propellants are
+used in the Atlas missile and the Saturn space booster.  In these
+systems, however, liquid rather than gaseous oxygen is used as the
+oxidizer.
+	Gaseous oxygen can be readily and inexpensively obtained in
+pressurized cylinders in almost any community because of its use in
+oxy-acetylene welding. With reasonable precautions, to be detailed
+later, the gas (and cylinder) is safe to handle for rocket test stand
+use.  Gas pressures are easily regulated with commercial regulators
+and gas flow rate is easily controlled with commercially available
+valves.
+	Hydrocarbon fuels, such as gasoline and alcohol, are readily
+available in any community. Safety precautions are already known by
+most responsible individuals due to wide use of the fuels in internal
+combustion engines for automobiles and power equipment.
+	All subsequent sections of this publication will refer to, and
+assume, that the propellants to he used in amateur liquid-fuel rocket
+engines are gaseous oxygen and hydrocarbon fuel.
+	The flame temperature of hydrocarbon fuels burned in gaseous
+oxygen at various combustion cham1)er pressures is shown in Figure 3
+for the stoichioometric mixture ratio. Mixture ratio is defined as
+the weight flow of oxidizer divided by the weight flow of fuel, or
+
+	O/F = Wo/Wf		(1)
+
+where 
+
+Wo = lb of oxygen/sec
+Wf = lb of fuel/sec
+
+	When a stoichiometric ratio is achieved just enough oxygen is
+present to chemically react with all the fuel; the highest flame
+temperature is achieved under these conditions. If a lower flame
+temperature is desired it is usually better to have more fuel present
+than oxidizer; this is known as burning "off-ratio" or "fuel-rich."
+This condition is less severe on the rocket engine than burning, at
+stoichiometric or oxygen-rich conditions.
+	Figure 4 indicates how the flame temperature varies when
+combustion chamber pressure is held at a constant value and the
+mixture ratio is allowed to vary.	
+
+	The thrust developed per pound of total propellant burned per
+second is known as specific impulse and is defined as
+
+	Isp = thrust/total propellant flow rate		(2)
+
+Figure 5 indicates the maximum performance possible from hydrocarbon
+fuels burned with gaseous oxygen at various chamber pressures with
+tile gas expanded to atmospheric pressure. This graph can be used to
+determine the propellant flow rate required to produce a certain
+thrust. Suppose you wish to design a rocket engine using gaseous
+oxygen/gasoline propellants to be burned at a chamber pressure of
+200 psi with a thrust of 100 lbs. At these conditions the propellant
+performance, from Figure 5, is 244 lb of thrust per lh of propellant
+burned per second. Therefore
+
+	Wt = F/Isp = 100/244 = 0.41 lb/sec	(3)
+
+Since the maximum Isp mixture ratio (r) for oxygen/gasoline is 2.5, we
+have:
+
+	Wo = Wt r/(r + 1) = O. 293 lb/sec	(4)
+
+	Wf = wt/(r + 1) = 0.117 lb/sec		(5)
+	
+	Wt = wO + wf		(6)
+
+PROPELLANT PROPERTIES
+
+	The chemical and physical properties of gaseous oxygen,
+methyl alcohol, and gasoline are given in Table II.
+
+@

@@ -1,0 +1,7 @@
+{
+    "name": "weather",
+    "data": {
+        "temp": 45.8,
+        "wind": 12
+    }
+}

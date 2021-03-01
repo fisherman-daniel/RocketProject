@@ -1,0 +1,283 @@
+head	1.6;
+access;
+symbols;
+locks
+	rooster:1.6; strict;
+comment	@# @;
+
+
+1.6
+date	96.06.12.21.41.45;	author rooster;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	96.06.07.11.20.25;	author rooster;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	96.06.07.02.47.13;	author rooster;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	96.06.06.06.12.04;	author rooster;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	96.06.06.06.08.07;	author rooster;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	96.06.06.05.12.49;	author rooster;	state Exp;
+branches;
+next	;
+
+
+desc
+@webedit
+@
+
+
+1.6
+log
+@webedit
+@
+text
+@SAFETY
+
+	Because of the physical hazards involved in handling propellants and 
+controlling high pressure combustion proeesses, certain elementary safety 
+precautions must be observed in static testing of rocket engines. During 
+the design, and later, the operation of amateur liquid rocket engines, the 
+following general safety precautions shou1d be observed:
+
+1. The operator should be protected by a suitable barricade located
+some distance (at least 20 feet) from the test unit.
+
+2. Control of valves during engine ignition and steady-state
+operation should be by remote means, which for amateur units is
+best achieved by manual control of needle valves via valve stem
+extensions.
+
+3. A large chemical fire extinguisher (or, at least, a plentiful
+supply of water) should always be on hand.
+
+4. The operator shOuld not view the test unit directly, but should use 
+a mirror arrangement (somewhat like a periscope) or use a thick layer of 
+reinforced safety glass attached to the operator's barricade. REMEMBER, 
+the primary danger is from shrapnel in the event of engine explosion.
+
+5. Separating of fuel and oxidizer storage reduces the fire and explosion 
+hazard and limits the amount of propellant stowed in any one area.
+
+6. The test stand unit should be barricaded on several sides to reduce 
+shrapnel effect in event of explosion.
+
+7 Valves, pressure pauges, and other components which directly sense fluid
+properties should not be located in the operator's station, but should be 
+on the test stand and remotely read. This rule does not apply to electrical 
+instrumentation wherein a transducer is located on the test stand and an 
+electrical readout (such as a meter) is located at the operator's station 
+(this type of instrumentation is very expensive and is beyond the reach 
+of most amateurs).
+
+8. Warning signals should be given prior to tests (or whenever gas 
+cylinder valves are open) to notify personnel that the area is hazardous. 
+A test must NEVER be conducted until the operator has assured himself that
+all personnel are behind safety barricades or otherwise protected.
+
+9. Personnel should be permitted to work in the test area only if fuel 
+and oxidizer are separated and not pressurized.
+
+10. Personnel handling propellants should wear safety equipment such as 
+gloves, face shields, or rubber aprons. Remember that most fuels are toxic;
+do not breathe fuel vapors for even a short time.
+
+11. No smoking is ever permitted anywhere near a test area when 
+propellants are alse present, Remember vapors from hydrocarbon fuels
+(such as gasoline) can travel long distances from the test area 
+and can be ignited at a remote point travelling back to the test stand.
+
+12. A check-off list is helpful when conducting a rocket engine firing 
+and should be made up of both technical events and safety items to 
+be completed prior to the firing.
+@
+
+
+1.5
+log
+@webedit
+@
+text
+@d6 1
+a6 1
+the design, and later,the operation of amateur liquid rocket engines, the 
+d12 4
+a15 4
+2. Control of valves (during engine ignition and steady-state
+operation should be by remote means which for amateur units is
+best achieved by manual control of needle valve via valve stem
+extensions .
+d21 3
+a23 4
+a mirror arrangement (somewllat like a periScope) or use a thick layer of 
+reinforced safety glass attac}led to the operator}s barricade4 REMEMBER, 
+the primary danger is from skrapnel in the event of engine
+explosion .
+d25 1
+a25 1
+5. Separating of fuel and oxidizer storage reduces the fire and explo8ion 
+d28 1
+a28 1
+6. The test stand tlnit should be barricaded on several sides to redtRce 
+d31 6
+a36 6
+7 Valves, pressure pauges, and other componentS wllich directly sense fluid
+properties should not be located in the °Perator's station, but sllould be 
+on the te.ct stand and remotely read. This rule does not apply to electrical 
+instrumentation wherein a transdtlcer is located on the test stand and an 
+electrical readout(such as a meter) is located at the operator's station 
+(this type of instrtlmentation is very expensive and is beyond the reach 
+d52 3
+a54 3
+propellants are alse present, Rcmcmher vapors from hydrocarbon flleIs 
+(such as gasol ine) can tl-avel lo!lg distanecs from the test area 
+an(l can be ignited at a remote point travelling back to the test stand.
+d56 3
+a58 3
+12. A check-off list is helpful when condhcting a rockct engine firing 
+and sllould bc made up of both technical events anCl safetx itens to 
+be con]pleted prior to tlle firinr.
+@
+
+
+1.4
+log
+@webedit
+@
+text
+@d52 4
+a55 2
+11. No smolcing is ever permitted a( z c near a test area wllcn prol)( ll.al]l !; ar( al F0 l)reSellt, Rcmcmher vapors rrç3tn b fdloc;lrbt n flleIs (s lcll as gasol ine) can tl-avel l(8!lg (I i ';tanecs from the test area an(l can be ilfnit((l at a rl:nnte point
+travelling back tn tl,~~W t(8-)t stanf«.
+d57 3
+a59 2
+12. A cl)eck-off lisl is l]rlPftll wllen condllcting a rockct en) ine firilzg .Xnd sllould bc made u
+of hotll tecl]nical events anCl safetx itens to be con]pleted prior to tlle firinr.
+@
+
+
+1.3
+log
+@webedit
+@
+text
+@d20 4
+a23 1
+4. The operator shOuld not view the test unit directly, but should use a mirror arrangement (somewllat like a periScope) or use a thick layer of reinforced safety glass attac}led to the operator}s barricade4 REMEMBER, the primary danger is from skrapnel in the event of engine
+d26 2
+a27 1
+5. Separating of fuel and oxidizer storage reduces the fire and explo8ion hazard and limits the amount of propellant stowed in any one area.
+d29 2
+a30 1
+– The test stand tlnit should be barricaded on several sides to redtRce shrapnel effect in event of explosion.
+d32 7
+a38 2
+7 Valves,pressure pauges, and other componentS wllich directly sense fluid properties should not bc located in the °Perator's station, but sllould be on the te.ct stand and remotely read. This rule does not apply to electrical instrumentat
+ion wherein a transdtlcer is located on the test stand and an electrical readout(such as a meter) is located at the °Perator's station (this type of instrtlmentation is very expensive and is beyond the reach of most amateurs).
+d40 4
+a43 2
+8. .¿.|,-ll i t88> ~~w § g.n.a w s <ll()l, l <t bcW r i vcn Tar i or to t f*f l S ("r x^/ll«»llf*Vfsl' 1'.1'; ('','1 itl§(r valwZf ^; arf@@ op{»r5) l t~~ tlOl i [ y l}«Wrsf}llllfX | t ll ll l l jf al-fWa i S }sazar{]o„f; .
+I\ test rnlst t I Vg:R br c-ofl Zu( l(d llnt i I the nperat
+d45 2
+a46 1
+f}r l}as assllr(t{l llilll{#¡lr tll4nt tnll TBfbrsonrlel arc
+d48 3
+a50 1
+#%llit5(l saf(|t)t lnalrie:l,l{Wf f|r {)tllçrt.-isrt prOtectfa4l.
+d52 1
+a52 8
+'). PerSOnllfbl Sllf>lllfl 1)( !}('ltli(E{(l t(| v:Ot-k in t!l
+Lest arca onl)t ir f|z« l :nltl .• i,; -{ t- ,qt-r> f t P.Plrat
+
+(](l ,lll(l n(>t- l)r(b!sFtlr i, ffie| .
+
+- 1(). Persol]llel ball(llillWs pl„ljX|ll.nr1 Sll('|lltJ w(:ar SafetY C|qtl;Pm(&nl !;tICII .1!; ss1(l;f, f.nCf :Tlields or ruhlçer al)rons. R(nf T-l8(bl- tII|It na{)f:l fUfsIS are to: ic; do not l)rs.ntl çw rt|f l .a1^ }r: f r {-sen a
+
+11. No smolcing i -: ev( r l)( rri t t f d atlyg:b( z c near a test area wllcn prol)( ll.al]l !; ar( al F0 l)reSellt, Rcmcmher vapors rrç3tn b fdloc;lrbt n flleIs (s lcll as gasol ine) can tl-avel l(8!lg (I i ';tanecs from the test area an(l can be ilfnit((l at a rl:nnte point
+@
+
+
+1.2
+log
+@webedit
+@
+text
+@d3 5
+a7 1
+	Because of the physical hazards inXol e<3 in llandling propellants and eontrollinr higl] pressure eombustion proeesses, eertain clementarX safety precautions must be observed in static testing of rocket engines. During tlle dcsign, and later,tl]e operation Of amateur liquid rocket engines , the following p,encral safety prccautions shou1d be observed:
+d25 1
+a25 1
+ã The test stand tlnit should be barricaded on several sides to redtRce shrapnel effect in event of explosion.
+d42 1
+a42 1
+- 1(). Persol]llel ball(llillWs pl„ljX|ll.nrπ Sll('|lltJ w(:ar SafetY C|qtl;Pm(&nl !;tICII .1!; ss1(l;f, f.nCf :Tlields or ruhlçer al)rons. R(nf T-l8(bl- tII|It na{)f:l fUfsIS are to: ic; do not l)rs.ntl çw rt|f l .a1^ }r: f r {-sen a
+@
+
+
+1.1
+log
+@webedit
+@
+text
+@d1 44
+a44 44
+SAFETY
+
+	lsecatlse of the pllysicnl llazards inXol e<3 in llandling propellants and eontrollinr higl] pressure eombustion proeesses, eertain clementarX safety precautions must be observed in static testing of rocket engines. During tlle dcsign, and later,tl]e operation Of amateur liquid rocket engines , the following p,encral safety prccautions shou1d be observed:
+
+1. The operator should be protected by a suitable barricade located
+some distance (at least 20 feet) from the test unit.
+
+2. Control of valves (during engine ignition and steady-state
+operation should be by remote means which for amateur units is
+best achieved by manual control of needle valve via valve stem
+extensions .
+
+3. A large chemical fire extinguisher (or, at least, a plentiful
+supply of water) should always be on hand.
+
+4. The operator shOuld not view the test unit directly, but should use a mirror arrangement (somewllat like a periScope) or use a thick layer of reinforced safety glass attac}led to the operator}s barricade4 REMEMBER, the primary danger is from skrapnel in the event of engine
+explosion .
+
+5. Separating of fuel and oxidizer storage reduces the fire and explo8ion hazard and limits the amount of propellant stowed in any one area.
+
+ó The test stand tlnit should be barricaded on several sides to redtRce shrapnel effect in event of explosion.
+
+7 Valves,pressure pauges, and other componentS wllich directly sense fluid properties should not bc located in the °Perator's station, but sllould be on the te.ct stand and remotely read. This rule does not apply to electrical instrumentat
+ion wherein a transdtlcer is located on the test stand and an electrical readout(such as a meter) is located at the °Perator's station (this type of instrtlmentation is very expensive and is beyond the reach of most amateurs).
+
+8. .¿.|,-ll i t88> ~~w § g.n.a w s <ll()l, l <t bcW r i vcn Tar i or to t f*f l S ("r x^/ll«»llf*Vfsl' 1'.1'; ('','1 itl§(r valwZf ^; arf@@ op{»r5) l t~~ tlOl i [ y l}«Wrsf}llllfX | t ll ll l l jf al-fWa i S }sazar{]o„f; .
+I\ test rnlst t I Vg:R br c-ofl Zu( l(d llnt i I the nperat
+
+f}r l}as assllr(t{l llilll{#¡lr tll4nt tnll TBfbrsonrlel arc
+
+#%llit5(l saf(|t)t lnalrie:l,l{Wf f|r {)tllçrt.-isrt prOtectfa4l.
+
+'). PerSOnllfbl Sllf>lllfl 1)( !}('ltli(E{(l t(| v:Ot-k in t!l
+Lest arca onl)t ir f|z« l :nltl .• i,; -{ t- ,qt-r> f t P.Plrat
+
+(](l ,lll(l n(>t- l)r(b!sFtlr i, ffie| .
+
+- 1(). Persol]llel ball(llillWs pl„ljX|ll.nrí Sll('|lltJ w(:ar SafetY C|qtl;Pm(&nl !;tICII .1!; ss1(l;f, f.nCf :Tlields or ruhlçer al)rons. R(nf T-l8(bl- tII|It na{)f:l fUfsIS are to: ic; do not l)rs.ntl çw rt|f l .a1^ }r: f r {-sen a
+
+11. No smolcing i -: ev( r l)( rri t t f d atlyg:b( z c near a test area wllcn prol)( ll.al]l !; ar( al F0 l)reSellt, Rcmcmher vapors rrç3tn b fdloc;lrbt n flleIs (s lcll as gasol ine) can tl-avel l(8!lg (I i ';tanecs from the test area an(l can be ilfnit((l at a rl:nnte point
+travelling back tn tl,~~W t(8-)t stanf«.
+
+12. A cl)eck-off lisl is l]rlPftll wllen condllcting a rockct en) ine firilzg .Xnd sllould bc made u
+of hotll tecl]nical events anCl safetx itens to be con]pleted prior to tlle firinr.
+@
