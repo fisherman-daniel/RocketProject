@@ -1,4 +1,4 @@
-# cea_interface.py
+# cea.py
 # Henry Nester
 # 1 March 2021 (based on the old MATLAB program from Nov. '20)
 
@@ -78,7 +78,7 @@ def run_CEA_over_range(mixture_ratios, chamber_pressures, ambient_pressure=1.013
     for pcham in chamber_pressures:
         row = []
         for mix in mixture_ratios:
-            create_CEA_inp_file('RP-1', 298, 'O2', 298,
+            create_CEA_inp_file('JP-5', 298, 'O2', 298,
                                 pcham, pcham / ambient_pressure, mix)
             run_CEA()
             result = read_CEA_outfile()
@@ -86,37 +86,3 @@ def run_CEA_over_range(mixture_ratios, chamber_pressures, ambient_pressure=1.013
         data.append(tuple((pcham, row)))
     print('CEA calculations done')
     return data
-
-
-def plotter(table, show=False, save=True):
-    import matplotlib.pyplot as plt
-    fig = plt.figure(1, figsize=(7, 3))
-    fig.suptitle('Rocket Combustion of RP-1 & GOX, T0=298K')
-    axL = fig.add_subplot(1, 2, 1)
-    axR = fig.add_subplot(1, 2, 2)
-    axL.set_xlabel('O/F ratio (kg/kg)')
-    axL.set_ylabel('Isp (m/s)')
-    axR.set_xlabel('O/F ratio (kg/kg)')
-    axR.set_ylabel('Tcham (K)')
-    pcham_max = max([t[0] for t in data])
-    for pcham, mixes_vals in data:
-        mixes, vals = zip(*mixes_vals)
-        temps = [t[0][0] for t in vals]
-        isps = [t[1] for t in vals]
-        linecolor = (pcham / pcham_max, 1 - pcham / pcham_max, 0)
-        axL.plot(mixes, isps, color=linecolor, label=pcham)
-        axR.plot(mixes, temps, color=linecolor, label=pcham)
-    axR.legend(title='Pcham')
-    if save:
-        plt.savefig(fname='plotoutput')
-    if show:
-        plt.show()
-
-
-# range of of ratios to get data over
-mixture_ratios = np.linspace(1, 3, 10)
-# range of pressures to get data over
-chamber_pressures = np.linspace(10, 30, 5)
-
-data = run_CEA_over_range(mixture_ratios, chamber_pressures)
-plotter(data)
