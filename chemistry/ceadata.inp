@@ -1,0 +1,12 @@
+problem
+rocket
+equilibrium
+p,bar=30.0
+pip=29.615004935834158
+o/f=3.0
+react
+fuel=RP-1 wt=100 T,K=298
+ox=O2 wt=100 T,K=298
+output
+plot o/f t isp
+end
