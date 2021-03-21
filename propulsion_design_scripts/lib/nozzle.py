@@ -55,7 +55,7 @@ def chamber_length(rch, rt, Lcon, Vtotal):
     return Vch / math.pi / rch**2
 
 
-def calculate_nozzle_parameters(data: dict) -> dict:
+def calculate_nozzle_parameters(data: dict):
     '''takes a dictionary of design data containing original config plus data from CEA as imathut.
     Calculates nozzle dimensions and performance, then adds those parameters to the dictionary'''
 
@@ -95,5 +95,3 @@ def calculate_nozzle_parameters(data: dict) -> dict:
         data_propellants['characteristic_length']
     data_dimensions['chamber_length'] = chamber_length(
         data_dimensions['chamber_radius'], data_dimensions['throat_radius'], data_dimensions['converging_length'], data_dimensions['chamber_volume'])
-
-    return data_engine
