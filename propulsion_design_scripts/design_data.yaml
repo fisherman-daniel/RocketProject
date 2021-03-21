@@ -1,0 +1,25 @@
+---
+engine:
+  thrust: 1000 #[N]
+  chamber_pressure: 30 #[bar]
+  ambient_pressure: 1.013 #[bar]
+
+
+propellants:
+  equilibrium: true
+  of_ratio: 2.35 #[~]
+
+  fuel_chems: [JP-5] #JP-5
+  fuel_chem_mass_percs: [100] #[~]
+  fuel_initial_temp: 298 #[K]
+
+  ox_chem: O2
+  ox_initial_temp: 298 #[K]
+
+  characteristic_length: 0.4 #[m]
+
+
+dimensions:
+  contraction_ratio: 5.0 #[~]
+  diverging_angle: 20 #[deg]
+  converging_angle: 45 #[deg]
