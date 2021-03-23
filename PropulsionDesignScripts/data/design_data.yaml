@@ -1,6 +1,6 @@
 ---
 engine:
-  thrust: 1000 #[N]
+  thrust: 1500 #[N]
   chamber_pressure: 30 #[bar]
   ambient_pressure: 1.013 #[bar]
 

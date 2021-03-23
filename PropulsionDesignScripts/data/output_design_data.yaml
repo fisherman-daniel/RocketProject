@@ -1,18 +1,18 @@
 dimensions:
-  chamber_area: 0.0017940671850539102
-  chamber_length: 0.1021590539265383
-  chamber_radius: 0.023897056753512218
-  chamber_volume: 0.00022425839813173878
+  chamber_area: 0.002691100777580865
+  chamber_length: 0.09702566843879594
+  chamber_radius: 0.029267797700217823
+  chamber_volume: 0.0003363875971976081
   contraction_ratio: 8.0
   converging_angle: 45
-  converging_length: 0.015448171313108083
+  converging_length: 0.018920068588107793
   diverging_angle: 20
-  diverging_length: 0.02881108535512914
-  exit_area: 0.0011263997684679752
-  exit_radius: 0.01893526292657404
+  diverging_length: 0.03528622902791974
+  exit_area: 0.0016895996527019623
+  exit_radius: 0.023190866157772848
   expansion_ratio: 5.022776305600296
-  throat_area: 0.00022425839813173878
-  throat_radius: 0.008448885440404136
+  throat_area: 0.0003363875971976081
+  throat_radius: 0.010347729112110031
 engine:
   ambient_pressure: 1.013
   cea_exhaust_velocity: 2715.9
@@ -22,11 +22,11 @@ engine:
   exhaust_gamma: 1.1707
   exhaust_molar_mass: 23.676
   exhaust_velocity: 2581.635821319035
-  fuel_mass_flow: 0.11562725471249882
-  mass_flow: 0.38735130328687106
-  ox_mass_flow: 0.27172404857437227
+  fuel_mass_flow: 0.17344088206874822
+  mass_flow: 0.5810269549303065
+  ox_mass_flow: 0.40758607286155835
   specific_impulse: 263.16369228532466
-  thrust: 1000
+  thrust: 1500
 propellants:
   cea_cstar: 1812.3
   characteristic_length: 1
