@@ -7,7 +7,7 @@ import json
 
 
 def main():
-    data = yaml.safe_load(open('design_data.yaml', 'r'))
+    data = yaml.safe_load(open('./design_data.yaml', 'r'))
 
     cea.create_inp_file(data)
     cea.run_executable()
@@ -15,7 +15,7 @@ def main():
 
     nozzle.calculate_nozzle_parameters(data)
 
-    yaml.dump(data, open('output_design_data.yaml', 'w'))
+    yaml.dump(data, open('./output_design_data.yaml', 'w'))
 
 
 if __name__ == '__main__':
