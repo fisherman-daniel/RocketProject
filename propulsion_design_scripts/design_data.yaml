@@ -6,20 +6,23 @@ engine:
 
 
 propellants:
-  equilibrium: true
+  equilibrium: true   #thermodynamic calculation type:
+  #true: infinite rxn rate to stay at equilibrium throughout nozzle flow (underest. Isp) 
+  #false: zero rxn rate (frozen equilibrium) after nozzle throat (overest. Isp)
   of_ratio: 2.35 #[~]
+  #2.35 is optimum for our Pcham and propellant combo. Run propellant_study.py to optimize for other propellants
 
-  fuel_chems: [JP-5] #JP-5
+  fuel_chems: [JP-5] #JP-5 - what is it really?
   fuel_chem_mass_percs: [100] #[~]
   fuel_initial_temp: 298 #[K]
 
   ox_chem: O2
   ox_initial_temp: 298 #[K]
 
-  characteristic_length: 0.4 #[m]
+  characteristic_length: 1 #[m] #do research
 
 
 dimensions:
-  contraction_ratio: 5.0 #[~]
-  diverging_angle: 20 #[deg]
-  converging_angle: 45 #[deg]
+  contraction_ratio: 8.0 #[~] #too big?
+  diverging_angle: 20 #[deg] #too big?
+  converging_angle: 45 #[deg] #too big?

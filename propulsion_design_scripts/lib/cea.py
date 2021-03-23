@@ -76,10 +76,10 @@ def parse_out_file(data: dict) -> dict:
                         line.split()[2])  # [K]
                 elif 'GAMMAs' in line:
                     data['engine']['exhaust_gamma'] = float(
-                        line.split()[3])  # [~]
+                        line.split()[3])  # [~] #index 3: exit
                 elif 'M, (1/n)' in line:
                     data['engine']['exhaust_molar_mass'] = float(
-                        line.split()[4])  # [g/mol]
+                        line.split()[4])  # [g/mol] #index 4: exit
                 elif 'CSTAR, M/SEC' in line:
                     data['propellants']['cea_cstar'] = float(
                         line.split()[3])  # [m/s]

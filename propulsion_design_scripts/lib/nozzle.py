@@ -49,10 +49,11 @@ def cone_length(r1, r2, theta):
     return abs(r2-r1) / math.tan(math.radians(theta))
 
 
-def chamber_length(rch, rt, Lcon, Vtotal):
-    Vcon = math.pi / 3 * Lcon * (rch ** 2 + rt ** 2 + rch * rt)
-    Vch = Vtotal - Vcon
-    return Vch / math.pi / rch**2
+def chamber_length(Vch, Lcon, Ach, At):
+    '''length of cylindrical part of chamber, given total chamber volume (cylinder + conical converging section), 
+    length of converging section, areas of chamber and throat'''
+    Vcon = Ach * Lcon * (1 + math.sqrt(At/Ach) + At/Ach)
+    return (Vch - Vcon) / Ach
 
 
 def calculate_nozzle_parameters(data: dict):
@@ -63,16 +64,19 @@ def calculate_nozzle_parameters(data: dict):
     data_propellants = data['propellants']
     data_dimensions = data['dimensions']
 
+    # performance
     data_engine['exhaust_velocity'] = exhaust_velocity(
         data_engine['exhaust_gamma'], data_engine['exhaust_molar_mass'], data_engine['chamber_temp'], data_engine['chamber_pressure'], data_engine['ambient_pressure'])
     data_engine['specific_impulse'] = data_engine['exhaust_velocity'] / g0
 
+    # propellant mass flow rates
     mdot = data_engine['mass_flow'] = data_engine['thrust'] / \
         data_engine['exhaust_velocity']
     r = data_propellants['of_ratio']
     data_engine['fuel_mass_flow'] = mdot / (1 + r)
     data_engine['ox_mass_flow'] = r * data_engine['fuel_mass_flow']
 
+    # engine cross-sectional areas
     data_dimensions['expansion_ratio'] = expansion_ratio(
         data_engine['exhaust_gamma'], data_engine['chamber_pressure'], data_engine['ambient_pressure'])
     data_dimensions['throat_area'] = throat_area(data_engine['exhaust_gamma'], data_engine['exhaust_molar_mass'],
@@ -82,6 +86,7 @@ def calculate_nozzle_parameters(data: dict):
     data_dimensions['chamber_area'] = data_dimensions['throat_area'] * \
         data_dimensions['contraction_ratio']
 
+    # engine dimensions
     data_dimensions['chamber_radius'] = radius(data_dimensions['chamber_area'])
     data_dimensions['throat_radius'] = radius(data_dimensions['throat_area'])
     data_dimensions['exit_radius'] = radius(data_dimensions['exit_area'])
@@ -94,4 +99,4 @@ def calculate_nozzle_parameters(data: dict):
     data_dimensions['chamber_volume'] = data_dimensions['throat_area'] * \
         data_propellants['characteristic_length']
     data_dimensions['chamber_length'] = chamber_length(
-        data_dimensions['chamber_radius'], data_dimensions['throat_radius'], data_dimensions['converging_length'], data_dimensions['chamber_volume'])
+        data_dimensions['chamber_volume'], data_dimensions['converging_length'], data_dimensions['chamber_area'], data_dimensions['throat_area'])

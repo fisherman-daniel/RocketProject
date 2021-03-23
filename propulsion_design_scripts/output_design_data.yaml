@@ -1,11 +1,11 @@
 dimensions:
-  chamber_area: 0.001121291990658694
-  chamber_length: 0.07426583163640967
-  chamber_radius: 0.018892282178851895
-  chamber_volume: 8.970335925269552e-05
-  contraction_ratio: 5.0
+  chamber_area: 0.0017940671850539102
+  chamber_length: 0.1021590539265383
+  chamber_radius: 0.023897056753512218
+  chamber_volume: 0.00022425839813173878
+  contraction_ratio: 8.0
   converging_angle: 45
-  converging_length: 0.01044339673844776
+  converging_length: 0.015448171313108083
   diverging_angle: 20
   diverging_length: 0.02881108535512914
   exit_area: 0.0011263997684679752
@@ -29,7 +29,7 @@ engine:
   thrust: 1000
 propellants:
   cea_cstar: 1812.3
-  characteristic_length: 0.4
+  characteristic_length: 1
   equilibrium: true
   fuel_chem_mass_percs:
   - 100
