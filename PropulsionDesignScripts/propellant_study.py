@@ -4,7 +4,7 @@ from lib import cea
 import os
 import pickle
 
-data = yaml.safe_load(open('./design_data.yaml', 'r'))
+data = yaml.safe_load(open('./data/design_data.yaml', 'r'))
 pchams = range(15, 40, 5)
 ofs = np.linspace(1.8, 2.8, num=20)
 results = cea.run_propellant_study(data, pchams, ofs)
